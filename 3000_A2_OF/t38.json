@@ -1,0 +1,3446 @@
+[
+    {
+        "_id": "691c1632d3a2e879f9c6bef1",
+        "word": "accept",
+        "explanation": {
+            "en": "To take something that is offered to you, or to agree to something, is to do this. For example, you might take a gift.",
+            "vi": "Chấp nhận là lấy thứ gì đó được đề nghị cho bạn, hoặc đồng ý với điều gì đó. Ví dụ, bạn có thể nhận một món quà.",
+            "th": "การรับสิ่งของที่เสนอให้คุณ หรือการตกลงกับบางสิ่ง คือการทำสิ่งนี้ ตัวอย่างเช่น คุณอาจรับของขวัญ",
+            "id": "Mengambil sesuatu yang ditawarkan kepada Anda, atau menyetujui sesuatu, adalah melakukan ini. Misalnya, Anda mungkin menerima hadiah.",
+            "ar": "أن تأخذ شيئًا يُعرض عليك، أو أن توافق على شيء ما، هو أن تفعل ذلك. على سبيل المثال، قد تأخذ هدية."
+        },
+        "type": "verb",
+        "phonetics": [
+            {
+                "text": "/əkˈsept/",
+                "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/accept-uk-1760700252318.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/əkˈsept/",
+                "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/accept-us-1760700252633.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "I will accept your offer to help.",
+            "vi": "Tôi sẽ chấp nhận lời đề nghị giúp đỡ của bạn.",
+            "th": "ฉันจะยอมรับข้อเสนอความช่วยเหลือของคุณ",
+            "id": "Saya akan menerima tawaran bantuan Anda.",
+            "ar": "سأقبل عرضك للمساعدة."
+        },
+        "translation": {
+            "th": "ยอมรับ",
+            "id": "menerima",
+            "ar": "يقبل",
+            "ja": "受け入れる",
+            "vi": "chấp nhận"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bef1_1763707723920.webp",
+        "quiz_options": [
+            {
+                "word": "accept",
+                "explanation": {
+                    "en": "To take something that is offered to you, or to agree to something, is to do this. For example, you might take a gift.",
+                    "vi": "Chấp nhận là lấy thứ gì đó được đề nghị cho bạn, hoặc đồng ý với điều gì đó. Ví dụ, bạn có thể nhận một món quà.",
+                    "th": "การรับสิ่งของที่เสนอให้คุณ หรือการตกลงกับบางสิ่ง คือการทำสิ่งนี้ ตัวอย่างเช่น คุณอาจรับของขวัญ",
+                    "id": "Mengambil sesuatu yang ditawarkan kepada Anda, atau menyetujui sesuatu, adalah melakukan ini. Misalnya, Anda mungkin menerima hadiah.",
+                    "ar": "أن تأخذ شيئًا يُعرض عليك، أو أن توافق على شيء ما، هو أن تفعل ذلك. على سبيل المثال، قد تأخذ هدية."
+                },
+                "translation": {
+                    "th": "ยอมรับ",
+                    "id": "menerima",
+                    "ar": "يقبل",
+                    "ja": "受け入れる",
+                    "vi": "chấp nhận"
+                },
+                "phonetics": [
+                    {
+                        "text": "/əkˈsept/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/accept-uk-1760700252318.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/əkˈsept/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/accept-us-1760700252633.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "cooker",
+                "explanation": {
+                    "en": "This is a kitchen appliance used to prepare food using heat. You might use one of these to bake a cake or boil water.",
+                    "vi": "Đây là một thiết bị nhà bếp dùng để chế biến thức ăn bằng nhiệt. Bạn có thể dùng một cái này để nướng bánh hoặc đun nước.",
+                    "th": "นี่คือเครื่องใช้ในครัวที่ใช้เตรียมอาหารโดยใช้ความร้อน คุณอาจใช้สิ่งนี้เพื่ออบเค้กหรือต้มน้ำ",
+                    "id": "Ini adalah peralatan dapur yang digunakan untuk menyiapkan makanan menggunakan panas. Anda mungkin menggunakan salah satunya untuk memanggang kue atau merebus air.",
+                    "ar": "هذا جهاز مطبخ يستخدم لتحضير الطعام باستخدام الحرارة. قد تستخدم واحدًا من هذه لخبز كعكة أو غلي الماء."
+                },
+                "translation": {
+                    "th": "เตา, หม้อหุงต้ม",
+                    "id": "oven, kompor, panci masak",
+                    "ar": "فرن، موقد، قدر طهي",
+                    "ja": "調理器",
+                    "vi": "bếp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈkʊkə(r)/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/cooker-uk-1761322086490.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈkʊkər/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/cooker-us-1761322086829.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "adventure",
+                "explanation": {
+                    "en": "This is an exciting and often dangerous experience. It can be a journey or activity that is unusual and thrilling.",
+                    "vi": "Đây là một trải nghiệm thú vị và thường nguy hiểm. Nó có thể là một cuộc hành trình hoặc hoạt động bất thường và ly kỳ.",
+                    "th": "ประสบการณ์ที่น่าตื่นเต้นและมักเป็นอันตราย อาจเป็นการเดินทางหรือกิจกรรมที่ไม่ธรรมดาและน่าตื่นเต้น",
+                    "id": "Ini adalah pengalaman yang menarik dan seringkali berbahaya. Ini bisa menjadi perjalanan atau aktivitas yang tidak biasa dan mendebarkan.",
+                    "ar": "هذه تجربة مثيرة وغالبًا ما تكون خطيرة. يمكن أن تكون رحلة أو نشاطًا غير عادي ومثيرًا."
+                },
+                "translation": {
+                    "th": "การผจญภัย",
+                    "id": "petualangan",
+                    "ar": "مغامرة",
+                    "ja": "冒険",
+                    "vi": "sự phiêu lưu"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ədˈventʃə(r)/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/adventure-uk-1760856813875.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ədˈventʃər/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/adventure-us-1760856814218.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "rather",
+                "explanation": {
+                    "en": "You use this word to express a preference, meaning 'I would prefer'. It can also mean 'quite' or 'to some extent'.",
+                    "vi": "Bạn dùng từ này để diễn tả sự ưu tiên, có nghĩa là 'tôi thà/tôi thích hơn'. Nó cũng có thể có nghĩa là 'khá' hoặc 'ở một mức độ nào đó'.",
+                    "th": "คุณใช้คำนี้เพื่อแสดงความชอบ หมายถึง 'ฉันอยากจะ...' นอกจากนี้ยังหมายถึง 'ค่อนข้าง' หรือ 'ในระดับหนึ่ง'",
+                    "id": "Anda menggunakan kata ini untuk menyatakan preferensi, yang berarti 'saya lebih suka'. Ini juga bisa berarti 'cukup' atau 'sampai batas tertentu'.",
+                    "ar": "تستخدم هذه الكلمة للتعبير عن تفضيل، بمعنى 'أفضل أن'. يمكن أن تعني أيضًا 'إلى حد ما' أو 'بدرجة معينة'."
+                },
+                "translation": {
+                    "th": "ค่อนข้าง, พอสมควร, ออกจะ",
+                    "id": "agak, cukup, lumayan",
+                    "ar": "إلى حد ما، نوعًا ما، بالأحرى",
+                    "ja": "むしろ",
+                    "vi": "khá"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈrɑːðə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/rather-uk-1763721820445.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈræðər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/rather-us-1763721820734.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bef4",
+        "word": "lovely",
+        "explanation": {
+            "en": "Something that is very beautiful, pleasant, or enjoyable is described this way. You might say a flower or a day is like this.",
+            "vi": "Một cái gì đó rất đẹp, dễ chịu hoặc thú vị được mô tả như thế này. Bạn có thể nói một bông hoa hoặc một ngày là như thế này.",
+            "th": "สิ่งที่สวยงาม น่ารื่นรมย์ หรือน่าสนุกมากจะถูกอธิบายแบบนี้ คุณอาจพูดว่าดอกไม้หรือวันเป็นแบบนี้",
+            "id": "Sesuatu yang sangat indah, menyenangkan, atau menghibur digambarkan seperti ini. Anda mungkin mengatakan bunga atau hari itu seperti ini.",
+            "ar": "يوصف الشيء الجميل جدًا أو الممتع أو المبهج بهذه الطريقة. قد تقول إن زهرة أو يومًا ما هو هكذا."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/ˈlʌvli/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/lovely-uk-1763722130089.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈlʌvli/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/lovely-us-1763722130404.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "What a lovely day for a walk!",
+            "vi": "Thật là một ngày đẹp trời để đi dạo!",
+            "th": "ช่างเป็นวันที่น่ารักสำหรับการเดินเล่น!",
+            "id": "Hari yang indah untuk berjalan-jalan!",
+            "ar": "يا له من يوم جميل للمشي!"
+        },
+        "translation": {
+            "th": "น่ารัก; สวยงาม",
+            "id": "indah; menawan",
+            "ar": "جميل؛ رائع",
+            "ja": "素敵な",
+            "vi": "đáng yêu"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bef4_1763707975516.webp",
+        "quiz_options": [
+            {
+                "word": "lovely",
+                "explanation": {
+                    "en": "Something that is very beautiful, pleasant, or enjoyable is described this way. You might say a flower or a day is like this.",
+                    "vi": "Một cái gì đó rất đẹp, dễ chịu hoặc thú vị được mô tả như thế này. Bạn có thể nói một bông hoa hoặc một ngày là như thế này.",
+                    "th": "สิ่งที่สวยงาม น่ารื่นรมย์ หรือน่าสนุกมากจะถูกอธิบายแบบนี้ คุณอาจพูดว่าดอกไม้หรือวันเป็นแบบนี้",
+                    "id": "Sesuatu yang sangat indah, menyenangkan, atau menghibur digambarkan seperti ini. Anda mungkin mengatakan bunga atau hari itu seperti ini.",
+                    "ar": "يوصف الشيء الجميل جدًا أو الممتع أو المبهج بهذه الطريقة. قد تقول إن زهرة أو يومًا ما هو هكذا."
+                },
+                "translation": {
+                    "th": "น่ารัก; สวยงาม",
+                    "id": "indah; menawan",
+                    "ar": "جميل؛ رائع",
+                    "ja": "素敵な",
+                    "vi": "đáng yêu"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈlʌvli/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/lovely-uk-1763722130089.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈlʌvli/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/lovely-us-1763722130404.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "variety",
+                "explanation": {
+                    "en": "This means having many different types of something. A shop might sell a wide one of clothes, meaning many different styles.",
+                    "vi": "Điều này có nghĩa là có nhiều loại khác nhau của một thứ gì đó. Một cửa hàng có thể bán nhiều loại quần áo, tức là nhiều kiểu dáng khác nhau.",
+                    "th": "นี่หมายถึงการมีของหลายประเภทที่แตกต่างกัน ร้านค้าอาจขายเสื้อผ้าหลากหลายแบบ ซึ่งหมายถึงหลายสไตล์ที่แตกต่างกัน",
+                    "id": "Ini berarti memiliki banyak jenis sesuatu yang berbeda. Sebuah toko mungkin menjual berbagai macam pakaian, yang berarti banyak gaya yang berbeda.",
+                    "ar": "هذا يعني وجود أنواع مختلفة كثيرة من شيء ما. قد يبيع متجر مجموعة واسعة من الملابس، مما يعني العديد من الأنماط المختلفة."
+                },
+                "translation": {
+                    "th": "ความหลากหลาย",
+                    "id": "variasi, keragaman",
+                    "ar": "تنوع",
+                    "ja": "種類",
+                    "vi": "đa dạng"
+                },
+                "phonetics": [
+                    {
+                        "text": "/vəˈraɪəti/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/variety-uk-1760699875177.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/vəˈraɪəti/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/variety-us-1760699875508.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "finish",
+                "explanation": {
+                    "en": "To do this means to complete an activity or task. When you do this with your homework, it is done.",
+                    "vi": "Làm điều này có nghĩa là hoàn thành một hoạt động hoặc nhiệm vụ. Khi bạn làm xong bài tập về nhà, nó đã hoàn thành.",
+                    "th": "การทำสิ่งนี้หมายถึงการทำกิจกรรมหรืองานให้เสร็จสิ้น เมื่อคุณทำการบ้านเสร็จแล้ว มันก็ถือว่าเสร็จสิ้น",
+                    "id": "Melakukan ini berarti menyelesaikan suatu aktivitas atau tugas. Ketika Anda melakukan ini dengan pekerjaan rumah Anda, itu selesai.",
+                    "ar": "أن تفعل هذا يعني إكمال نشاط أو مهمة. عندما تنهي واجباتك المدرسية، تكون قد انتهيت."
+                },
+                "translation": {
+                    "th": "เสร็จสิ้น, ทำเสร็จ, จบ",
+                    "id": "menyelesaikan, menuntaskan",
+                    "ar": "ينهي، يكمل",
+                    "ja": "終える",
+                    "vi": "hoàn thành"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈfɪnɪʃ/",
+                        "audio": "https://assets.parroto.app/decks/691c1596d3a2e879f9c69af0/audio/phonetics/finish-uk-1763626841571.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈfɪnɪʃ/",
+                        "audio": "https://assets.parroto.app/decks/691c1596d3a2e879f9c69af0/audio/phonetics/finish-us-1763626841769.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "arrange",
+                "explanation": {
+                    "en": "When you do this, you put things in a specific order or position. It can also mean to plan or organize something, like a meeting.",
+                    "vi": "Khi bạn làm điều này, bạn đặt mọi thứ theo một thứ tự hoặc vị trí cụ thể. Nó cũng có thể có nghĩa là lên kế hoạch hoặc tổ chức một cái gì đó, như một cuộc họp.",
+                    "th": "เมื่อคุณทำสิ่งนี้ คุณจะจัดวางสิ่งต่างๆ ตามลำดับหรือตำแหน่งที่กำหนด นอกจากนี้ยังอาจหมายถึงการวางแผนหรือจัดระเบียบสิ่งใดสิ่งหนึ่ง เช่น การประชุม",
+                    "id": "Ketika Anda melakukan ini, Anda menempatkan sesuatu dalam urutan atau posisi tertentu. Ini juga bisa berarti merencanakan atau mengatur sesuatu, seperti rapat.",
+                    "ar": "عندما تفعل هذا، فإنك تضع الأشياء بترتيب أو موضع معين. يمكن أن يعني أيضًا التخطيط أو تنظيم شيء ما، مثل اجتماع."
+                },
+                "translation": {
+                    "th": "จัดเรียง, จัดการ",
+                    "id": "mengatur, menata",
+                    "ar": "يرتب، ينظم",
+                    "ja": "整理する",
+                    "vi": "sắp xếp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/əˈreɪndʒ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/arrange-uk-1763721797009.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/əˈreɪndʒ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/arrange-us-1763721797309.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bef7",
+        "word": "comfortable",
+        "explanation": {
+            "en": "When you feel relaxed and at ease, perhaps in a soft chair or warm clothes, you are this way. It means you feel good physically.",
+            "vi": "Khi bạn cảm thấy thư giãn và thoải mái, có lẽ trong một chiếc ghế mềm hoặc quần áo ấm, bạn đang ở trạng thái này. Điều đó có nghĩa là bạn cảm thấy tốt về mặt thể chất.",
+            "th": "เมื่อคุณรู้สึกผ่อนคลายและสบายใจ อาจจะอยู่ในเก้าอี้นุ่มๆ หรือเสื้อผ้าที่อบอุ่น คุณจะเป็นแบบนี้ มันหมายความว่าคุณรู้สึกดีทางร่างกาย",
+            "id": "Ketika Anda merasa santai dan nyaman, mungkin di kursi empuk atau pakaian hangat, Anda seperti ini. Itu berarti Anda merasa baik secara fisik.",
+            "ar": "عندما تشعر بالاسترخاء والراحة، ربما في كرسي ناعم أو ملابس دافئة، تكون هكذا. هذا يعني أنك تشعر بالراحة جسديًا."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/ˈkʌmftəbl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/comfortable-uk-1763722131580.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈkʌmftəbl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/comfortable-us-1763722131899.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "This new chair feels very comfortable.",
+            "vi": "Chiếc ghế mới này rất thoải mái.",
+            "th": "เก้าอี้ตัวใหม่นี้นั่งสบายมาก",
+            "id": "Kursi baru ini terasa sangat nyaman.",
+            "ar": "هذا الكرسي الجديد مريح جدًا."
+        },
+        "translation": {
+            "th": "สบาย",
+            "id": "nyaman",
+            "ar": "مريح",
+            "ja": "快適な",
+            "vi": "thoải mái"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bef7_1763526921842.webp",
+        "quiz_options": [
+            {
+                "word": "fun",
+                "explanation": {
+                    "en": "This is when you enjoy an activity and feel happy. Playing games or laughing with friends can be this.",
+                    "vi": "Đây là khi bạn thích một hoạt động và cảm thấy vui vẻ. Chơi trò chơi hoặc cười đùa với bạn bè có thể là điều này.",
+                    "th": "นี่คือเมื่อคุณสนุกกับกิจกรรมและรู้สึกมีความสุข การเล่นเกมหรือหัวเราะกับเพื่อน ๆ ก็เป็นสิ่งนี้ได้",
+                    "id": "Ini adalah saat Anda menikmati suatu aktivitas dan merasa senang. Bermain game atau tertawa bersama teman bisa menjadi hal ini.",
+                    "ar": "هذا عندما تستمتع بنشاط وتشعر بالسعادة. يمكن أن يكون لعب الألعاب أو الضحك مع الأصدقاء كذلك."
+                },
+                "translation": {
+                    "th": "ความสนุก, ความเพลิดเพลิน",
+                    "id": "kesenangan",
+                    "ar": "متعة",
+                    "ja": "楽しみ",
+                    "vi": "vui vẻ"
+                },
+                "phonetics": [
+                    {
+                        "text": "/fʌn/",
+                        "audio": "https://assets.parroto.app/decks/691c1596d3a2e879f9c69af0/audio/phonetics/fun-uk-1763626963527.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/fʌn/",
+                        "audio": "https://assets.parroto.app/decks/691c1596d3a2e879f9c69af0/audio/phonetics/fun-us-1763626963729.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "wheel",
+                "explanation": {
+                    "en": "A round object that turns around a central point. Cars, bicycles, and shopping carts all have these to move.",
+                    "vi": "Một vật thể tròn quay quanh một điểm trung tâm. Ô tô, xe đạp và xe đẩy hàng đều có những thứ này để di chuyển.",
+                    "th": "วัตถุทรงกลมที่หมุนรอบจุดศูนย์กลาง รถยนต์ จักรยาน และรถเข็นช้อปปิ้ง ล้วนมีสิ่งเหล่านี้เพื่อเคลื่อนที่",
+                    "id": "Benda bulat yang berputar mengelilingi titik pusat. Mobil, sepeda, dan troli belanja semuanya memiliki ini untuk bergerak.",
+                    "ar": "جسم دائري يدور حول نقطة مركزية. السيارات والدراجات وعربات التسوق كلها تحتوي على هذه العجلات للتحرك."
+                },
+                "translation": {
+                    "th": "ล้อ",
+                    "id": "roda",
+                    "ar": "عجلة",
+                    "ja": "車輪",
+                    "vi": "bánh xe"
+                },
+                "phonetics": [
+                    {
+                        "text": "/wiːl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/wheel-uk-1763721633507.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/wiːl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/wheel-us-1763721633815.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "comfortable",
+                "explanation": {
+                    "en": "When you feel relaxed and at ease, perhaps in a soft chair or warm clothes, you are this way. It means you feel good physically.",
+                    "vi": "Khi bạn cảm thấy thư giãn và thoải mái, có lẽ trong một chiếc ghế mềm hoặc quần áo ấm, bạn đang ở trạng thái này. Điều đó có nghĩa là bạn cảm thấy tốt về mặt thể chất.",
+                    "th": "เมื่อคุณรู้สึกผ่อนคลายและสบายใจ อาจจะอยู่ในเก้าอี้นุ่มๆ หรือเสื้อผ้าที่อบอุ่น คุณจะเป็นแบบนี้ มันหมายความว่าคุณรู้สึกดีทางร่างกาย",
+                    "id": "Ketika Anda merasa santai dan nyaman, mungkin di kursi empuk atau pakaian hangat, Anda seperti ini. Itu berarti Anda merasa baik secara fisik.",
+                    "ar": "عندما تشعر بالاسترخاء والراحة، ربما في كرسي ناعم أو ملابس دافئة، تكون هكذا. هذا يعني أنك تشعر بالراحة جسديًا."
+                },
+                "translation": {
+                    "th": "สบาย",
+                    "id": "nyaman",
+                    "ar": "مريح",
+                    "ja": "快適な",
+                    "vi": "thoải mái"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈkʌmftəbl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/comfortable-uk-1763722131580.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈkʌmftəbl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/comfortable-us-1763722131899.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "low",
+                "explanation": {
+                    "en": "Something that is not high up is this. For example, a table can be close to the floor.",
+                    "vi": "Một thứ gì đó không ở trên cao là thấp. Ví dụ, một cái bàn có thể gần sàn nhà.",
+                    "th": "สิ่งที่อยู่ไม่สูงคือสิ่งนี้ ตัวอย่างเช่น โต๊ะสามารถอยู่ใกล้พื้นได้",
+                    "id": "Sesuatu yang tidak tinggi adalah ini. Misalnya, meja bisa dekat dengan lantai.",
+                    "ar": "الشيء الذي ليس مرتفعًا هو هذا. على سبيل المثال، يمكن أن تكون الطاولة قريبة من الأرض."
+                },
+                "translation": {
+                    "th": "ต่ำ",
+                    "id": "rendah",
+                    "ar": "منخفض",
+                    "ja": "低い",
+                    "vi": "thấp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ləʊ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/low-uk-1763721704338.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ləʊ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/low-us-1763721704643.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6befa",
+        "word": "worst",
+        "explanation": {
+            "en": "This describes something that is the absolute lowest in quality, the most terrible, or the least good. It is the opposite of 'best'.",
+            "vi": "Điều này mô tả thứ gì đó có chất lượng thấp nhất tuyệt đối, tồi tệ nhất, hoặc ít tốt nhất. Nó là từ trái nghĩa của 'best'.",
+            "th": "คำนี้อธิบายถึงบางสิ่งที่มีคุณภาพต่ำที่สุด แย่ที่สุด หรือดีน้อยที่สุด มันคือคำตรงข้ามของ 'best'",
+            "id": "Ini menggambarkan sesuatu yang kualitasnya paling rendah, paling mengerikan, atau paling tidak baik. Ini adalah lawan kata dari 'best'.",
+            "ar": "يصف هذا شيئًا هو الأدنى جودة على الإطلاق، أو الأكثر فظاعة، أو الأقل جودة. إنه عكس كلمة 'best'."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/wɜːst/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worst-uk-1763722133106.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/wɜːrst/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worst-us-1763722133422.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "That was the worst movie I ever saw.",
+            "vi": "Đó là bộ phim tệ nhất tôi từng xem.",
+            "th": "นั่นเป็นภาพยนตร์ที่แย่ที่สุดเท่าที่ฉันเคยดูมา",
+            "id": "Itu adalah film terburuk yang pernah saya tonton.",
+            "ar": "كان ذلك أسوأ فيلم رأيته على الإطلاق."
+        },
+        "translation": {
+            "th": "แย่ที่สุด",
+            "id": "terburuk",
+            "ar": "الأسوأ",
+            "ja": "最悪の",
+            "vi": "tệ nhất"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6befa_1763817273560.webp",
+        "quiz_options": [
+            {
+                "word": "low",
+                "explanation": {
+                    "en": "Something that is not high up is this. For example, a table can be close to the floor.",
+                    "vi": "Một thứ gì đó không ở trên cao là thấp. Ví dụ, một cái bàn có thể gần sàn nhà.",
+                    "th": "สิ่งที่อยู่ไม่สูงคือสิ่งนี้ ตัวอย่างเช่น โต๊ะสามารถอยู่ใกล้พื้นได้",
+                    "id": "Sesuatu yang tidak tinggi adalah ini. Misalnya, meja bisa dekat dengan lantai.",
+                    "ar": "الشيء الذي ليس مرتفعًا هو هذا. على سبيل المثال، يمكن أن تكون الطاولة قريبة من الأرض."
+                },
+                "translation": {
+                    "th": "ต่ำ",
+                    "id": "rendah",
+                    "ar": "منخفض",
+                    "ja": "低い",
+                    "vi": "thấp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ləʊ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/low-uk-1763721704338.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ləʊ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/low-us-1763721704643.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "worst",
+                "explanation": {
+                    "en": "This describes something that is the absolute lowest in quality, the most terrible, or the least good. It is the opposite of 'best'.",
+                    "vi": "Điều này mô tả thứ gì đó có chất lượng thấp nhất tuyệt đối, tồi tệ nhất, hoặc ít tốt nhất. Nó là từ trái nghĩa của 'best'.",
+                    "th": "คำนี้อธิบายถึงบางสิ่งที่มีคุณภาพต่ำที่สุด แย่ที่สุด หรือดีน้อยที่สุด มันคือคำตรงข้ามของ 'best'",
+                    "id": "Ini menggambarkan sesuatu yang kualitasnya paling rendah, paling mengerikan, atau paling tidak baik. Ini adalah lawan kata dari 'best'.",
+                    "ar": "يصف هذا شيئًا هو الأدنى جودة على الإطلاق، أو الأكثر فظاعة، أو الأقل جودة. إنه عكس كلمة 'best'."
+                },
+                "translation": {
+                    "th": "แย่ที่สุด",
+                    "id": "terburuk",
+                    "ar": "الأسوأ",
+                    "ja": "最悪の",
+                    "vi": "tệ nhất"
+                },
+                "phonetics": [
+                    {
+                        "text": "/wɜːst/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worst-uk-1763722133106.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/wɜːrst/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worst-us-1763722133422.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "drop",
+                "explanation": {
+                    "en": "This is a very small amount of liquid in a round shape. It can also refer to a sudden fall or decrease.",
+                    "vi": "Đây là một lượng rất nhỏ chất lỏng có hình dạng tròn. Nó cũng có thể đề cập đến một sự rơi hoặc giảm đột ngột.",
+                    "th": "นี่คือของเหลวจำนวนน้อยมากในรูปทรงกลม นอกจากนี้ยังสามารถหมายถึงการลดลงหรือการลดลงอย่างกะทันหัน",
+                    "id": "Ini adalah sejumlah kecil cairan dalam bentuk bulat. Ini juga bisa merujuk pada penurunan atau pengurangan yang tiba-tiba.",
+                    "ar": "هذه كمية صغيرة جدًا من السائل بشكل دائري. ويمكن أن تشير أيضًا إلى سقوط مفاجئ أو انخفاض."
+                },
+                "translation": {
+                    "th": "หยด (น้ำ, เลือด, ยา...)",
+                    "id": "tetesan (air, darah, obat...)",
+                    "ar": "قطرة (ماء, دم, دواء...)",
+                    "ja": "滴",
+                    "vi": "giọt"
+                },
+                "phonetics": [
+                    {
+                        "text": "/drɒp/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/drop-uk-1763722040083.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/drɑːp/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/drop-us-1763722040400.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "electrical",
+                "explanation": {
+                    "en": "This adjective describes things that use or produce power from the flow of tiny particles. For example, a lamp needs this type of power to work.",
+                    "vi": "Tính từ này mô tả những thứ sử dụng hoặc tạo ra năng lượng từ dòng chảy của các hạt nhỏ. Ví dụ, một chiếc đèn cần loại năng lượng này để hoạt động.",
+                    "th": "คำคุณศัพท์นี้อธิบายถึงสิ่งของที่ใช้หรือผลิตพลังงานจากการไหลของอนุภาคเล็กๆ ตัวอย่างเช่น โคมไฟต้องการพลังงานประเภทนี้จึงจะทำงานได้",
+                    "id": "Kata sifat ini menggambarkan hal-hal yang menggunakan atau menghasilkan daya dari aliran partikel kecil. Misalnya, lampu membutuhkan jenis daya ini untuk berfungsi.",
+                    "ar": "هذه الصفة تصف الأشياء التي تستخدم أو تنتج الطاقة من تدفق الجسيمات الصغيرة. على سبيل المثال، يحتاج المصباح إلى هذا النوع من الطاقة ليعمل."
+                },
+                "translation": {
+                    "th": "ไฟฟ้า",
+                    "id": "listrik",
+                    "ar": "كهربائي",
+                    "ja": "電気の",
+                    "vi": "điện"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ɪˈlektrɪkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/electrical-uk-1763722004920.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ɪˈlektrɪkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/electrical-us-1763722005214.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6befd",
+        "word": "cause",
+        "explanation": {
+            "en": "This is the reason why something happens or starts. For example, rain can be this for floods.",
+            "vi": "Đây là lý do tại sao một điều gì đó xảy ra hoặc bắt đầu. Ví dụ, mưa có thể là nguyên nhân gây ra lũ lụt.",
+            "th": "นี่คือเหตุผลที่ทำให้บางสิ่งบางอย่างเกิดขึ้นหรือเริ่มต้น ตัวอย่างเช่น ฝนอาจเป็นสาเหตุของน้ำท่วม",
+            "id": "Ini adalah alasan mengapa sesuatu terjadi atau dimulai. Misalnya, hujan bisa menjadi penyebab banjir.",
+            "ar": "هذا هو السبب وراء حدوث شيء ما أو بدئه. على سبيل المثال، يمكن أن يكون المطر سببًا للفيضانات."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/kɔːz/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/cause-uk-1763722134624.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/kɔːz/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/cause-us-1763722134933.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "What was the cause of the delay?",
+            "vi": "Nguyên nhân của sự chậm trễ là gì?",
+            "th": "สาเหตุของความล่าช้าคืออะไร?",
+            "id": "Apa penyebab keterlambatan itu?",
+            "ar": "ما هو سبب التأخير؟"
+        },
+        "translation": {
+            "th": "สาเหตุ",
+            "id": "penyebab",
+            "ar": "سبب",
+            "ja": "原因",
+            "vi": "nguyên nhân"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6befd_1763526920119.webp",
+        "quiz_options": [
+            {
+                "word": "thief",
+                "explanation": {
+                    "en": "This is someone who takes things that do not belong to them without permission. They commit the crime of stealing.",
+                    "vi": "Đây là người lấy những thứ không thuộc về họ mà không được phép. Họ phạm tội trộm cắp.",
+                    "th": "นี่คือคนที่เอาสิ่งของที่ไม่ใช่ของตนไปโดยไม่ได้รับอนุญาต พวกเขาก่ออาชญากรรมการขโมย",
+                    "id": "Ini adalah seseorang yang mengambil barang yang bukan miliknya tanpa izin. Mereka melakukan kejahatan pencurian.",
+                    "ar": "هذا شخص يأخذ أشياء لا تخصه دون إذن. يرتكبون جريمة السرقة."
+                },
+                "translation": {
+                    "th": "ขโมย",
+                    "id": "pencuri",
+                    "ar": "لص",
+                    "ja": "泥棒",
+                    "vi": "kẻ trộm"
+                },
+                "phonetics": [
+                    {
+                        "text": "/θiːf/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/thief-uk-1763721605832.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/θiːf/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/thief-us-1763721606126.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "cooker",
+                "explanation": {
+                    "en": "This is a kitchen appliance used to prepare food using heat. You might use one of these to bake a cake or boil water.",
+                    "vi": "Đây là một thiết bị nhà bếp dùng để chế biến thức ăn bằng nhiệt. Bạn có thể dùng một cái này để nướng bánh hoặc đun nước.",
+                    "th": "นี่คือเครื่องใช้ในครัวที่ใช้เตรียมอาหารโดยใช้ความร้อน คุณอาจใช้สิ่งนี้เพื่ออบเค้กหรือต้มน้ำ",
+                    "id": "Ini adalah peralatan dapur yang digunakan untuk menyiapkan makanan menggunakan panas. Anda mungkin menggunakan salah satunya untuk memanggang kue atau merebus air.",
+                    "ar": "هذا جهاز مطبخ يستخدم لتحضير الطعام باستخدام الحرارة. قد تستخدم واحدًا من هذه لخبز كعكة أو غلي الماء."
+                },
+                "translation": {
+                    "th": "เตา, หม้อหุงต้ม",
+                    "id": "oven, kompor, panci masak",
+                    "ar": "فرن، موقد، قدر طهي",
+                    "ja": "調理器",
+                    "vi": "bếp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈkʊkə(r)/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/cooker-uk-1761322086490.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈkʊkər/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/cooker-us-1761322086829.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "cause",
+                "explanation": {
+                    "en": "This is the reason why something happens or starts. For example, rain can be this for floods.",
+                    "vi": "Đây là lý do tại sao một điều gì đó xảy ra hoặc bắt đầu. Ví dụ, mưa có thể là nguyên nhân gây ra lũ lụt.",
+                    "th": "นี่คือเหตุผลที่ทำให้บางสิ่งบางอย่างเกิดขึ้นหรือเริ่มต้น ตัวอย่างเช่น ฝนอาจเป็นสาเหตุของน้ำท่วม",
+                    "id": "Ini adalah alasan mengapa sesuatu terjadi atau dimulai. Misalnya, hujan bisa menjadi penyebab banjir.",
+                    "ar": "هذا هو السبب وراء حدوث شيء ما أو بدئه. على سبيل المثال، يمكن أن يكون المطر سببًا للفيضانات."
+                },
+                "translation": {
+                    "th": "สาเหตุ",
+                    "id": "penyebab",
+                    "ar": "سبب",
+                    "ja": "原因",
+                    "vi": "nguyên nhân"
+                },
+                "phonetics": [
+                    {
+                        "text": "/kɔːz/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/cause-uk-1763722134624.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/kɔːz/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/cause-us-1763722134933.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "myself",
+                "explanation": {
+                    "en": "This word refers to the speaker of the sentence. It is used when the person performing the action is also the one receiving it.",
+                    "vi": "Từ này dùng để chỉ người nói trong câu. Nó được sử dụng khi người thực hiện hành động cũng là người nhận hành động đó.",
+                    "th": "คำนี้หมายถึงผู้พูดในประโยค มันถูกใช้เมื่อบุคคลที่กระทำเป็นผู้รับการกระทำนั้นด้วย",
+                    "id": "Kata ini merujuk pada pembicara dalam kalimat. Ini digunakan ketika orang yang melakukan tindakan juga yang menerimanya.",
+                    "ar": "تشير هذه الكلمة إلى المتحدث في الجملة. تُستخدم عندما يكون الشخص الذي يقوم بالفعل هو نفسه الذي يتلقاه."
+                },
+                "translation": {
+                    "th": "ตัวฉันเอง",
+                    "id": "diri saya sendiri",
+                    "ar": "نفسي",
+                    "ja": "自分",
+                    "vi": "chính tôi"
+                },
+                "phonetics": [
+                    {
+                        "text": "/maɪˈself/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/myself-uk-1763721480615.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/maɪˈself/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/myself-us-1763721480912.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf00",
+        "word": "height",
+        "explanation": {
+            "en": "This word refers to how tall someone or something is from the ground up. We measure a person's vertical size using this.",
+            "vi": "Từ này dùng để chỉ chiều cao của ai đó hoặc vật gì đó từ mặt đất trở lên. Chúng ta đo kích thước chiều dọc của một người bằng từ này.",
+            "th": "คำนี้หมายถึงความสูงของบุคคลหรือสิ่งของจากพื้นขึ้นไป เราใช้วัดขนาดแนวตั้งของบุคคล",
+            "id": "Kata ini mengacu pada seberapa tinggi seseorang atau sesuatu dari tanah ke atas. Kita mengukur ukuran vertikal seseorang menggunakan ini.",
+            "ar": "تشير هذه الكلمة إلى مدى طول شخص أو شيء ما من الأرض إلى الأعلى. نقيس الحجم الرأسي للشخص باستخدام هذا."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/haɪt/",
+                "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/height-uk-1761321633408.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/haɪt/",
+                "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/height-us-1761321633781.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "What is the height of that building?",
+            "vi": "Chiều cao của tòa nhà đó là bao nhiêu?",
+            "th": "ความสูงของอาคารนั้นเท่าไหร่?",
+            "id": "Berapa tinggi bangunan itu?",
+            "ar": "ما هو ارتفاع ذلك المبنى؟"
+        },
+        "translation": {
+            "th": "ความสูง",
+            "id": "ketinggian",
+            "ar": "ارتفاع",
+            "ja": "高さ",
+            "vi": "chiều cao"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/height_1763523859931.webp",
+        "quiz_options": [
+            {
+                "word": "height",
+                "explanation": {
+                    "en": "This word refers to how tall someone or something is from the ground up. We measure a person's vertical size using this.",
+                    "vi": "Từ này dùng để chỉ chiều cao của ai đó hoặc vật gì đó từ mặt đất trở lên. Chúng ta đo kích thước chiều dọc của một người bằng từ này.",
+                    "th": "คำนี้หมายถึงความสูงของบุคคลหรือสิ่งของจากพื้นขึ้นไป เราใช้วัดขนาดแนวตั้งของบุคคล",
+                    "id": "Kata ini mengacu pada seberapa tinggi seseorang atau sesuatu dari tanah ke atas. Kita mengukur ukuran vertikal seseorang menggunakan ini.",
+                    "ar": "تشير هذه الكلمة إلى مدى طول شخص أو شيء ما من الأرض إلى الأعلى. نقيس الحجم الرأسي للشخص باستخدام هذا."
+                },
+                "translation": {
+                    "th": "ความสูง",
+                    "id": "ketinggian",
+                    "ar": "ارتفاع",
+                    "ja": "高さ",
+                    "vi": "chiều cao"
+                },
+                "phonetics": [
+                    {
+                        "text": "/haɪt/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/height-uk-1761321633408.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/haɪt/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/height-us-1761321633781.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "couple",
+                "explanation": {
+                    "en": "This refers to two people who are married or in a romantic relationship. It can also mean two of anything, like a pair.",
+                    "vi": "Điều này đề cập đến hai người đã kết hôn hoặc đang trong một mối quan hệ lãng mạn. Nó cũng có thể có nghĩa là hai thứ bất kỳ, như một cặp.",
+                    "th": "สิ่งนี้หมายถึงคนสองคนที่แต่งงานกันหรืออยู่ในความสัมพันธ์โรแมนติก นอกจากนี้ยังอาจหมายถึงสิ่งของสองชิ้น เช่น คู่หนึ่ง",
+                    "id": "Ini mengacu pada dua orang yang sudah menikah atau dalam hubungan romantis. Ini juga bisa berarti dua dari apa pun, seperti sepasang.",
+                    "ar": "يشير هذا إلى شخصين متزوجين أو في علاقة رومانسية. ويمكن أن يعني أيضًا شيئين من أي نوع، مثل زوج."
+                },
+                "translation": {
+                    "th": "คู่, สองคน",
+                    "id": "pasangan, sepasang",
+                    "ar": "زوج, ثنائي",
+                    "ja": "カップル",
+                    "vi": "cặp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈkʌpl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/couple-uk-1763722038596.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈkʌpl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/couple-us-1763722038908.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "major",
+                "explanation": {
+                    "en": "This describes something that is very important or large in size or effect. It is more significant than minor things.",
+                    "vi": "Từ này mô tả một điều gì đó rất quan trọng hoặc có kích thước, ảnh hưởng lớn. Nó đáng kể hơn những điều nhỏ nhặt.",
+                    "th": "คำนี้ใช้อธิบายสิ่งที่สำคัญมากหรือมีขนาดหรือผลกระทบที่ใหญ่มาก มันมีความสำคัญมากกว่าเรื่องเล็กน้อย",
+                    "id": "Ini menggambarkan sesuatu yang sangat penting atau besar dalam ukuran atau efeknya. Ini lebih signifikan daripada hal-hal kecil.",
+                    "ar": "يصف هذا شيئًا مهمًا جدًا أو كبيرًا في الحجم أو التأثير. إنه أكثر أهمية من الأمور الثانوية."
+                },
+                "translation": {
+                    "th": "สำคัญ, ใหญ่, หลัก",
+                    "id": "penting, utama, besar",
+                    "ar": "كبير، رئيسي، مهم",
+                    "ja": "主要な",
+                    "vi": "chính"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈmeɪdʒə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/major-uk-1763721695426.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈmeɪdʒər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/major-us-1763721695730.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "surprised",
+                "explanation": {
+                    "en": "You feel this way when something unexpected or sudden happens. You might show it on your face, perhaps with wide eyes.",
+                    "vi": "Bạn cảm thấy như vậy khi một điều gì đó bất ngờ hoặc đột ngột xảy ra. Bạn có thể thể hiện nó trên khuôn mặt, có lẽ với đôi mắt mở to.",
+                    "th": "คุณจะรู้สึกแบบนี้เมื่อมีบางสิ่งที่ไม่คาดคิดหรือเกิดขึ้นอย่างกะทันหัน คุณอาจแสดงออกทางสีหน้า อาจจะด้วยดวงตาที่เบิกกว้าง",
+                    "id": "Anda merasa seperti ini ketika sesuatu yang tidak terduga atau tiba-tiba terjadi. Anda mungkin menunjukkannya di wajah Anda, mungkin dengan mata terbelalak.",
+                    "ar": "تشعر بهذه الطريقة عندما يحدث شيء غير متوقع أو مفاجئ. قد تظهره على وجهك، ربما بعينين واسعتين."
+                },
+                "translation": {
+                    "th": "ประหลาดใจ, ตกใจ",
+                    "id": "terkejut, heran",
+                    "ar": "مندهش، متفاجئ",
+                    "ja": "驚いた",
+                    "vi": "ngạc nhiên"
+                },
+                "phonetics": [
+                    {
+                        "text": "/səˈpraɪzd/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/surprised-uk-1760857205872.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/sərˈpraɪzd/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/surprised-us-1760857206245.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf03",
+        "word": "advertising",
+        "explanation": {
+            "en": "This is the activity of making people aware of products or services, often through posters, TV commercials, or online ads. Companies do this to sell things.",
+            "vi": "Đây là hoạt động làm cho mọi người biết đến sản phẩm hoặc dịch vụ, thường thông qua áp phích, quảng cáo truyền hình hoặc quảng cáo trực tuyến. Các công ty làm điều này để bán hàng.",
+            "th": "นี่คือกิจกรรมที่ทำให้ผู้คนรับรู้ถึงผลิตภัณฑ์หรือบริการ ซึ่งมักจะทำผ่านโปสเตอร์ โฆษณาทางทีวี หรือโฆษณาออนไลน์ บริษัทต่างๆ ทำสิ่งนี้เพื่อขายสินค้า",
+            "id": "Ini adalah aktivitas membuat orang menyadari produk atau layanan, seringkali melalui poster, iklan TV, atau iklan online. Perusahaan melakukan ini untuk menjual barang.",
+            "ar": "هذا هو النشاط الذي يهدف إلى تعريف الناس بالمنتجات أو الخدمات، غالبًا من خلال الملصقات، الإعلانات التلفزيونية، أو الإعلانات عبر الإنترنت. تقوم الشركات بذلك لبيع الأشياء."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/ˈædvətaɪzɪŋ/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/advertising-uk-1763722136156.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈædvərtaɪzɪŋ/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/advertising-us-1763722136464.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "The new advertising campaign is very creative.",
+            "vi": "Chiến dịch quảng cáo mới rất sáng tạo.",
+            "th": "แคมเปญโฆษณาใหม่มีความสร้างสรรค์มาก",
+            "id": "Kampanye iklan baru itu sangat kreatif.",
+            "ar": "الحملة الإعلانية الجديدة إبداعية للغاية."
+        },
+        "translation": {
+            "th": "การโฆษณา",
+            "id": "periklanan",
+            "ar": "الإعلان",
+            "ja": "広告",
+            "vi": "quảng cáo"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf03_1763526923496.webp",
+        "quiz_options": [
+            {
+                "word": "advertising",
+                "explanation": {
+                    "en": "This is the activity of making people aware of products or services, often through posters, TV commercials, or online ads. Companies do this to sell things.",
+                    "vi": "Đây là hoạt động làm cho mọi người biết đến sản phẩm hoặc dịch vụ, thường thông qua áp phích, quảng cáo truyền hình hoặc quảng cáo trực tuyến. Các công ty làm điều này để bán hàng.",
+                    "th": "นี่คือกิจกรรมที่ทำให้ผู้คนรับรู้ถึงผลิตภัณฑ์หรือบริการ ซึ่งมักจะทำผ่านโปสเตอร์ โฆษณาทางทีวี หรือโฆษณาออนไลน์ บริษัทต่างๆ ทำสิ่งนี้เพื่อขายสินค้า",
+                    "id": "Ini adalah aktivitas membuat orang menyadari produk atau layanan, seringkali melalui poster, iklan TV, atau iklan online. Perusahaan melakukan ini untuk menjual barang.",
+                    "ar": "هذا هو النشاط الذي يهدف إلى تعريف الناس بالمنتجات أو الخدمات، غالبًا من خلال الملصقات، الإعلانات التلفزيونية، أو الإعلانات عبر الإنترنت. تقوم الشركات بذلك لبيع الأشياء."
+                },
+                "translation": {
+                    "th": "การโฆษณา",
+                    "id": "periklanan",
+                    "ar": "الإعلان",
+                    "ja": "広告",
+                    "vi": "quảng cáo"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈædvətaɪzɪŋ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/advertising-uk-1763722136156.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈædvərtaɪzɪŋ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/advertising-us-1763722136464.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "major",
+                "explanation": {
+                    "en": "This describes something that is very important or large in size or effect. It is more significant than minor things.",
+                    "vi": "Từ này mô tả một điều gì đó rất quan trọng hoặc có kích thước, ảnh hưởng lớn. Nó đáng kể hơn những điều nhỏ nhặt.",
+                    "th": "คำนี้ใช้อธิบายสิ่งที่สำคัญมากหรือมีขนาดหรือผลกระทบที่ใหญ่มาก มันมีความสำคัญมากกว่าเรื่องเล็กน้อย",
+                    "id": "Ini menggambarkan sesuatu yang sangat penting atau besar dalam ukuran atau efeknya. Ini lebih signifikan daripada hal-hal kecil.",
+                    "ar": "يصف هذا شيئًا مهمًا جدًا أو كبيرًا في الحجم أو التأثير. إنه أكثر أهمية من الأمور الثانوية."
+                },
+                "translation": {
+                    "th": "สำคัญ, ใหญ่, หลัก",
+                    "id": "penting, utama, besar",
+                    "ar": "كبير، رئيسي، مهم",
+                    "ja": "主要な",
+                    "vi": "chính"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈmeɪdʒə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/major-uk-1763721695426.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈmeɪdʒər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/major-us-1763721695730.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "lost",
+                "explanation": {
+                    "en": "This describes someone who doesn't know where they are or how to get somewhere. It also means you no longer have something because you don't know where it is.",
+                    "vi": "Từ này mô tả ai đó không biết mình đang ở đâu hoặc làm thế nào để đến một nơi nào đó. Nó cũng có nghĩa là bạn không còn sở hữu thứ gì đó vì bạn không biết nó ở đâu.",
+                    "th": "คำนี้อธิบายถึงคนที่ไม่รู้ว่าตัวเองอยู่ที่ไหนหรือจะไปที่ไหน นอกจากนี้ยังหมายถึงคุณไม่มีบางสิ่งบางอย่างแล้วเพราะคุณไม่รู้ว่ามันอยู่ที่ไหน",
+                    "id": "Ini menggambarkan seseorang yang tidak tahu di mana mereka berada atau bagaimana menuju ke suatu tempat. Ini juga berarti Anda tidak lagi memiliki sesuatu karena Anda tidak tahu di mana letaknya.",
+                    "ar": "يصف هذا شخصًا لا يعرف مكانه أو كيف يصل إلى مكان ما. ويعني أيضًا أنك لم تعد تمتلك شيئًا لأنك لا تعرف أين هو."
+                },
+                "translation": {
+                    "th": "หายไป, หลงทาง",
+                    "id": "hilang, tersesat",
+                    "ar": "مفقود, ضائع",
+                    "ja": "失われた",
+                    "vi": "bị mất"
+                },
+                "phonetics": [
+                    {
+                        "text": "/lɒst/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/lost-uk-1763721489445.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/lɔːst/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/lost-us-1763721489741.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "support",
+                "explanation": {
+                    "en": "To do this means to hold something up or keep it from falling down. It can also mean to help someone financially or emotionally.",
+                    "vi": "Làm điều này có nghĩa là giữ một vật gì đó lên hoặc giữ cho nó không bị rơi xuống. Nó cũng có thể có nghĩa là giúp đỡ ai đó về tài chính hoặc tinh thần.",
+                    "th": "การทำเช่นนี้หมายถึงการค้ำจุนบางสิ่งบางอย่างไว้หรือป้องกันไม่ให้ล้มลง นอกจากนี้ยังหมายถึงการช่วยเหลือใครบางคนทางการเงินหรือทางอารมณ์",
+                    "id": "Melakukan ini berarti menopang sesuatu atau mencegahnya jatuh. Ini juga bisa berarti membantu seseorang secara finansial atau emosional.",
+                    "ar": "القيام بذلك يعني رفع شيء ما أو منعه من السقوط. يمكن أن يعني أيضًا مساعدة شخص ما ماليًا أو عاطفيًا."
+                },
+                "translation": {
+                    "th": "สนับสนุน, ช่วยเหลือ",
+                    "id": "mendukung, membantu",
+                    "ar": "يدعم، يساند",
+                    "ja": "支える",
+                    "vi": "hỗ trợ"
+                },
+                "phonetics": [
+                    {
+                        "text": "/səˈpɔːt/",
+                        "audio": "https://assets.parroto.app/decks/690254477082791d767d10ab/audio/phonetics/support-uk-1762633248186.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/səˈpɔːrt/",
+                        "audio": "https://assets.parroto.app/decks/690254477082791d767d10ab/audio/phonetics/support-us-1762633248419.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf06",
+        "word": "necessary",
+        "explanation": {
+            "en": "If something is absolutely needed or required, it is this way. You cannot do without it.",
+            "vi": "Nếu một điều gì đó hoàn toàn cần thiết hoặc bắt buộc, thì nó là như vậy. Bạn không thể làm gì nếu không có nó.",
+            "th": "หากบางสิ่งบางอย่างจำเป็นหรือต้องการอย่างยิ่ง มันก็เป็นเช่นนั้น คุณไม่สามารถทำได้หากไม่มีมัน",
+            "id": "Jika sesuatu benar-benar dibutuhkan atau diperlukan, maka itu adalah demikian. Anda tidak bisa melakukannya tanpanya.",
+            "ar": "إذا كان شيء ما ضروريًا أو مطلوبًا تمامًا، فهو كذلك. لا يمكنك الاستغناء عنه."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/ˈnesəsəri/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/necessary-uk-1763722137673.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈnesəseri/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/necessary-us-1763722137977.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "Water is necessary for all life.",
+            "vi": "Nước là cần thiết cho mọi sự sống.",
+            "th": "น้ำเป็นสิ่งจำเป็นสำหรับทุกชีวิต",
+            "id": "Air sangat penting untuk semua kehidupan.",
+            "ar": "الماء ضروري لكل أشكال الحياة."
+        },
+        "translation": {
+            "th": "จำเป็น",
+            "id": "perlu",
+            "ar": "ضروري",
+            "ja": "必要な",
+            "vi": "cần thiết"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf06_1764508094563.webp",
+        "quiz_options": [
+            {
+                "word": "officer",
+                "explanation": {
+                    "en": "A person with an important job, especially in the police or military. They have authority and responsibility.",
+                    "vi": "Một người có công việc quan trọng, đặc biệt là trong cảnh sát hoặc quân đội. Họ có quyền hạn và trách nhiệm.",
+                    "th": "บุคคลที่มีตำแหน่งสำคัญ โดยเฉพาะในตำรวจหรือทหาร พวกเขามีอำนาจและความรับผิดชอบ",
+                    "id": "Seseorang dengan pekerjaan penting, terutama di kepolisian atau militer. Mereka memiliki wewenang dan tanggung jawab.",
+                    "ar": "شخص لديه وظيفة مهمة، خاصة في الشرطة أو الجيش. لديهم سلطة ومسؤولية."
+                },
+                "translation": {
+                    "th": "เจ้าหน้าที่",
+                    "id": "pejabat",
+                    "ar": "ضابط",
+                    "ja": "役員",
+                    "vi": "sĩ quan"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈɒfɪsə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/officer-uk-1763721629083.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈɑːfɪsər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/officer-us-1763721629390.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "maths",
+                "explanation": {
+                    "en": "This is a shorter, common way to refer to the study of numbers, quantities, and shapes. It is often used in British English.",
+                    "vi": "Đây là cách viết tắt, phổ biến để chỉ môn học về số, lượng và hình dạng. Nó thường được sử dụng trong tiếng Anh Anh.",
+                    "th": "นี่เป็นวิธีที่สั้นและเป็นที่นิยมในการอ้างถึงการศึกษาเกี่ยวกับตัวเลข ปริมาณ และรูปร่าง มักใช้ในภาษาอังกฤษแบบบริติช",
+                    "id": "Ini adalah cara yang lebih singkat dan umum untuk merujuk pada studi tentang angka, kuantitas, dan bentuk. Ini sering digunakan dalam bahasa Inggris British.",
+                    "ar": "هذه طريقة أقصر وشائعة للإشارة إلى دراسة الأرقام والكميات والأشكال. تُستخدم غالبًا في الإنجليزية البريطانية."
+                },
+                "translation": {
+                    "th": "คณิตศาสตร์",
+                    "id": "matematika",
+                    "ar": "الرياضيات",
+                    "ja": "数学",
+                    "vi": "toán"
+                },
+                "phonetics": [
+                    {
+                        "text": "/mæθs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/maths-uk-1763721482112.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/mæθs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/maths-us-1763721482405.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "distance",
+                "explanation": {
+                    "en": "This refers to the amount of space between two places or things. For example, you can measure how far one city is from another.",
+                    "vi": "Khoảng cách là lượng không gian giữa hai địa điểm hoặc vật thể. Ví dụ, bạn có thể đo xem một thành phố cách thành phố khác bao xa.",
+                    "th": "หมายถึงปริมาณพื้นที่ระหว่างสถานที่หรือสิ่งของสองสิ่ง ตัวอย่างเช่น คุณสามารถวัดได้ว่าเมืองหนึ่งอยู่ห่างจากอีกเมืองหนึ่งเท่าไร",
+                    "id": "Ini mengacu pada jumlah ruang antara dua tempat atau benda. Misalnya, Anda bisa mengukur seberapa jauh satu kota dari kota lain.",
+                    "ar": "يشير هذا إلى مقدار المسافة بين مكانين أو شيئين. على سبيل المثال، يمكنك قياس مدى بعد مدينة عن أخرى."
+                },
+                "translation": {
+                    "th": "ระยะทาง, ระยะห่าง",
+                    "id": "jarak",
+                    "ar": "مسافة",
+                    "ja": "距離",
+                    "vi": "khoảng cách"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈdɪstəns/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/distance-uk-1763721788376.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈdɪstəns/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/distance-us-1763721788669.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "necessary",
+                "explanation": {
+                    "en": "If something is absolutely needed or required, it is this way. You cannot do without it.",
+                    "vi": "Nếu một điều gì đó hoàn toàn cần thiết hoặc bắt buộc, thì nó là như vậy. Bạn không thể làm gì nếu không có nó.",
+                    "th": "หากบางสิ่งบางอย่างจำเป็นหรือต้องการอย่างยิ่ง มันก็เป็นเช่นนั้น คุณไม่สามารถทำได้หากไม่มีมัน",
+                    "id": "Jika sesuatu benar-benar dibutuhkan atau diperlukan, maka itu adalah demikian. Anda tidak bisa melakukannya tanpanya.",
+                    "ar": "إذا كان شيء ما ضروريًا أو مطلوبًا تمامًا، فهو كذلك. لا يمكنك الاستغناء عنه."
+                },
+                "translation": {
+                    "th": "จำเป็น",
+                    "id": "perlu",
+                    "ar": "ضروري",
+                    "ja": "必要な",
+                    "vi": "cần thiết"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈnesəsəri/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/necessary-uk-1763722137673.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈnesəseri/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/necessary-us-1763722137977.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf09",
+        "word": "knock",
+        "explanation": {
+            "en": "When you hit a door or surface with your hand to make a sound, usually to get someone's attention, you do this.",
+            "vi": "Khi bạn dùng tay gõ vào cửa hoặc bề mặt để tạo ra âm thanh, thường là để thu hút sự chú ý của ai đó, bạn đang làm điều này.",
+            "th": "เมื่อคุณเคาะประตูหรือพื้นผิวด้วยมือเพื่อทำให้เกิดเสียง โดยปกติเพื่อดึงดูดความสนใจของใครบางคน คุณกำลังทำสิ่งนี้",
+            "id": "Ketika Anda memukul pintu atau permukaan dengan tangan Anda untuk membuat suara, biasanya untuk menarik perhatian seseorang, Anda melakukan ini.",
+            "ar": "عندما تضرب بابًا أو سطحًا بيدك لإصدار صوت، عادة لجذب انتباه شخص ما، فإنك تفعل ذلك."
+        },
+        "type": "verb",
+        "phonetics": [
+            {
+                "text": "/nɒk/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/knock-uk-1763722139145.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/nɑːk/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/knock-us-1763722139449.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "I heard someone knock on the door.",
+            "vi": "Tôi nghe thấy tiếng ai đó gõ cửa.",
+            "th": "ฉันได้ยินเสียงคนเคาะประตู",
+            "id": "Saya mendengar seseorang mengetuk pintu.",
+            "ar": "سمعت أحدهم يطرق الباب."
+        },
+        "translation": {
+            "th": "เคาะ",
+            "id": "mengetuk",
+            "ar": "يطرق",
+            "ja": "叩く",
+            "vi": "gõ"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf09_1763526916347.webp",
+        "quiz_options": [
+            {
+                "word": "knock",
+                "explanation": {
+                    "en": "When you hit a door or surface with your hand to make a sound, usually to get someone's attention, you do this.",
+                    "vi": "Khi bạn dùng tay gõ vào cửa hoặc bề mặt để tạo ra âm thanh, thường là để thu hút sự chú ý của ai đó, bạn đang làm điều này.",
+                    "th": "เมื่อคุณเคาะประตูหรือพื้นผิวด้วยมือเพื่อทำให้เกิดเสียง โดยปกติเพื่อดึงดูดความสนใจของใครบางคน คุณกำลังทำสิ่งนี้",
+                    "id": "Ketika Anda memukul pintu atau permukaan dengan tangan Anda untuk membuat suara, biasanya untuk menarik perhatian seseorang, Anda melakukan ini.",
+                    "ar": "عندما تضرب بابًا أو سطحًا بيدك لإصدار صوت، عادة لجذب انتباه شخص ما، فإنك تفعل ذلك."
+                },
+                "translation": {
+                    "th": "เคาะ",
+                    "id": "mengetuk",
+                    "ar": "يطرق",
+                    "ja": "叩く",
+                    "vi": "gõ"
+                },
+                "phonetics": [
+                    {
+                        "text": "/nɒk/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/knock-uk-1763722139145.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/nɑːk/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/knock-us-1763722139449.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "beef",
+                "explanation": {
+                    "en": "This is meat that comes from a cow. Many people cook and eat it.",
+                    "vi": "Đây là thịt lấy từ bò. Nhiều người nấu và ăn nó.",
+                    "th": "นี่คือเนื้อที่มาจากวัว หลายคนนำมาปรุงอาหารและรับประทาน",
+                    "id": "Ini adalah daging yang berasal dari sapi. Banyak orang memasak dan memakannya.",
+                    "ar": "هذا هو اللحم الذي يأتي من البقرة. كثير من الناس يطبخونه ويأكلونه."
+                },
+                "translation": {
+                    "th": "เนื้อวัว",
+                    "id": "daging sapi",
+                    "ar": "لحم بقري",
+                    "ja": "牛肉",
+                    "vi": "thịt bò"
+                },
+                "phonetics": [
+                    {
+                        "text": "/biːf/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/beef-uk-1760856692663.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/biːf/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/beef-us-1760856693029.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "rather",
+                "explanation": {
+                    "en": "You use this word to express a preference, meaning 'I would prefer'. It can also mean 'quite' or 'to some extent'.",
+                    "vi": "Bạn dùng từ này để diễn tả sự ưu tiên, có nghĩa là 'tôi thà/tôi thích hơn'. Nó cũng có thể có nghĩa là 'khá' hoặc 'ở một mức độ nào đó'.",
+                    "th": "คุณใช้คำนี้เพื่อแสดงความชอบ หมายถึง 'ฉันอยากจะ...' นอกจากนี้ยังหมายถึง 'ค่อนข้าง' หรือ 'ในระดับหนึ่ง'",
+                    "id": "Anda menggunakan kata ini untuk menyatakan preferensi, yang berarti 'saya lebih suka'. Ini juga bisa berarti 'cukup' atau 'sampai batas tertentu'.",
+                    "ar": "تستخدم هذه الكلمة للتعبير عن تفضيل، بمعنى 'أفضل أن'. يمكن أن تعني أيضًا 'إلى حد ما' أو 'بدرجة معينة'."
+                },
+                "translation": {
+                    "th": "ค่อนข้าง, พอสมควร, ออกจะ",
+                    "id": "agak, cukup, lumayan",
+                    "ar": "إلى حد ما، نوعًا ما، بالأحرى",
+                    "ja": "むしろ",
+                    "vi": "khá"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈrɑːðə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/rather-uk-1763721820445.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈræðər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/rather-us-1763721820734.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "maths",
+                "explanation": {
+                    "en": "This is a shorter, common way to refer to the study of numbers, quantities, and shapes. It is often used in British English.",
+                    "vi": "Đây là cách viết tắt, phổ biến để chỉ môn học về số, lượng và hình dạng. Nó thường được sử dụng trong tiếng Anh Anh.",
+                    "th": "นี่เป็นวิธีที่สั้นและเป็นที่นิยมในการอ้างถึงการศึกษาเกี่ยวกับตัวเลข ปริมาณ และรูปร่าง มักใช้ในภาษาอังกฤษแบบบริติช",
+                    "id": "Ini adalah cara yang lebih singkat dan umum untuk merujuk pada studi tentang angka, kuantitas, dan bentuk. Ini sering digunakan dalam bahasa Inggris British.",
+                    "ar": "هذه طريقة أقصر وشائعة للإشارة إلى دراسة الأرقام والكميات والأشكال. تُستخدم غالبًا في الإنجليزية البريطانية."
+                },
+                "translation": {
+                    "th": "คณิตศาสตร์",
+                    "id": "matematika",
+                    "ar": "الرياضيات",
+                    "ja": "数学",
+                    "vi": "toán"
+                },
+                "phonetics": [
+                    {
+                        "text": "/mæθs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/maths-uk-1763721482112.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/mæθs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/maths-us-1763721482405.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf0c",
+        "word": "case",
+        "explanation": {
+            "en": "This is a container used to hold or protect things, like glasses or a musical instrument.",
+            "vi": "Đây là một vật chứa dùng để đựng hoặc bảo vệ đồ vật, như kính mắt hoặc một nhạc cụ.",
+            "th": "นี่คือภาชนะที่ใช้เก็บหรือปกป้องสิ่งของ เช่น แว่นตา หรือเครื่องดนตรี",
+            "id": "Ini adalah wadah yang digunakan untuk menyimpan atau melindungi barang-barang, seperti kacamata atau alat musik.",
+            "ar": "هذه حاوية تستخدم لحمل أو حماية الأشياء، مثل النظارات أو آلة موسيقية."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/keɪs/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/case-uk-1763722140616.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/keɪs/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/case-us-1763722140926.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "Please bring your travel case with you.",
+            "vi": "Xin hãy mang theo vali du lịch của bạn.",
+            "th": "กรุณานำกระเป๋าเดินทางของคุณมาด้วย",
+            "id": "Tolong bawa koper perjalanan Anda.",
+            "ar": "يرجى إحضار حقيبة سفرك معك."
+        },
+        "translation": {
+            "th": "กล่อง",
+            "id": "kotak",
+            "ar": "علبة",
+            "ja": "ケース",
+            "vi": "hộp đựng"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf0c_1763526957644.webp",
+        "quiz_options": [
+            {
+                "word": "case",
+                "explanation": {
+                    "en": "This is a container used to hold or protect things, like glasses or a musical instrument.",
+                    "vi": "Đây là một vật chứa dùng để đựng hoặc bảo vệ đồ vật, như kính mắt hoặc một nhạc cụ.",
+                    "th": "นี่คือภาชนะที่ใช้เก็บหรือปกป้องสิ่งของ เช่น แว่นตา หรือเครื่องดนตรี",
+                    "id": "Ini adalah wadah yang digunakan untuk menyimpan atau melindungi barang-barang, seperti kacamata atau alat musik.",
+                    "ar": "هذه حاوية تستخدم لحمل أو حماية الأشياء، مثل النظارات أو آلة موسيقية."
+                },
+                "translation": {
+                    "th": "กล่อง",
+                    "id": "kotak",
+                    "ar": "علبة",
+                    "ja": "ケース",
+                    "vi": "hộp đựng"
+                },
+                "phonetics": [
+                    {
+                        "text": "/keɪs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/case-uk-1763722140616.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/keɪs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/case-us-1763722140926.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "ankle",
+                "explanation": {
+                    "en": "This is the part of your body where your foot connects to your leg. You use it to move your foot up and down.",
+                    "vi": "Đây là bộ phận trên cơ thể bạn nơi bàn chân nối với cẳng chân. Bạn dùng nó để di chuyển bàn chân lên xuống.",
+                    "th": "นี่คือส่วนหนึ่งของร่างกายที่เท้าของคุณเชื่อมต่อกับขา คุณใช้มันเพื่อขยับเท้าขึ้นลง",
+                    "id": "Ini adalah bagian tubuh Anda tempat kaki Anda terhubung ke tungkai. Anda menggunakannya untuk menggerakkan kaki Anda ke atas dan ke bawah.",
+                    "ar": "هذا هو جزء من جسمك حيث تتصل قدمك بساقك. تستخدمه لتحريك قدمك لأعلى ولأسفل."
+                },
+                "translation": {
+                    "th": "ข้อเท้า",
+                    "id": "mata kaki",
+                    "ar": "كاحل",
+                    "ja": "足首",
+                    "vi": "mắt cá chân"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈæŋkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/ankle-uk-1763722003408.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈæŋkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/ankle-us-1763722003709.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "enormous",
+                "explanation": {
+                    "en": "Something described this way is extremely large in size or amount. It means very, very big.",
+                    "vi": "Một thứ được mô tả như vậy có kích thước hoặc số lượng cực kỳ lớn. Nó có nghĩa là rất, rất lớn.",
+                    "th": "สิ่งที่ถูกอธิบายด้วยคำนี้มีขนาดหรือปริมาณที่ใหญ่มาก หมายถึงใหญ่มาก ๆ",
+                    "id": "Sesuatu yang digambarkan seperti ini sangat besar dalam ukuran atau jumlah. Artinya sangat, sangat besar.",
+                    "ar": "شيء يوصف بهذه الطريقة يكون كبيرًا جدًا في الحجم أو الكمية. إنه يعني كبير جدًا جدًا."
+                },
+                "translation": {
+                    "th": "ใหญ่โต, มโหฬาร, มหึมา",
+                    "id": "sangat besar, agung, raksasa",
+                    "ar": "ضخم، هائل، عملاق",
+                    "ja": "巨大",
+                    "vi": "khổng lồ"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ɪˈnɔːməs/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/enormous-uk-1761321619769.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ɪˈnɔːrməs/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/enormous-us-1761321620131.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "ocean",
+                "explanation": {
+                    "en": "This is a very large area of saltwater that covers much of Earth. The Pacific and Atlantic are examples of these huge bodies of water.",
+                    "vi": "Đây là một vùng nước mặn rất rộng lớn bao phủ phần lớn Trái Đất. Thái Bình Dương và Đại Tây Dương là những ví dụ về các khối nước khổng lồ này.",
+                    "th": "นี่คือพื้นที่ขนาดใหญ่มากของน้ำเค็มที่ปกคลุมส่วนใหญ่ของโลก มหาสมุทรแปซิฟิกและแอตแลนติกเป็นตัวอย่างของแหล่งน้ำขนาดใหญ่เหล่านี้",
+                    "id": "Ini adalah area air asin yang sangat luas yang menutupi sebagian besar Bumi. Pasifik dan Atlantik adalah contoh dari badan air raksasa ini.",
+                    "ar": "هذه منطقة كبيرة جدًا من المياه المالحة تغطي معظم الأرض. المحيط الهادئ والأطلسي أمثلة على هذه المسطحات المائية الضخمة."
+                },
+                "translation": {
+                    "th": "มหาสมุทร",
+                    "id": "samudra",
+                    "ar": "محيط",
+                    "ja": "海",
+                    "vi": "đại dương"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈəʊʃn/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/ocean-uk-1760857575426.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈəʊʃn/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/ocean-us-1760857575769.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf0f",
+        "word": "impossible",
+        "explanation": {
+            "en": "If something cannot be done or cannot happen at all, it is this way. It means there is no way to do it.",
+            "vi": "Nếu một điều gì đó không thể làm được hoặc không thể xảy ra chút nào, thì nó là như vậy. Điều đó có nghĩa là không có cách nào để làm điều đó.",
+            "th": "หากบางสิ่งบางอย่างไม่สามารถทำได้หรือไม่สามารถเกิดขึ้นได้เลย มันก็เป็นเช่นนั้น หมายความว่าไม่มีทางที่จะทำได้",
+            "id": "Jika sesuatu tidak dapat dilakukan atau tidak dapat terjadi sama sekali, maka itu adalah demikian. Itu berarti tidak ada cara untuk melakukannya.",
+            "ar": "إذا كان شيء ما لا يمكن فعله أو لا يمكن أن يحدث على الإطلاق، فهو كذلك. هذا يعني أنه لا توجد طريقة للقيام بذلك."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/ɪmˈpɒsəbl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/impossible-uk-1763722142134.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ɪmˈpɑːsəbl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/impossible-us-1763722142445.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "That task seems impossible without help.",
+            "vi": "Nhiệm vụ đó dường như không thể hoàn thành nếu không có sự giúp đỡ.",
+            "th": "งานนั้นดูเหมือนจะเป็นไปไม่ได้หากไม่มีความช่วยเหลือ",
+            "id": "Tugas itu tampaknya mustahil tanpa bantuan.",
+            "ar": "تبدو تلك المهمة مستحيلة بدون مساعدة."
+        },
+        "translation": {
+            "th": "เป็นไปไม่ได้",
+            "id": "tidak mungkin",
+            "ar": "مستحيل",
+            "ja": "不可能な",
+            "vi": "không thể"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf0f_1764508428292.webp",
+        "quiz_options": [
+            {
+                "word": "rather",
+                "explanation": {
+                    "en": "You use this word to express a preference, meaning 'I would prefer'. It can also mean 'quite' or 'to some extent'.",
+                    "vi": "Bạn dùng từ này để diễn tả sự ưu tiên, có nghĩa là 'tôi thà/tôi thích hơn'. Nó cũng có thể có nghĩa là 'khá' hoặc 'ở một mức độ nào đó'.",
+                    "th": "คุณใช้คำนี้เพื่อแสดงความชอบ หมายถึง 'ฉันอยากจะ...' นอกจากนี้ยังหมายถึง 'ค่อนข้าง' หรือ 'ในระดับหนึ่ง'",
+                    "id": "Anda menggunakan kata ini untuk menyatakan preferensi, yang berarti 'saya lebih suka'. Ini juga bisa berarti 'cukup' atau 'sampai batas tertentu'.",
+                    "ar": "تستخدم هذه الكلمة للتعبير عن تفضيل، بمعنى 'أفضل أن'. يمكن أن تعني أيضًا 'إلى حد ما' أو 'بدرجة معينة'."
+                },
+                "translation": {
+                    "th": "ค่อนข้าง, พอสมควร, ออกจะ",
+                    "id": "agak, cukup, lumayan",
+                    "ar": "إلى حد ما، نوعًا ما، بالأحرى",
+                    "ja": "むしろ",
+                    "vi": "khá"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈrɑːðə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/rather-uk-1763721820445.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈræðər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/rather-us-1763721820734.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "impossible",
+                "explanation": {
+                    "en": "If something cannot be done or cannot happen at all, it is this way. It means there is no way to do it.",
+                    "vi": "Nếu một điều gì đó không thể làm được hoặc không thể xảy ra chút nào, thì nó là như vậy. Điều đó có nghĩa là không có cách nào để làm điều đó.",
+                    "th": "หากบางสิ่งบางอย่างไม่สามารถทำได้หรือไม่สามารถเกิดขึ้นได้เลย มันก็เป็นเช่นนั้น หมายความว่าไม่มีทางที่จะทำได้",
+                    "id": "Jika sesuatu tidak dapat dilakukan atau tidak dapat terjadi sama sekali, maka itu adalah demikian. Itu berarti tidak ada cara untuk melakukannya.",
+                    "ar": "إذا كان شيء ما لا يمكن فعله أو لا يمكن أن يحدث على الإطلاق، فهو كذلك. هذا يعني أنه لا توجد طريقة للقيام بذلك."
+                },
+                "translation": {
+                    "th": "เป็นไปไม่ได้",
+                    "id": "tidak mungkin",
+                    "ar": "مستحيل",
+                    "ja": "不可能な",
+                    "vi": "không thể"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ɪmˈpɒsəbl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/impossible-uk-1763722142134.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ɪmˈpɑːsəbl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/impossible-us-1763722142445.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "fail",
+                "explanation": {
+                    "en": "To not succeed in something you tried to do. If you don't pass a test, you do this.",
+                    "vi": "Không thành công trong việc bạn đã cố gắng làm. Nếu bạn không vượt qua một bài kiểm tra, bạn sẽ thất bại.",
+                    "th": "ไม่ประสบความสำเร็จในสิ่งที่คุณพยายามทำ ถ้าคุณสอบไม่ผ่าน คุณก็จะล้มเหลว",
+                    "id": "Tidak berhasil dalam sesuatu yang Anda coba lakukan. Jika Anda tidak lulus ujian, Anda gagal.",
+                    "ar": "عدم النجاح في شيء حاولت فعله. إذا لم تجتز اختبارًا، فإنك تفشل."
+                },
+                "translation": {
+                    "th": "ล้มเหลว",
+                    "id": "gagal",
+                    "ar": "يفشل",
+                    "ja": "失敗する",
+                    "vi": "thất bại"
+                },
+                "phonetics": [
+                    {
+                        "text": "/feɪl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/fail-uk-1763721634980.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/feɪl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/fail-us-1763721635289.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "couple",
+                "explanation": {
+                    "en": "This refers to two people who are married or in a romantic relationship. It can also mean two of anything, like a pair.",
+                    "vi": "Điều này đề cập đến hai người đã kết hôn hoặc đang trong một mối quan hệ lãng mạn. Nó cũng có thể có nghĩa là hai thứ bất kỳ, như một cặp.",
+                    "th": "สิ่งนี้หมายถึงคนสองคนที่แต่งงานกันหรืออยู่ในความสัมพันธ์โรแมนติก นอกจากนี้ยังอาจหมายถึงสิ่งของสองชิ้น เช่น คู่หนึ่ง",
+                    "id": "Ini mengacu pada dua orang yang sudah menikah atau dalam hubungan romantis. Ini juga bisa berarti dua dari apa pun, seperti sepasang.",
+                    "ar": "يشير هذا إلى شخصين متزوجين أو في علاقة رومانسية. ويمكن أن يعني أيضًا شيئين من أي نوع، مثل زوج."
+                },
+                "translation": {
+                    "th": "คู่, สองคน",
+                    "id": "pasangan, sepasang",
+                    "ar": "زوج, ثنائي",
+                    "ja": "カップル",
+                    "vi": "cặp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈkʌpl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/couple-uk-1763722038596.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈkʌpl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/couple-us-1763722038908.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf12",
+        "word": "everywhere",
+        "explanation": {
+            "en": "This means in all places or in many different locations. You can find something like this if it is in every spot you look.",
+            "vi": "Điều này có nghĩa là ở tất cả các nơi hoặc ở nhiều địa điểm khác nhau. Bạn có thể tìm thấy một thứ như vậy nếu nó có ở mọi nơi bạn nhìn.",
+            "th": "นี่หมายถึงในทุกที่หรือในหลายๆ สถานที่ คุณสามารถพบสิ่งนี้ได้หากมันอยู่ในทุกจุดที่คุณมองหา",
+            "id": "Ini berarti di semua tempat atau di banyak lokasi berbeda. Anda dapat menemukan sesuatu seperti ini jika ada di setiap tempat yang Anda cari.",
+            "ar": "هذا يعني في جميع الأماكن أو في العديد من المواقع المختلفة. يمكنك أن تجد شيئًا كهذا إذا كان موجودًا في كل مكان تنظر إليه."
+        },
+        "type": "adverb",
+        "phonetics": [
+            {
+                "text": "/ˈevriweə(r)/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/everywhere-uk-1763722143648.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈevriwer/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/everywhere-us-1763722143960.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "Her new song is popular everywhere.",
+            "vi": "Bài hát mới của cô ấy phổ biến ở khắp mọi nơi.",
+            "th": "เพลงใหม่ของเธอดังไปทั่วทุกที่",
+            "id": "Lagu barunya populer di mana-mana.",
+            "ar": "أغنيتها الجديدة مشهورة في كل مكان."
+        },
+        "translation": {
+            "th": "ทุกที่",
+            "id": "di mana-mana",
+            "ar": "في كل مكان",
+            "ja": "どこでも",
+            "vi": "khắp nơi"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf12_1763526960815.webp",
+        "quiz_options": [
+            {
+                "word": "score",
+                "explanation": {
+                    "en": "In sports or games, this means to get a point or goal. A player might do this by putting a ball in a net.",
+                    "vi": "Trong thể thao hoặc trò chơi, điều này có nghĩa là ghi được một điểm hoặc một bàn thắng. Một cầu thủ có thể làm điều này bằng cách đưa bóng vào lưới.",
+                    "th": "ในการแข่งขันกีฬาหรือเกม นี่หมายถึงการได้แต้มหรือประตู ผู้เล่นอาจทำได้โดยการนำลูกบอลเข้าตาข่าย",
+                    "id": "Dalam olahraga atau permainan, ini berarti mendapatkan poin atau gol. Seorang pemain mungkin melakukan ini dengan memasukkan bola ke dalam jaring.",
+                    "ar": "في الرياضة أو الألعاب، هذا يعني الحصول على نقطة أو هدف. قد يفعل اللاعب ذلك عن طريق وضع الكرة في الشبكة."
+                },
+                "translation": {
+                    "th": "ทำคะแนน, ทำประตู",
+                    "id": "mencetak skor, mencetak gol",
+                    "ar": "يسجل نقطة، يسجل هدفاً",
+                    "ja": "得点する",
+                    "vi": "ghi điểm"
+                },
+                "phonetics": [
+                    {
+                        "text": "/skɔː(r)/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/score-uk-1760857343146.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/skɔːr/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/score-us-1760857343518.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "leader",
+                "explanation": {
+                    "en": "This is a person who guides or directs a group of people or an organization. They are in charge and show the way.",
+                    "vi": "Đây là người hướng dẫn hoặc điều hành một nhóm người hoặc một tổ chức. Họ là người chịu trách nhiệm và chỉ đường.",
+                    "th": "นี่คือบุคคลที่ชี้นำหรือกำกับกลุ่มคนหรือองค์กร พวกเขาเป็นผู้รับผิดชอบและเป็นผู้ชี้ทาง",
+                    "id": "Ini adalah orang yang membimbing atau mengarahkan sekelompok orang atau organisasi. Mereka bertanggung jawab dan menunjukkan jalan.",
+                    "ar": "هذا هو الشخص الذي يوجه أو يدير مجموعة من الأشخاص أو منظمة. هم المسؤولون ويظهرون الطريق."
+                },
+                "translation": {
+                    "th": "ผู้นำ",
+                    "id": "pemimpin",
+                    "ar": "قائد",
+                    "ja": "リーダー",
+                    "vi": "lãnh đạo"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈliːdə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/leader-uk-1763721602967.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈliːdər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/leader-us-1763721603251.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "research",
+                "explanation": {
+                    "en": "When you do this, you study a topic carefully to learn new facts or understand it better. Scientists often research projects for many years.",
+                    "vi": "Khi bạn làm điều này, bạn nghiên cứu một chủ đề cẩn thận để tìm hiểu những sự thật mới hoặc hiểu rõ hơn về nó. Các nhà khoa học thường nghiên cứu các dự án trong nhiều năm.",
+                    "th": "เมื่อคุณทำสิ่งนี้ คุณจะศึกษาหัวข้ออย่างรอบคอบเพื่อเรียนรู้ข้อเท็จจริงใหม่ๆ หรือทำความเข้าใจให้ดีขึ้น นักวิทยาศาสตร์มักจะวิจัยโครงการเป็นเวลาหลายปี",
+                    "id": "Ketika Anda melakukan ini, Anda mempelajari suatu topik dengan cermat untuk mempelajari fakta baru atau memahaminya dengan lebih baik. Para ilmuwan sering meneliti proyek selama bertahun-tahun.",
+                    "ar": "عندما تفعل هذا، فإنك تدرس موضوعًا بعناية لتعلم حقائق جديدة أو فهمه بشكل أفضل. غالبًا ما يبحث العلماء في المشاريع لسنوات عديدة."
+                },
+                "translation": {
+                    "th": "วิจัย, ค้นคว้า",
+                    "id": "meneliti, melakukan penelitian",
+                    "ar": "يبحث، يجري بحثًا",
+                    "ja": "研究する",
+                    "vi": "nghiên cứu"
+                },
+                "phonetics": [
+                    {
+                        "text": "/rɪˈsɜːtʃ/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/research-uk-1760700403348.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈriːsɜːrtʃ/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/research-us-1760700403663.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "everywhere",
+                "explanation": {
+                    "en": "This means in all places or in many different locations. You can find something like this if it is in every spot you look.",
+                    "vi": "Điều này có nghĩa là ở tất cả các nơi hoặc ở nhiều địa điểm khác nhau. Bạn có thể tìm thấy một thứ như vậy nếu nó có ở mọi nơi bạn nhìn.",
+                    "th": "นี่หมายถึงในทุกที่หรือในหลายๆ สถานที่ คุณสามารถพบสิ่งนี้ได้หากมันอยู่ในทุกจุดที่คุณมองหา",
+                    "id": "Ini berarti di semua tempat atau di banyak lokasi berbeda. Anda dapat menemukan sesuatu seperti ini jika ada di setiap tempat yang Anda cari.",
+                    "ar": "هذا يعني في جميع الأماكن أو في العديد من المواقع المختلفة. يمكنك أن تجد شيئًا كهذا إذا كان موجودًا في كل مكان تنظر إليه."
+                },
+                "translation": {
+                    "th": "ทุกที่",
+                    "id": "di mana-mana",
+                    "ar": "في كل مكان",
+                    "ja": "どこでも",
+                    "vi": "khắp nơi"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈevriweə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/everywhere-uk-1763722143648.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈevriwer/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/everywhere-us-1763722143960.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf15",
+        "word": "unfortunately",
+        "explanation": {
+            "en": "This word is used to say that something bad or unlucky has happened. It expresses regret or sadness about a situation.",
+            "vi": "Từ này được dùng để nói rằng một điều gì đó tồi tệ hoặc không may đã xảy ra. Nó bày tỏ sự hối tiếc hoặc buồn bã về một tình huống.",
+            "th": "คำนี้ใช้เพื่อบอกว่ามีบางสิ่งบางอย่างที่ไม่ดีหรือไม่โชคดีเกิดขึ้น มันแสดงถึงความเสียใจหรือความเศร้าเกี่ยวกับสถานการณ์",
+            "id": "Kata ini digunakan untuk mengatakan bahwa sesuatu yang buruk atau tidak beruntung telah terjadi. Ini mengungkapkan penyesalan atau kesedihan tentang suatu situasi.",
+            "ar": "تُستخدم هذه الكلمة لقول إن شيئًا سيئًا أو سيئ الحظ قد حدث. إنها تعبر عن الندم أو الحزن على موقف ما."
+        },
+        "type": "adverb",
+        "phonetics": [
+            {
+                "text": "/ʌnˈfɔːtʃənətli/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/unfortunately-uk-1763722145155.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ʌnˈfɔːrtʃənətli/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/unfortunately-us-1763722145453.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "Unfortunately, I cannot come to the party.",
+            "vi": "Thật không may, tôi không thể đến bữa tiệc.",
+            "th": "น่าเสียดายที่ฉันไม่สามารถไปงานปาร์ตี้ได้",
+            "id": "Sayangnya, saya tidak bisa datang ke pesta.",
+            "ar": "للأسف، لا أستطيع الحضور إلى الحفلة."
+        },
+        "translation": {
+            "th": "น่าเสียดาย",
+            "id": "sayangnya",
+            "ar": "لسوء الحظ",
+            "ja": "残念ながら",
+            "vi": "không may"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf15_1765106260686.webp",
+        "quiz_options": [
+            {
+                "word": "electrical",
+                "explanation": {
+                    "en": "This adjective describes things that use or produce power from the flow of tiny particles. For example, a lamp needs this type of power to work.",
+                    "vi": "Tính từ này mô tả những thứ sử dụng hoặc tạo ra năng lượng từ dòng chảy của các hạt nhỏ. Ví dụ, một chiếc đèn cần loại năng lượng này để hoạt động.",
+                    "th": "คำคุณศัพท์นี้อธิบายถึงสิ่งของที่ใช้หรือผลิตพลังงานจากการไหลของอนุภาคเล็กๆ ตัวอย่างเช่น โคมไฟต้องการพลังงานประเภทนี้จึงจะทำงานได้",
+                    "id": "Kata sifat ini menggambarkan hal-hal yang menggunakan atau menghasilkan daya dari aliran partikel kecil. Misalnya, lampu membutuhkan jenis daya ini untuk berfungsi.",
+                    "ar": "هذه الصفة تصف الأشياء التي تستخدم أو تنتج الطاقة من تدفق الجسيمات الصغيرة. على سبيل المثال، يحتاج المصباح إلى هذا النوع من الطاقة ليعمل."
+                },
+                "translation": {
+                    "th": "ไฟฟ้า",
+                    "id": "listrik",
+                    "ar": "كهربائي",
+                    "ja": "電気の",
+                    "vi": "điện"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ɪˈlektrɪkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/electrical-uk-1763722004920.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ɪˈlektrɪkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/electrical-us-1763722005214.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "forest",
+                "explanation": {
+                    "en": "This is a large area of land where many trees grow closely together. Many wild animals live here.",
+                    "vi": "Đây là một khu vực đất rộng lớn nơi nhiều cây cối mọc sát nhau. Nhiều loài động vật hoang dã sống ở đây.",
+                    "th": "นี่คือพื้นที่ขนาดใหญ่ที่มีต้นไม้จำนวนมากเติบโตอยู่ใกล้กัน สัตว์ป่าหลายชนิดอาศัยอยู่ที่นี่",
+                    "id": "Ini adalah area tanah yang luas tempat banyak pohon tumbuh berdekatan. Banyak hewan liar hidup di sini.",
+                    "ar": "هذه منطقة واسعة من الأرض حيث تنمو العديد من الأشجار متقاربة. تعيش العديد من الحيوانات البرية هنا."
+                },
+                "translation": {
+                    "th": "ป่า",
+                    "id": "hutan",
+                    "ar": "غابة",
+                    "ja": "森",
+                    "vi": "rừng"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈfɒrɪst/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/forest-uk-1760857567107.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈfɔːrɪst/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/forest-us-1760857567474.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "unfortunately",
+                "explanation": {
+                    "en": "This word is used to say that something bad or unlucky has happened. It expresses regret or sadness about a situation.",
+                    "vi": "Từ này được dùng để nói rằng một điều gì đó tồi tệ hoặc không may đã xảy ra. Nó bày tỏ sự hối tiếc hoặc buồn bã về một tình huống.",
+                    "th": "คำนี้ใช้เพื่อบอกว่ามีบางสิ่งบางอย่างที่ไม่ดีหรือไม่โชคดีเกิดขึ้น มันแสดงถึงความเสียใจหรือความเศร้าเกี่ยวกับสถานการณ์",
+                    "id": "Kata ini digunakan untuk mengatakan bahwa sesuatu yang buruk atau tidak beruntung telah terjadi. Ini mengungkapkan penyesalan atau kesedihan tentang suatu situasi.",
+                    "ar": "تُستخدم هذه الكلمة لقول إن شيئًا سيئًا أو سيئ الحظ قد حدث. إنها تعبر عن الندم أو الحزن على موقف ما."
+                },
+                "translation": {
+                    "th": "น่าเสียดาย",
+                    "id": "sayangnya",
+                    "ar": "لسوء الحظ",
+                    "ja": "残念ながら",
+                    "vi": "không may"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ʌnˈfɔːtʃənətli/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/unfortunately-uk-1763722145155.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ʌnˈfɔːrtʃənətli/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/unfortunately-us-1763722145453.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "variety",
+                "explanation": {
+                    "en": "This means having many different types of something. A shop might sell a wide one of clothes, meaning many different styles.",
+                    "vi": "Điều này có nghĩa là có nhiều loại khác nhau của một thứ gì đó. Một cửa hàng có thể bán nhiều loại quần áo, tức là nhiều kiểu dáng khác nhau.",
+                    "th": "นี่หมายถึงการมีของหลายประเภทที่แตกต่างกัน ร้านค้าอาจขายเสื้อผ้าหลากหลายแบบ ซึ่งหมายถึงหลายสไตล์ที่แตกต่างกัน",
+                    "id": "Ini berarti memiliki banyak jenis sesuatu yang berbeda. Sebuah toko mungkin menjual berbagai macam pakaian, yang berarti banyak gaya yang berbeda.",
+                    "ar": "هذا يعني وجود أنواع مختلفة كثيرة من شيء ما. قد يبيع متجر مجموعة واسعة من الملابس، مما يعني العديد من الأنماط المختلفة."
+                },
+                "translation": {
+                    "th": "ความหลากหลาย",
+                    "id": "variasi, keragaman",
+                    "ar": "تنوع",
+                    "ja": "種類",
+                    "vi": "đa dạng"
+                },
+                "phonetics": [
+                    {
+                        "text": "/vəˈraɪəti/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/variety-uk-1760699875177.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/vəˈraɪəti/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/variety-us-1760699875508.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf18",
+        "word": "specific",
+        "explanation": {
+            "en": "When something is very clear, exact, and not general, it is described this way. You are talking about one particular thing.",
+            "vi": "Khi một điều gì đó rất rõ ràng, chính xác và không chung chung, nó được mô tả theo cách này. Bạn đang nói về một điều cụ thể.",
+            "th": "เมื่อบางสิ่งบางอย่างชัดเจน แม่นยำ และไม่ทั่วไป มันจะถูกอธิบายด้วยวิธีนี้ คุณกำลังพูดถึงสิ่งใดสิ่งหนึ่งโดยเฉพาะ",
+            "id": "Ketika sesuatu sangat jelas, tepat, dan tidak umum, itu digambarkan seperti ini. Anda sedang berbicara tentang satu hal tertentu.",
+            "ar": "عندما يكون شيء ما واضحًا جدًا ودقيقًا وغير عام، فإنه يوصف بهذه الطريقة. أنت تتحدث عن شيء معين واحد."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/spəˈsɪfɪk/",
+                "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/specific-uk-1760699815228.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/spəˈsɪfɪk/",
+                "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/specific-us-1760699815558.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "I need a specific answer to this question.",
+            "vi": "Tôi cần một câu trả lời cụ thể cho câu hỏi này.",
+            "th": "ฉันต้องการคำตอบที่เฉพาะเจาะจงสำหรับคำถามนี้",
+            "id": "Saya butuh jawaban spesifik untuk pertanyaan ini.",
+            "ar": "أحتاج إلى إجابة محددة لهذا السؤال."
+        },
+        "translation": {
+            "th": "เฉพาะเจาะจง",
+            "id": "spesifik",
+            "ar": "محدد",
+            "ja": "特定の",
+            "vi": "cụ thể"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/specific_1763523860714.webp",
+        "quiz_options": [
+            {
+                "word": "attractive",
+                "explanation": {
+                    "en": "Something or someone that is pleasing to look at or makes you interested. A beautiful person or a nice idea can be described this way.",
+                    "vi": "Một cái gì đó hoặc ai đó dễ nhìn hoặc khiến bạn quan tâm. Một người đẹp hoặc một ý tưởng hay có thể được mô tả theo cách này.",
+                    "th": "บางสิ่งบางอย่างหรือใครบางคนที่น่ามองหรือทำให้คุณสนใจ คนสวยหรือความคิดที่ดีสามารถอธิบายได้ด้วยคำนี้",
+                    "id": "Sesuatu atau seseorang yang menyenangkan untuk dilihat atau membuat Anda tertarik. Orang yang cantik atau ide yang bagus dapat digambarkan dengan cara ini.",
+                    "ar": "شيء أو شخص يسر النظر إليه أو يثير اهتمامك. يمكن وصف شخص جميل أو فكرة جيدة بهذه الطريقة."
+                },
+                "translation": {
+                    "th": "น่าดึงดูด, น่าสนใจ; มีเสน่ห์",
+                    "id": "menarik, memikat; menawan",
+                    "ar": "جذاب, فاتن; آسر",
+                    "ja": "魅力的",
+                    "vi": "hấp dẫn"
+                },
+                "phonetics": [
+                    {
+                        "text": "/əˈtræktɪv/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/attractive-uk-1763721992920.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/əˈtræktɪv/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/attractive-us-1763721993212.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "farming",
+                "explanation": {
+                    "en": "This is the activity of growing crops and raising animals for food and other products. It often takes place on a farm.",
+                    "vi": "Đây là hoạt động trồng trọt và chăn nuôi để lấy thực phẩm và các sản phẩm khác. Nó thường diễn ra trên một trang trại.",
+                    "th": "นี่คือกิจกรรมการปลูกพืชและเลี้ยงสัตว์เพื่อเป็นอาหารและผลิตภัณฑ์อื่นๆ มักจะเกิดขึ้นในฟาร์ม",
+                    "id": "Ini adalah kegiatan menanam tanaman dan memelihara hewan untuk makanan dan produk lainnya. Ini sering terjadi di sebuah peternakan.",
+                    "ar": "هذا هو نشاط زراعة المحاصيل وتربية الحيوانات للحصول على الغذاء ومنتجات أخرى. غالبًا ما يتم ذلك في مزرعة."
+                },
+                "translation": {
+                    "th": "งานไร่นา, งานเพาะปลูก; เกษตรกรรม",
+                    "id": "pekerjaan ladang, pekerjaan bercocok tanam; pertanian",
+                    "ar": "أعمال زراعية، زراعة؛ فلاحة",
+                    "ja": "農業",
+                    "vi": "nông nghiệp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈfɑːmɪŋ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/farming-uk-1763722031011.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈfɑːrmɪŋ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/farming-us-1763722031320.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "beef",
+                "explanation": {
+                    "en": "This is meat that comes from a cow. Many people cook and eat it.",
+                    "vi": "Đây là thịt lấy từ bò. Nhiều người nấu và ăn nó.",
+                    "th": "นี่คือเนื้อที่มาจากวัว หลายคนนำมาปรุงอาหารและรับประทาน",
+                    "id": "Ini adalah daging yang berasal dari sapi. Banyak orang memasak dan memakannya.",
+                    "ar": "هذا هو اللحم الذي يأتي من البقرة. كثير من الناس يطبخونه ويأكلونه."
+                },
+                "translation": {
+                    "th": "เนื้อวัว",
+                    "id": "daging sapi",
+                    "ar": "لحم بقري",
+                    "ja": "牛肉",
+                    "vi": "thịt bò"
+                },
+                "phonetics": [
+                    {
+                        "text": "/biːf/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/beef-uk-1760856692663.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/biːf/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/beef-us-1760856693029.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "specific",
+                "explanation": {
+                    "en": "When something is very clear, exact, and not general, it is described this way. You are talking about one particular thing.",
+                    "vi": "Khi một điều gì đó rất rõ ràng, chính xác và không chung chung, nó được mô tả theo cách này. Bạn đang nói về một điều cụ thể.",
+                    "th": "เมื่อบางสิ่งบางอย่างชัดเจน แม่นยำ และไม่ทั่วไป มันจะถูกอธิบายด้วยวิธีนี้ คุณกำลังพูดถึงสิ่งใดสิ่งหนึ่งโดยเฉพาะ",
+                    "id": "Ketika sesuatu sangat jelas, tepat, dan tidak umum, itu digambarkan seperti ini. Anda sedang berbicara tentang satu hal tertentu.",
+                    "ar": "عندما يكون شيء ما واضحًا جدًا ودقيقًا وغير عام، فإنه يوصف بهذه الطريقة. أنت تتحدث عن شيء معين واحد."
+                },
+                "translation": {
+                    "th": "เฉพาะเจาะจง",
+                    "id": "spesifik",
+                    "ar": "محدد",
+                    "ja": "特定の",
+                    "vi": "cụ thể"
+                },
+                "phonetics": [
+                    {
+                        "text": "/spəˈsɪfɪk/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/specific-uk-1760699815228.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/spəˈsɪfɪk/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/specific-us-1760699815558.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf1c",
+        "word": "feature",
+        "explanation": {
+            "en": "A noticeable or important part of something. For example, a new phone might have a special camera function.",
+            "vi": "Một phần đáng chú ý hoặc quan trọng của một cái gì đó. Ví dụ, một chiếc điện thoại mới có thể có chức năng camera đặc biệt.",
+            "th": "ส่วนที่โดดเด่นหรือสำคัญของบางสิ่งบางอย่าง ตัวอย่างเช่น โทรศัพท์ใหม่ๆ อาจมีฟังก์ชันกล้องพิเศษ",
+            "id": "Bagian yang mencolok atau penting dari sesuatu. Misalnya, ponsel baru mungkin memiliki fungsi kamera khusus.",
+            "ar": "جزء ملحوظ أو مهم من شيء ما. على سبيل المثال، قد يحتوي الهاتف الجديد على وظيفة كاميرا خاصة."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/ˈfiːtʃə(r)/",
+                "audio": "https://assets.parroto.app/decks/690257657082791d767d1849/audio/phonetics/feature-uk-1762670299931.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈfiːtʃər/",
+                "audio": "https://assets.parroto.app/decks/690257657082791d767d1849/audio/phonetics/feature-us-1762670300258.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "The main feature of the park is its large lake.",
+            "vi": "Điểm nổi bật chính của công viên là hồ nước lớn của nó.",
+            "th": "จุดเด่นหลักของสวนสาธารณะคือทะเลสาบขนาดใหญ่",
+            "id": "Fitur utama taman itu adalah danau besarnya.",
+            "ar": "الميزة الرئيسية للمنتزه هي بحيرته الكبيرة."
+        },
+        "translation": {
+            "th": "คุณสมบัติ",
+            "id": "fitur",
+            "ar": "ميزة",
+            "ja": "機能",
+            "vi": "tính năng"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/feature_1763523861250.webp",
+        "quiz_options": [
+            {
+                "word": "repair",
+                "explanation": {
+                    "en": "To fix something that is broken or damaged. Mechanics often make cars work again.",
+                    "vi": "Sửa chữa một cái gì đó bị hỏng hoặc hư hại. Thợ cơ khí thường làm cho ô tô hoạt động trở lại.",
+                    "th": "การซ่อมแซมสิ่งของที่ชำรุดหรือเสียหาย ช่างมักจะทำให้รถยนต์กลับมาใช้งานได้อีกครั้ง",
+                    "id": "Memperbaiki sesuatu yang rusak atau cacat. Mekanik sering membuat mobil berfungsi kembali.",
+                    "ar": "إصلاح شيء مكسور أو تالف. غالبًا ما يجعل الميكانيكيون السيارات تعمل مرة أخرى."
+                },
+                "translation": {
+                    "th": "ซ่อมแซม",
+                    "id": "memperbaiki",
+                    "ar": "يصلح",
+                    "ja": "修理する",
+                    "vi": "sửa chữa"
+                },
+                "phonetics": [
+                    {
+                        "text": "/rɪˈpeə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/repair-uk-1763721881696.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/rɪˈper/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/repair-us-1763721881994.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "feature",
+                "explanation": {
+                    "en": "A noticeable or important part of something. For example, a new phone might have a special camera function.",
+                    "vi": "Một phần đáng chú ý hoặc quan trọng của một cái gì đó. Ví dụ, một chiếc điện thoại mới có thể có chức năng camera đặc biệt.",
+                    "th": "ส่วนที่โดดเด่นหรือสำคัญของบางสิ่งบางอย่าง ตัวอย่างเช่น โทรศัพท์ใหม่ๆ อาจมีฟังก์ชันกล้องพิเศษ",
+                    "id": "Bagian yang mencolok atau penting dari sesuatu. Misalnya, ponsel baru mungkin memiliki fungsi kamera khusus.",
+                    "ar": "جزء ملحوظ أو مهم من شيء ما. على سبيل المثال، قد يحتوي الهاتف الجديد على وظيفة كاميرا خاصة."
+                },
+                "translation": {
+                    "th": "คุณสมบัติ",
+                    "id": "fitur",
+                    "ar": "ميزة",
+                    "ja": "機能",
+                    "vi": "tính năng"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈfiːtʃə(r)/",
+                        "audio": "https://assets.parroto.app/decks/690257657082791d767d1849/audio/phonetics/feature-uk-1762670299931.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈfiːtʃər/",
+                        "audio": "https://assets.parroto.app/decks/690257657082791d767d1849/audio/phonetics/feature-us-1762670300258.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "ankle",
+                "explanation": {
+                    "en": "This is the part of your body where your foot connects to your leg. You use it to move your foot up and down.",
+                    "vi": "Đây là bộ phận trên cơ thể bạn nơi bàn chân nối với cẳng chân. Bạn dùng nó để di chuyển bàn chân lên xuống.",
+                    "th": "นี่คือส่วนหนึ่งของร่างกายที่เท้าของคุณเชื่อมต่อกับขา คุณใช้มันเพื่อขยับเท้าขึ้นลง",
+                    "id": "Ini adalah bagian tubuh Anda tempat kaki Anda terhubung ke tungkai. Anda menggunakannya untuk menggerakkan kaki Anda ke atas dan ke bawah.",
+                    "ar": "هذا هو جزء من جسمك حيث تتصل قدمك بساقك. تستخدمه لتحريك قدمك لأعلى ولأسفل."
+                },
+                "translation": {
+                    "th": "ข้อเท้า",
+                    "id": "mata kaki",
+                    "ar": "كاحل",
+                    "ja": "足首",
+                    "vi": "mắt cá chân"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈæŋkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/ankle-uk-1763722003408.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈæŋkl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/ankle-us-1763722003709.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "officer",
+                "explanation": {
+                    "en": "A person with an important job, especially in the police or military. They have authority and responsibility.",
+                    "vi": "Một người có công việc quan trọng, đặc biệt là trong cảnh sát hoặc quân đội. Họ có quyền hạn và trách nhiệm.",
+                    "th": "บุคคลที่มีตำแหน่งสำคัญ โดยเฉพาะในตำรวจหรือทหาร พวกเขามีอำนาจและความรับผิดชอบ",
+                    "id": "Seseorang dengan pekerjaan penting, terutama di kepolisian atau militer. Mereka memiliki wewenang dan tanggung jawab.",
+                    "ar": "شخص لديه وظيفة مهمة، خاصة في الشرطة أو الجيش. لديهم سلطة ومسؤولية."
+                },
+                "translation": {
+                    "th": "เจ้าหน้าที่",
+                    "id": "pejabat",
+                    "ar": "ضابط",
+                    "ja": "役員",
+                    "vi": "sĩ quan"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈɒfɪsə(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/officer-uk-1763721629083.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈɑːfɪsər/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/officer-us-1763721629390.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf22",
+        "word": "prison",
+        "explanation": {
+            "en": "This is a secure building where people are kept as punishment for breaking the law. They are not allowed to leave.",
+            "vi": "Đây là một tòa nhà an ninh nơi mọi người bị giam giữ để trừng phạt vì vi phạm pháp luật. Họ không được phép rời đi.",
+            "th": "นี่คืออาคารที่มีความปลอดภัยซึ่งผู้คนถูกคุมขังเพื่อลงโทษจากการทำผิดกฎหมาย พวกเขาไม่ได้รับอนุญาตให้ออกไป",
+            "id": "Ini adalah bangunan aman tempat orang ditahan sebagai hukuman karena melanggar hukum. Mereka tidak diizinkan untuk pergi.",
+            "ar": "هذا مبنى آمن حيث يُحتجز الأشخاص كعقاب على خرق القانون. لا يُسمح لهم بالمغادرة."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/ˈprɪzn/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/prison-uk-1763722146640.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈprɪzn/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/prison-us-1763722146953.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "The criminal was sent to prison.",
+            "vi": "Tên tội phạm đã bị gửi vào tù.",
+            "th": "อาชญากรถูกส่งเข้าคุก",
+            "id": "Penjahat itu dikirim ke penjara.",
+            "ar": "أُرسل المجرم إلى السجن."
+        },
+        "translation": {
+            "th": "เรือนจำ",
+            "id": "penjara",
+            "ar": "سجن",
+            "ja": "刑務所",
+            "vi": "nhà tù"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf22_1763526960397.webp",
+        "quiz_options": [
+            {
+                "word": "manager",
+                "explanation": {
+                    "en": "This person is in charge of a business, team, or project. They organize work and tell others what to do.",
+                    "vi": "Người này phụ trách một doanh nghiệp, đội nhóm hoặc dự án. Họ tổ chức công việc và chỉ đạo người khác phải làm gì.",
+                    "th": "บุคคลนี้รับผิดชอบธุรกิจ ทีม หรือโครงการ พวกเขาจัดระเบียบงานและบอกผู้อื่นว่าต้องทำอะไร",
+                    "id": "Orang ini bertanggung jawab atas bisnis, tim, atau proyek. Mereka mengatur pekerjaan dan memberi tahu orang lain apa yang harus dilakukan.",
+                    "ar": "هذا الشخص مسؤول عن عمل أو فريق أو مشروع. ينظمون العمل ويخبرون الآخرين بما يجب فعله."
+                },
+                "translation": {
+                    "th": "ผู้จัดการ, ผู้บริหาร",
+                    "id": "manajer, pengelola",
+                    "ar": "مدير، مسؤول تشغيلي",
+                    "ja": "マネージャー",
+                    "vi": "quản lý"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈmænɪdʒə(r)/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/manager-uk-1760856520679.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈmænɪdʒər/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/manager-us-1760856521009.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "arrange",
+                "explanation": {
+                    "en": "When you do this, you put things in a specific order or position. It can also mean to plan or organize something, like a meeting.",
+                    "vi": "Khi bạn làm điều này, bạn đặt mọi thứ theo một thứ tự hoặc vị trí cụ thể. Nó cũng có thể có nghĩa là lên kế hoạch hoặc tổ chức một cái gì đó, như một cuộc họp.",
+                    "th": "เมื่อคุณทำสิ่งนี้ คุณจะจัดวางสิ่งต่างๆ ตามลำดับหรือตำแหน่งที่กำหนด นอกจากนี้ยังอาจหมายถึงการวางแผนหรือจัดระเบียบสิ่งใดสิ่งหนึ่ง เช่น การประชุม",
+                    "id": "Ketika Anda melakukan ini, Anda menempatkan sesuatu dalam urutan atau posisi tertentu. Ini juga bisa berarti merencanakan atau mengatur sesuatu, seperti rapat.",
+                    "ar": "عندما تفعل هذا، فإنك تضع الأشياء بترتيب أو موضع معين. يمكن أن يعني أيضًا التخطيط أو تنظيم شيء ما، مثل اجتماع."
+                },
+                "translation": {
+                    "th": "จัดเรียง, จัดการ",
+                    "id": "mengatur, menata",
+                    "ar": "يرتب، ينظم",
+                    "ja": "整理する",
+                    "vi": "sắp xếp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/əˈreɪndʒ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/arrange-uk-1763721797009.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/əˈreɪndʒ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/arrange-us-1763721797309.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "borrow",
+                "explanation": {
+                    "en": "When you take something from another person to use for a short time and promise to give it back, you do this. For example, you might ask a friend for their pen.",
+                    "vi": "Khi bạn lấy thứ gì đó từ người khác để sử dụng trong một thời gian ngắn và hứa sẽ trả lại, bạn đang làm điều này. Ví dụ, bạn có thể hỏi mượn bút của một người bạn.",
+                    "th": "เมื่อคุณเอาบางสิ่งจากคนอื่นมาใช้ชั่วคราวและสัญญาว่าจะคืน คุณกำลังทำสิ่งนี้ ตัวอย่างเช่น คุณอาจขอยืมปากกาจากเพื่อน",
+                    "id": "Ketika Anda mengambil sesuatu dari orang lain untuk digunakan sebentar dan berjanji untuk mengembalikannya, Anda melakukan ini. Misalnya, Anda mungkin meminta pena teman Anda.",
+                    "ar": "عندما تأخذ شيئًا من شخص آخر لتستخدمه لفترة قصيرة وتعد بإعادته، فإنك تفعل ذلك. على سبيل المثال، قد تطلب قلم صديقك."
+                },
+                "translation": {
+                    "th": "ยืม",
+                    "id": "meminjam",
+                    "ar": "يستعير",
+                    "ja": "借りる",
+                    "vi": "mượn"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈbɒrəʊ/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/borrow-uk-1760700255408.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈbɔːrəʊ/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/borrow-us-1760700255748.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "prison",
+                "explanation": {
+                    "en": "This is a secure building where people are kept as punishment for breaking the law. They are not allowed to leave.",
+                    "vi": "Đây là một tòa nhà an ninh nơi mọi người bị giam giữ để trừng phạt vì vi phạm pháp luật. Họ không được phép rời đi.",
+                    "th": "นี่คืออาคารที่มีความปลอดภัยซึ่งผู้คนถูกคุมขังเพื่อลงโทษจากการทำผิดกฎหมาย พวกเขาไม่ได้รับอนุญาตให้ออกไป",
+                    "id": "Ini adalah bangunan aman tempat orang ditahan sebagai hukuman karena melanggar hukum. Mereka tidak diizinkan untuk pergi.",
+                    "ar": "هذا مبنى آمن حيث يُحتجز الأشخاص كعقاب على خرق القانون. لا يُسمح لهم بالمغادرة."
+                },
+                "translation": {
+                    "th": "เรือนจำ",
+                    "id": "penjara",
+                    "ar": "سجن",
+                    "ja": "刑務所",
+                    "vi": "nhà tù"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈprɪzn/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/prison-uk-1763722146640.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈprɪzn/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/prison-us-1763722146953.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf25",
+        "word": "war",
+        "explanation": {
+            "en": "This is a serious conflict between countries or groups of people where they fight using weapons. It often causes much destruction and loss of life.",
+            "vi": "Đây là một cuộc xung đột nghiêm trọng giữa các quốc gia hoặc các nhóm người, nơi họ chiến đấu bằng vũ khí. Nó thường gây ra nhiều sự tàn phá và mất mát sinh mạng.",
+            "th": "นี่คือความขัดแย้งร้ายแรงระหว่างประเทศหรือกลุ่มคนที่มีการต่อสู้โดยใช้อาวุธ มักก่อให้เกิดการทำลายล้างและการสูญเสียชีวิตจำนวนมาก",
+            "id": "Ini adalah konflik serius antara negara atau kelompok orang di mana mereka bertarung menggunakan senjata. Ini sering menyebabkan banyak kehancuran dan hilangnya nyawa.",
+            "ar": "هذا صراع خطير بين الدول أو مجموعات من الناس حيث يتقاتلون باستخدام الأسلحة. غالبًا ما يسبب الكثير من الدمار والخسائر في الأرواح."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/wɔː(r)/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/war-uk-1763722148133.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/wɔːr/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/war-us-1763722148442.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "Many people suffer during a war.",
+            "vi": "Nhiều người phải chịu đựng trong chiến tranh.",
+            "th": "ผู้คนจำนวนมากต้องทนทุกข์ทรมานในช่วงสงคราม",
+            "id": "Banyak orang menderita selama perang.",
+            "ar": "يعاني الكثير من الناس خلال الحرب."
+        },
+        "translation": {
+            "th": "สงคราม",
+            "id": "perang",
+            "ar": "حرب",
+            "ja": "戦争",
+            "vi": "chiến tranh"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf25_1763526959369.webp",
+        "quiz_options": [
+            {
+                "word": "war",
+                "explanation": {
+                    "en": "This is a serious conflict between countries or groups of people where they fight using weapons. It often causes much destruction and loss of life.",
+                    "vi": "Đây là một cuộc xung đột nghiêm trọng giữa các quốc gia hoặc các nhóm người, nơi họ chiến đấu bằng vũ khí. Nó thường gây ra nhiều sự tàn phá và mất mát sinh mạng.",
+                    "th": "นี่คือความขัดแย้งร้ายแรงระหว่างประเทศหรือกลุ่มคนที่มีการต่อสู้โดยใช้อาวุธ มักก่อให้เกิดการทำลายล้างและการสูญเสียชีวิตจำนวนมาก",
+                    "id": "Ini adalah konflik serius antara negara atau kelompok orang di mana mereka bertarung menggunakan senjata. Ini sering menyebabkan banyak kehancuran dan hilangnya nyawa.",
+                    "ar": "هذا صراع خطير بين الدول أو مجموعات من الناس حيث يتقاتلون باستخدام الأسلحة. غالبًا ما يسبب الكثير من الدمار والخسائر في الأرواح."
+                },
+                "translation": {
+                    "th": "สงคราม",
+                    "id": "perang",
+                    "ar": "حرب",
+                    "ja": "戦争",
+                    "vi": "chiến tranh"
+                },
+                "phonetics": [
+                    {
+                        "text": "/wɔː(r)/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/war-uk-1763722148133.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/wɔːr/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/war-us-1763722148442.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "maths",
+                "explanation": {
+                    "en": "This is a shorter, common way to refer to the study of numbers, quantities, and shapes. It is often used in British English.",
+                    "vi": "Đây là cách viết tắt, phổ biến để chỉ môn học về số, lượng và hình dạng. Nó thường được sử dụng trong tiếng Anh Anh.",
+                    "th": "นี่เป็นวิธีที่สั้นและเป็นที่นิยมในการอ้างถึงการศึกษาเกี่ยวกับตัวเลข ปริมาณ และรูปร่าง มักใช้ในภาษาอังกฤษแบบบริติช",
+                    "id": "Ini adalah cara yang lebih singkat dan umum untuk merujuk pada studi tentang angka, kuantitas, dan bentuk. Ini sering digunakan dalam bahasa Inggris British.",
+                    "ar": "هذه طريقة أقصر وشائعة للإشارة إلى دراسة الأرقام والكميات والأشكال. تُستخدم غالبًا في الإنجليزية البريطانية."
+                },
+                "translation": {
+                    "th": "คณิตศาสตร์",
+                    "id": "matematika",
+                    "ar": "الرياضيات",
+                    "ja": "数学",
+                    "vi": "toán"
+                },
+                "phonetics": [
+                    {
+                        "text": "/mæθs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/maths-uk-1763721482112.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/mæθs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/maths-us-1763721482405.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "fun",
+                "explanation": {
+                    "en": "This is when you enjoy an activity and feel happy. Playing games or laughing with friends can be this.",
+                    "vi": "Đây là khi bạn thích một hoạt động và cảm thấy vui vẻ. Chơi trò chơi hoặc cười đùa với bạn bè có thể là điều này.",
+                    "th": "นี่คือเมื่อคุณสนุกกับกิจกรรมและรู้สึกมีความสุข การเล่นเกมหรือหัวเราะกับเพื่อน ๆ ก็เป็นสิ่งนี้ได้",
+                    "id": "Ini adalah saat Anda menikmati suatu aktivitas dan merasa senang. Bermain game atau tertawa bersama teman bisa menjadi hal ini.",
+                    "ar": "هذا عندما تستمتع بنشاط وتشعر بالسعادة. يمكن أن يكون لعب الألعاب أو الضحك مع الأصدقاء كذلك."
+                },
+                "translation": {
+                    "th": "ความสนุก, ความเพลิดเพลิน",
+                    "id": "kesenangan",
+                    "ar": "متعة",
+                    "ja": "楽しみ",
+                    "vi": "vui vẻ"
+                },
+                "phonetics": [
+                    {
+                        "text": "/fʌn/",
+                        "audio": "https://assets.parroto.app/decks/691c1596d3a2e879f9c69af0/audio/phonetics/fun-uk-1763626963527.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/fʌn/",
+                        "audio": "https://assets.parroto.app/decks/691c1596d3a2e879f9c69af0/audio/phonetics/fun-us-1763626963729.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "alive",
+                "explanation": {
+                    "en": "If something is this way, it is living and not dead. Plants, animals, and people are this.",
+                    "vi": "Nếu một vật ở trạng thái này, nó đang sống và không chết. Thực vật, động vật và con người đều ở trạng thái này.",
+                    "th": "หากสิ่งใดอยู่ในสภาพนี้ แสดงว่ามันมีชีวิตและไม่ตาย พืช สัตว์ และมนุษย์ล้วนมีชีวิต",
+                    "id": "Jika sesuatu dalam keadaan ini, itu berarti hidup dan tidak mati. Tumbuhan, hewan, dan manusia adalah ini.",
+                    "ar": "إذا كان شيء ما بهذه الطريقة، فهو حي وليس ميتًا. النباتات والحيوانات والبشر أحياء."
+                },
+                "translation": {
+                    "th": "มีชีวิต, ยังมีชีวิตอยู่",
+                    "id": "hidup, masih hidup",
+                    "ar": "حَيّ، عَلَى قَيْدِ الْحَيَاة",
+                    "ja": "生きている",
+                    "vi": "sống"
+                },
+                "phonetics": [
+                    {
+                        "text": "/əˈlaɪv/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/alive-uk-1763721690948.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/əˈlaɪv/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/alive-us-1763721691254.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf28",
+        "word": "crazy",
+        "explanation": {
+            "en": "Someone who acts in a very strange or foolish way might be described with this word. It can also mean very enthusiastic or wild.",
+            "vi": "Một người hành động một cách rất kỳ lạ hoặc ngốc nghếch có thể được mô tả bằng từ này. Nó cũng có thể có nghĩa là rất nhiệt tình hoặc hoang dã.",
+            "th": "คนที่แสดงพฤติกรรมแปลกๆ หรือโง่เขลา อาจถูกอธิบายด้วยคำนี้ นอกจากนี้ยังอาจหมายถึงกระตือรือร้นมากหรือบ้าคลั่ง",
+            "id": "Seseorang yang bertindak dengan cara yang sangat aneh atau bodoh mungkin digambarkan dengan kata ini. Ini juga bisa berarti sangat antusias atau liar.",
+            "ar": "قد يوصف الشخص الذي يتصرف بطريقة غريبة جدًا أو حمقاء بهذه الكلمة. يمكن أن يعني أيضًا متحمسًا جدًا أو جامحًا."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/ˈkreɪzi/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/crazy-uk-1763722149600.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈkreɪzi/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/crazy-us-1763722149901.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "It was a crazy day at work.",
+            "vi": "Đó là một ngày điên rồ ở nơi làm việc.",
+            "th": "มันเป็นวันที่บ้าคลั่งในการทำงาน",
+            "id": "Itu adalah hari yang gila di tempat kerja.",
+            "ar": "لقد كان يومًا مجنونًا في العمل."
+        },
+        "translation": {
+            "th": "บ้า",
+            "id": "gila",
+            "ar": "مجنون",
+            "ja": "クレイジーな",
+            "vi": "điên rồ"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf28_1765111823178.webp",
+        "quiz_options": [
+            {
+                "word": "boil",
+                "explanation": {
+                    "en": "To heat a liquid, like water, until it gets very hot and bubbles appear on the surface. You do this to cook pasta.",
+                    "vi": "Đun nóng một chất lỏng, như nước, cho đến khi nó rất nóng và các bong bóng xuất hiện trên bề mặt. Bạn làm điều này để nấu mì ống.",
+                    "th": "การต้มของเหลว เช่น น้ำ จนกระทั่งร้อนจัดและมีฟองอากาศปรากฏขึ้นบนพื้นผิว คุณทำสิ่งนี้เพื่อปรุงพาสต้า",
+                    "id": "Memanaskan cairan, seperti air, sampai sangat panas dan gelembung muncul di permukaan. Anda melakukan ini untuk memasak pasta.",
+                    "ar": "تسخين سائل، مثل الماء، حتى يصبح ساخنًا جدًا وتظهر فقاعات على السطح. تفعل هذا لطهي المعكرونة."
+                },
+                "translation": {
+                    "th": "ต้ม",
+                    "id": "merebus",
+                    "ar": "يغلي",
+                    "ja": "沸かす",
+                    "vi": "đun sôi"
+                },
+                "phonetics": [
+                    {
+                        "text": "/bɔɪl/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/boil-uk-1761322118969.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/bɔɪl/",
+                        "audio": "https://assets.parroto.app/decks/68fb9444c82801c32077e73e/audio/phonetics/boil-us-1761322119307.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "star",
+                "explanation": {
+                    "en": "In the sky, it's a bright, shining ball of gas very far away, like our sun. It can also mean a very famous actor or singer.",
+                    "vi": "Trên bầu trời, đó là một quả cầu khí sáng chói rất xa, giống như mặt trời của chúng ta. Nó cũng có thể có nghĩa là một diễn viên hoặc ca sĩ rất nổi tiếng.",
+                    "th": "บนท้องฟ้า มันคือลูกบอลก๊าซที่สว่างไสวอยู่ไกลมาก เหมือนดวงอาทิตย์ของเรา นอกจากนี้ยังอาจหมายถึงนักแสดงหรือนักร้องที่มีชื่อเสียงมาก",
+                    "id": "Di langit, itu adalah bola gas yang terang dan bersinar sangat jauh, seperti matahari kita. Ini juga bisa berarti aktor atau penyanyi yang sangat terkenal.",
+                    "ar": "في السماء، هي كرة غاز ساطعة ومتوهجة بعيدة جدًا، مثل شمسنا. يمكن أن تعني أيضًا ممثلًا أو مغنيًا مشهورًا جدًا."
+                },
+                "translation": {
+                    "th": "ดาว, ดวงดาว",
+                    "id": "bintang",
+                    "ar": "نجم, أجرام سماوية",
+                    "ja": "星",
+                    "vi": "ngôi sao"
+                },
+                "phonetics": [
+                    {
+                        "text": "/stɑr/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/star-us-ai-1760865872159.mp3",
+                        "locale": "en-US"
+                    },
+                    {
+                        "text": "/stɑː/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/star-uk-ai-1760865872249.mp3",
+                        "locale": "en-UK"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "crazy",
+                "explanation": {
+                    "en": "Someone who acts in a very strange or foolish way might be described with this word. It can also mean very enthusiastic or wild.",
+                    "vi": "Một người hành động một cách rất kỳ lạ hoặc ngốc nghếch có thể được mô tả bằng từ này. Nó cũng có thể có nghĩa là rất nhiệt tình hoặc hoang dã.",
+                    "th": "คนที่แสดงพฤติกรรมแปลกๆ หรือโง่เขลา อาจถูกอธิบายด้วยคำนี้ นอกจากนี้ยังอาจหมายถึงกระตือรือร้นมากหรือบ้าคลั่ง",
+                    "id": "Seseorang yang bertindak dengan cara yang sangat aneh atau bodoh mungkin digambarkan dengan kata ini. Ini juga bisa berarti sangat antusias atau liar.",
+                    "ar": "قد يوصف الشخص الذي يتصرف بطريقة غريبة جدًا أو حمقاء بهذه الكلمة. يمكن أن يعني أيضًا متحمسًا جدًا أو جامحًا."
+                },
+                "translation": {
+                    "th": "บ้า",
+                    "id": "gila",
+                    "ar": "مجنون",
+                    "ja": "クレイジーな",
+                    "vi": "điên rồ"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈkreɪzi/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/crazy-uk-1763722149600.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈkreɪzi/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/crazy-us-1763722149901.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "singing",
+                "explanation": {
+                    "en": "This is the act of making musical sounds with your voice. People do this to perform songs or express themselves musically.",
+                    "vi": "Đây là hành động tạo ra âm thanh âm nhạc bằng giọng nói của bạn. Mọi người làm điều này để biểu diễn bài hát hoặc thể hiện bản thân một cách âm nhạc.",
+                    "th": "นี่คือการกระทำของการสร้างเสียงดนตรีด้วยเสียงของคุณ ผู้คนทำเช่นนี้เพื่อแสดงเพลงหรือแสดงออกทางดนตรี",
+                    "id": "Ini adalah tindakan membuat suara musik dengan suara Anda. Orang melakukan ini untuk menampilkan lagu atau mengekspresikan diri secara musikal.",
+                    "ar": "هذا هو فعل إصدار أصوات موسيقية بصوتك. يفعل الناس ذلك لأداء الأغاني أو التعبير عن أنفسهم موسيقيًا."
+                },
+                "translation": {
+                    "th": "การร้องเพลง",
+                    "id": "nyanyian; tindakan bernyanyi",
+                    "ar": "غناء; فعل الغناء",
+                    "ja": "歌うこと",
+                    "vi": "sự hát"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈsɪŋɪŋ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/singing-uk-1763721762921.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈsɪŋɪŋ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/singing-us-1763721763227.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf2b",
+        "word": "worse",
+        "explanation": {
+            "en": "This word describes something that is not as good as something else, or more unpleasant. For example, your health might become this if you get sicker.",
+            "vi": "Từ này mô tả một điều gì đó không tốt bằng một điều khác, hoặc khó chịu hơn. Ví dụ, sức khỏe của bạn có thể trở nên tồi tệ hơn nếu bạn bị ốm nặng hơn.",
+            "th": "คำนี้อธิบายถึงบางสิ่งบางอย่างที่ไม่ดีเท่าสิ่งอื่น หรือไม่น่าพอใจมากขึ้น ตัวอย่างเช่น สุขภาพของคุณอาจแย่ลงหากคุณป่วยหนักขึ้น",
+            "id": "Kata ini menggambarkan sesuatu yang tidak sebaik yang lain, atau lebih tidak menyenangkan. Misalnya, kesehatan Anda mungkin menjadi lebih buruk jika Anda sakit lebih parah.",
+            "ar": "تصف هذه الكلمة شيئًا ليس جيدًا مثل شيء آخر، أو أكثر إزعاجًا. على سبيل المثال، قد تصبح صحتك أسوأ إذا مرضت أكثر."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/wɜːs/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worse-uk-1763722151102.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/wɜːrs/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worse-us-1763722151418.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "The situation became worse after the storm.",
+            "vi": "Tình hình trở nên tồi tệ hơn sau cơn bão.",
+            "th": "สถานการณ์แย่ลงหลังจากพายุ",
+            "id": "Situasinya menjadi lebih buruk setelah badai.",
+            "ar": "أصبح الوضع أسوأ بعد العاصفة."
+        },
+        "translation": {
+            "th": "แย่ลง",
+            "id": "lebih buruk",
+            "ar": "أسوأ",
+            "ja": "より悪い",
+            "vi": "tệ hơn"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf2b_1763707882460.webp",
+        "quiz_options": [
+            {
+                "word": "surprised",
+                "explanation": {
+                    "en": "You feel this way when something unexpected or sudden happens. You might show it on your face, perhaps with wide eyes.",
+                    "vi": "Bạn cảm thấy như vậy khi một điều gì đó bất ngờ hoặc đột ngột xảy ra. Bạn có thể thể hiện nó trên khuôn mặt, có lẽ với đôi mắt mở to.",
+                    "th": "คุณจะรู้สึกแบบนี้เมื่อมีบางสิ่งที่ไม่คาดคิดหรือเกิดขึ้นอย่างกะทันหัน คุณอาจแสดงออกทางสีหน้า อาจจะด้วยดวงตาที่เบิกกว้าง",
+                    "id": "Anda merasa seperti ini ketika sesuatu yang tidak terduga atau tiba-tiba terjadi. Anda mungkin menunjukkannya di wajah Anda, mungkin dengan mata terbelalak.",
+                    "ar": "تشعر بهذه الطريقة عندما يحدث شيء غير متوقع أو مفاجئ. قد تظهره على وجهك، ربما بعينين واسعتين."
+                },
+                "translation": {
+                    "th": "ประหลาดใจ, ตกใจ",
+                    "id": "terkejut, heran",
+                    "ar": "مندهش، متفاجئ",
+                    "ja": "驚いた",
+                    "vi": "ngạc nhiên"
+                },
+                "phonetics": [
+                    {
+                        "text": "/səˈpraɪzd/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/surprised-uk-1760857205872.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/sərˈpraɪzd/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/surprised-us-1760857206245.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "wheel",
+                "explanation": {
+                    "en": "A round object that turns around a central point. Cars, bicycles, and shopping carts all have these to move.",
+                    "vi": "Một vật thể tròn quay quanh một điểm trung tâm. Ô tô, xe đạp và xe đẩy hàng đều có những thứ này để di chuyển.",
+                    "th": "วัตถุทรงกลมที่หมุนรอบจุดศูนย์กลาง รถยนต์ จักรยาน และรถเข็นช้อปปิ้ง ล้วนมีสิ่งเหล่านี้เพื่อเคลื่อนที่",
+                    "id": "Benda bulat yang berputar mengelilingi titik pusat. Mobil, sepeda, dan troli belanja semuanya memiliki ini untuk bergerak.",
+                    "ar": "جسم دائري يدور حول نقطة مركزية. السيارات والدراجات وعربات التسوق كلها تحتوي على هذه العجلات للتحرك."
+                },
+                "translation": {
+                    "th": "ล้อ",
+                    "id": "roda",
+                    "ar": "عجلة",
+                    "ja": "車輪",
+                    "vi": "bánh xe"
+                },
+                "phonetics": [
+                    {
+                        "text": "/wiːl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/wheel-uk-1763721633507.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/wiːl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/wheel-us-1763721633815.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "arrange",
+                "explanation": {
+                    "en": "When you do this, you put things in a specific order or position. It can also mean to plan or organize something, like a meeting.",
+                    "vi": "Khi bạn làm điều này, bạn đặt mọi thứ theo một thứ tự hoặc vị trí cụ thể. Nó cũng có thể có nghĩa là lên kế hoạch hoặc tổ chức một cái gì đó, như một cuộc họp.",
+                    "th": "เมื่อคุณทำสิ่งนี้ คุณจะจัดวางสิ่งต่างๆ ตามลำดับหรือตำแหน่งที่กำหนด นอกจากนี้ยังอาจหมายถึงการวางแผนหรือจัดระเบียบสิ่งใดสิ่งหนึ่ง เช่น การประชุม",
+                    "id": "Ketika Anda melakukan ini, Anda menempatkan sesuatu dalam urutan atau posisi tertentu. Ini juga bisa berarti merencanakan atau mengatur sesuatu, seperti rapat.",
+                    "ar": "عندما تفعل هذا، فإنك تضع الأشياء بترتيب أو موضع معين. يمكن أن يعني أيضًا التخطيط أو تنظيم شيء ما، مثل اجتماع."
+                },
+                "translation": {
+                    "th": "จัดเรียง, จัดการ",
+                    "id": "mengatur, menata",
+                    "ar": "يرتب، ينظم",
+                    "ja": "整理する",
+                    "vi": "sắp xếp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/əˈreɪndʒ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/arrange-uk-1763721797009.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/əˈreɪndʒ/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/arrange-us-1763721797309.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "worse",
+                "explanation": {
+                    "en": "This word describes something that is not as good as something else, or more unpleasant. For example, your health might become this if you get sicker.",
+                    "vi": "Từ này mô tả một điều gì đó không tốt bằng một điều khác, hoặc khó chịu hơn. Ví dụ, sức khỏe của bạn có thể trở nên tồi tệ hơn nếu bạn bị ốm nặng hơn.",
+                    "th": "คำนี้อธิบายถึงบางสิ่งบางอย่างที่ไม่ดีเท่าสิ่งอื่น หรือไม่น่าพอใจมากขึ้น ตัวอย่างเช่น สุขภาพของคุณอาจแย่ลงหากคุณป่วยหนักขึ้น",
+                    "id": "Kata ini menggambarkan sesuatu yang tidak sebaik yang lain, atau lebih tidak menyenangkan. Misalnya, kesehatan Anda mungkin menjadi lebih buruk jika Anda sakit lebih parah.",
+                    "ar": "تصف هذه الكلمة شيئًا ليس جيدًا مثل شيء آخر، أو أكثر إزعاجًا. على سبيل المثال، قد تصبح صحتك أسوأ إذا مرضت أكثر."
+                },
+                "translation": {
+                    "th": "แย่ลง",
+                    "id": "lebih buruk",
+                    "ar": "أسوأ",
+                    "ja": "より悪い",
+                    "vi": "tệ hơn"
+                },
+                "phonetics": [
+                    {
+                        "text": "/wɜːs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worse-uk-1763722151102.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/wɜːrs/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/worse-us-1763722151418.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf2e",
+        "word": "professional",
+        "explanation": {
+            "en": "This describes a person who does a job that requires special training and skill, and they get paid for it. It also means acting in a very skilled and serious manner.",
+            "vi": "Đây mô tả một người làm công việc đòi hỏi đào tạo và kỹ năng đặc biệt, và họ được trả lương cho công việc đó. Nó cũng có nghĩa là hành động một cách rất có kỹ năng và nghiêm túc.",
+            "th": "คำนี้อธิบายถึงบุคคลที่ทำงานที่ต้องใช้การฝึกอบรมและทักษะพิเศษ และพวกเขาได้รับค่าจ้างสำหรับงานนั้น นอกจากนี้ยังหมายถึงการกระทำในลักษณะที่มีทักษะและจริงจังมาก",
+            "id": "Ini menggambarkan seseorang yang melakukan pekerjaan yang membutuhkan pelatihan dan keterampilan khusus, dan mereka dibayar untuk itu. Ini juga berarti bertindak dengan cara yang sangat terampil dan serius.",
+            "ar": "يصف هذا الشخص الذي يقوم بعمل يتطلب تدريبًا ومهارة خاصة، ويتقاضى أجرًا مقابل ذلك. كما يعني التصرف بطريقة ماهرة وجادة للغاية."
+        },
+        "type": "adjective",
+        "phonetics": [
+            {
+                "text": "/prəˈfeʃənl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/professional-uk-1763722152799.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/prəˈfeʃənl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/professional-us-1763722153099.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "Always act in a professional manner at work.",
+            "vi": "Luôn hành xử một cách chuyên nghiệp tại nơi làm việc.",
+            "th": "จงประพฤติตนอย่างมืออาชีพเสมอในที่ทำงาน",
+            "id": "Selalu bertindak secara profesional di tempat kerja.",
+            "ar": "تصرف دائمًا بطريقة احترافية في العمل."
+        },
+        "translation": {
+            "th": "มืออาชีพ; ผู้ชำนาญ",
+            "id": "profesional; ahli",
+            "ar": "احترافي؛ ماهر",
+            "ja": "プロの",
+            "vi": "chuyên nghiệp"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf2e_1763526981194.webp",
+        "quiz_options": [
+            {
+                "word": "professional",
+                "explanation": {
+                    "en": "This describes a person who does a job that requires special training and skill, and they get paid for it. It also means acting in a very skilled and serious manner.",
+                    "vi": "Đây mô tả một người làm công việc đòi hỏi đào tạo và kỹ năng đặc biệt, và họ được trả lương cho công việc đó. Nó cũng có nghĩa là hành động một cách rất có kỹ năng và nghiêm túc.",
+                    "th": "คำนี้อธิบายถึงบุคคลที่ทำงานที่ต้องใช้การฝึกอบรมและทักษะพิเศษ และพวกเขาได้รับค่าจ้างสำหรับงานนั้น นอกจากนี้ยังหมายถึงการกระทำในลักษณะที่มีทักษะและจริงจังมาก",
+                    "id": "Ini menggambarkan seseorang yang melakukan pekerjaan yang membutuhkan pelatihan dan keterampilan khusus, dan mereka dibayar untuk itu. Ini juga berarti bertindak dengan cara yang sangat terampil dan serius.",
+                    "ar": "يصف هذا الشخص الذي يقوم بعمل يتطلب تدريبًا ومهارة خاصة، ويتقاضى أجرًا مقابل ذلك. كما يعني التصرف بطريقة ماهرة وجادة للغاية."
+                },
+                "translation": {
+                    "th": "มืออาชีพ; ผู้ชำนาญ",
+                    "id": "profesional; ahli",
+                    "ar": "احترافي؛ ماهر",
+                    "ja": "プロの",
+                    "vi": "chuyên nghiệp"
+                },
+                "phonetics": [
+                    {
+                        "text": "/prəˈfeʃənl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/professional-uk-1763722152799.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/prəˈfeʃənl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/professional-us-1763722153099.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            },
+            {
+                "word": "appearance",
+                "explanation": {
+                    "en": "This refers to the way someone or something looks on the outside. It includes their clothes, face, and general look.",
+                    "vi": "Điều này đề cập đến cách ai đó hoặc cái gì đó trông bên ngoài. Nó bao gồm quần áo, khuôn mặt và vẻ ngoài tổng thể của họ.",
+                    "th": "สิ่งนี้หมายถึงลักษณะภายนอกของบุคคลหรือสิ่งของ รวมถึงเสื้อผ้า ใบหน้า และรูปลักษณ์โดยรวม",
+                    "id": "Ini mengacu pada cara seseorang atau sesuatu terlihat dari luar. Ini termasuk pakaian, wajah, dan penampilan umum mereka.",
+                    "ar": "يشير هذا إلى الطريقة التي يبدو بها شخص ما أو شيء ما من الخارج. ويشمل ملابسهم ووجوههم ومظهرهم العام."
+                },
+                "translation": {
+                    "th": "รูปลักษณ์ภายนอก, ลักษณะท่าทาง",
+                    "id": "penampilan, rupa",
+                    "ar": "مظهر، هيئة",
+                    "ja": "外見",
+                    "vi": "ngoại hình"
+                },
+                "phonetics": [
+                    {
+                        "text": "/əˈpɪərəns/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/appearance-uk-1763721940593.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/əˈpɪrəns/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/appearance-us-1763721940881.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "expression",
+                "explanation": {
+                    "en": "This refers to the look on someone's face that shows their feelings. It can also be a common phrase or saying.",
+                    "vi": "Điều này đề cập đến vẻ mặt của ai đó thể hiện cảm xúc của họ. Nó cũng có thể là một cụm từ hoặc câu nói phổ biến.",
+                    "th": "สิ่งนี้หมายถึงสีหน้าของใครบางคนที่แสดงความรู้สึกของพวกเขา นอกจากนี้ยังอาจเป็นวลีหรือคำพูดที่พบบ่อย",
+                    "id": "Ini mengacu pada ekspresi wajah seseorang yang menunjukkan perasaan mereka. Ini juga bisa menjadi frasa atau ungkapan umum.",
+                    "ar": "يشير هذا إلى مظهر وجه شخص ما الذي يظهر مشاعره. يمكن أن يكون أيضاً عبارة شائعة أو قولاً مأثوراً."
+                },
+                "translation": {
+                    "th": "การแสดงออก, สีหน้า",
+                    "id": "ekspresi, ungkapan",
+                    "ar": "تعبير، إيماءة",
+                    "ja": "表情",
+                    "vi": "biểu cảm"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ɪkˈspreʃn/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/expression-uk-1763721868157.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ɪkˈspreʃn/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/expression-us-1763721868457.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "equipment",
+                "explanation": {
+                    "en": "These are tools or machines needed for a specific activity or purpose. You use these things to do a job or play a sport.",
+                    "vi": "Đây là các công cụ hoặc máy móc cần thiết cho một hoạt động hoặc mục đích cụ thể. Bạn sử dụng những thứ này để làm việc hoặc chơi thể thao.",
+                    "th": "นี่คือเครื่องมือหรือเครื่องจักรที่จำเป็นสำหรับกิจกรรมหรือวัตถุประสงค์เฉพาะ คุณใช้สิ่งเหล่านี้เพื่อทำงานหรือเล่นกีฬา",
+                    "id": "Ini adalah alat atau mesin yang dibutuhkan untuk aktivitas atau tujuan tertentu. Anda menggunakan barang-barang ini untuk melakukan pekerjaan atau bermain olahraga.",
+                    "ar": "هذه هي الأدوات أو الآلات اللازمة لنشاط أو غرض معين. تستخدم هذه الأشياء لأداء وظيفة أو ممارسة رياضة."
+                },
+                "translation": {
+                    "th": "อุปกรณ์, เครื่องมือ, สิ่งจำเป็น",
+                    "id": "perlengkapan, peralatan, perkakas, barang-barang yang diperlukan",
+                    "ar": "معدات، تجهيزات، أدوات، لوازم ضرورية",
+                    "ja": "機器",
+                    "vi": "thiết bị"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ɪˈkwɪpmənt/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/equipment-uk-1760857370393.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ɪˈkwɪpmənt/",
+                        "audio": "https://assets.parroto.app/decks/68f46a24b79f2226f4ef9491/audio/phonetics/equipment-us-1760857370733.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "_id": "691c1632d3a2e879f9c6bf31",
+        "word": "novel",
+        "explanation": {
+            "en": "This is a long story written in a book, usually about imaginary people and events.",
+            "vi": "Đây là một câu chuyện dài được viết trong một cuốn sách, thường về những người và sự kiện tưởng tượng.",
+            "th": "นี่คือนิทานเรื่องยาวที่เขียนในหนังสือ โดยปกติจะเกี่ยวกับผู้คนและเหตุการณ์ที่สมมติขึ้น",
+            "id": "Ini adalah cerita panjang yang ditulis dalam sebuah buku, biasanya tentang orang-orang dan peristiwa imajiner.",
+            "ar": "هذه قصة طويلة مكتوبة في كتاب، عادة ما تكون عن أشخاص وأحداث خيالية."
+        },
+        "type": "noun",
+        "phonetics": [
+            {
+                "text": "/ˈnɒvl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/novel-uk-1763722154286.mp3",
+                "locale": "en-UK"
+            },
+            {
+                "text": "/ˈnɑːvl/",
+                "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/novel-us-1763722154597.mp3",
+                "locale": "en-US"
+            }
+        ],
+        "group": "Unit 38",
+        "group_id": "691c1632d3a2e879f9c6beee",
+        "deck_id": "691c160fd3a2e879f9c6b103",
+        "example": {
+            "en": "Her first novel won a major award.",
+            "vi": "Cuốn tiểu thuyết đầu tiên của cô ấy đã giành được một giải thưởng lớn.",
+            "th": "นวนิยายเรื่องแรกของเธอได้รับรางวัลสำคัญ",
+            "id": "Novel pertamanya memenangkan penghargaan besar.",
+            "ar": "فازت روايتها الأولى بجائزة كبرى."
+        },
+        "translation": {
+            "th": "นวนิยาย",
+            "id": "novel",
+            "ar": "رواية",
+            "ja": "小説",
+            "vi": "tiểu thuyết"
+        },
+        "image_url": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/images/691c1632d3a2e879f9c6bf31_1763526986212.webp",
+        "quiz_options": [
+            {
+                "word": "able",
+                "explanation": {
+                    "en": "Having the power, skill, or means to do something. It means you can do it.",
+                    "vi": "Có khả năng, kỹ năng hoặc phương tiện để làm điều gì đó. Nó có nghĩa là bạn có thể làm được.",
+                    "th": "มีความสามารถ ทักษะ หรือวิธีการที่จะทำบางสิ่งบางอย่าง หมายความว่าคุณสามารถทำได้",
+                    "id": "Memiliki kekuatan, keterampilan, atau sarana untuk melakukan sesuatu. Ini berarti Anda bisa melakukannya.",
+                    "ar": "امتلاك القوة أو المهارة أو الوسيلة للقيام بشيء ما. هذا يعني أنك تستطيع فعله."
+                },
+                "translation": {
+                    "th": "มีความสามารถ, มีศักยภาพ",
+                    "id": "memiliki kemampuan, sanggup",
+                    "ar": "قادر على، لديه القدرة",
+                    "ja": "可能な",
+                    "vi": "có thể"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈeɪbl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/able-uk-1763721956792.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈeɪbl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/able-us-1763721957094.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "express",
+                "explanation": {
+                    "en": "This verb means to show or communicate your thoughts, feelings, or ideas clearly to others. You can use words, actions, or art to do this.",
+                    "vi": "Động từ này có nghĩa là thể hiện hoặc truyền đạt suy nghĩ, cảm xúc hoặc ý tưởng của bạn một cách rõ ràng cho người khác. Bạn có thể sử dụng lời nói, hành động hoặc nghệ thuật để làm điều này.",
+                    "th": "คำกริยานี้หมายถึงการแสดงออกหรือสื่อสารความคิด ความรู้สึก หรือแนวคิดของคุณให้ผู้อื่นทราบอย่างชัดเจน คุณสามารถใช้คำพูด การกระทำ หรือศิลปะในการทำเช่นนี้ได้",
+                    "id": "Kata kerja ini berarti menunjukkan atau mengomunikasikan pikiran, perasaan, atau ide Anda dengan jelas kepada orang lain. Anda dapat menggunakan kata-kata, tindakan, atau seni untuk melakukan ini.",
+                    "ar": "هذا الفعل يعني إظهار أو إيصال أفكارك أو مشاعرك أو أفكارك بوضوح للآخرين. يمكنك استخدام الكلمات أو الأفعال أو الفن للقيام بذلك."
+                },
+                "translation": {
+                    "th": "แสดงออก, บ่งบอก",
+                    "id": "mengungkapkan, menyatakan",
+                    "ar": "يعبر عن, يبدي",
+                    "ja": "表現する",
+                    "vi": "bày tỏ"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ɪkˈspres/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/express-uk-1760700056940.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ɪkˈspres/",
+                        "audio": "https://assets.parroto.app/decks/68f2173c5e2ac8381d780dc8/audio/phonetics/express-us-1760700057263.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "drop",
+                "explanation": {
+                    "en": "This is a very small amount of liquid in a round shape. It can also refer to a sudden fall or decrease.",
+                    "vi": "Đây là một lượng rất nhỏ chất lỏng có hình dạng tròn. Nó cũng có thể đề cập đến một sự rơi hoặc giảm đột ngột.",
+                    "th": "นี่คือของเหลวจำนวนน้อยมากในรูปทรงกลม นอกจากนี้ยังสามารถหมายถึงการลดลงหรือการลดลงอย่างกะทันหัน",
+                    "id": "Ini adalah sejumlah kecil cairan dalam bentuk bulat. Ini juga bisa merujuk pada penurunan atau pengurangan yang tiba-tiba.",
+                    "ar": "هذه كمية صغيرة جدًا من السائل بشكل دائري. ويمكن أن تشير أيضًا إلى سقوط مفاجئ أو انخفاض."
+                },
+                "translation": {
+                    "th": "หยด (น้ำ, เลือด, ยา...)",
+                    "id": "tetesan (air, darah, obat...)",
+                    "ar": "قطرة (ماء, دم, دواء...)",
+                    "ja": "滴",
+                    "vi": "giọt"
+                },
+                "phonetics": [
+                    {
+                        "text": "/drɒp/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/drop-uk-1763722040083.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/drɑːp/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/drop-us-1763722040400.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": false
+            },
+            {
+                "word": "novel",
+                "explanation": {
+                    "en": "This is a long story written in a book, usually about imaginary people and events.",
+                    "vi": "Đây là một câu chuyện dài được viết trong một cuốn sách, thường về những người và sự kiện tưởng tượng.",
+                    "th": "นี่คือนิทานเรื่องยาวที่เขียนในหนังสือ โดยปกติจะเกี่ยวกับผู้คนและเหตุการณ์ที่สมมติขึ้น",
+                    "id": "Ini adalah cerita panjang yang ditulis dalam sebuah buku, biasanya tentang orang-orang dan peristiwa imajiner.",
+                    "ar": "هذه قصة طويلة مكتوبة في كتاب، عادة ما تكون عن أشخاص وأحداث خيالية."
+                },
+                "translation": {
+                    "th": "นวนิยาย",
+                    "id": "novel",
+                    "ar": "رواية",
+                    "ja": "小説",
+                    "vi": "tiểu thuyết"
+                },
+                "phonetics": [
+                    {
+                        "text": "/ˈnɒvl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/novel-uk-1763722154286.mp3",
+                        "locale": "en-UK"
+                    },
+                    {
+                        "text": "/ˈnɑːvl/",
+                        "audio": "https://assets.parroto.app/decks/691c160fd3a2e879f9c6b103/audio/phonetics/novel-us-1763722154597.mp3",
+                        "locale": "en-US"
+                    }
+                ],
+                "is_correct": true
+            }
+        ]
+    }
+]

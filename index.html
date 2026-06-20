@@ -1,0 +1,1714 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Paroto WebSocket Monitor & Auto Solver</title>
+        <style>
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family:
+                    "Inter",
+                    "Segoe UI",
+                    system-ui,
+                    -apple-system,
+                    sans-serif;
+                background: #0f172a;
+                color: #e2e8f0;
+                min-height: 100vh;
+                padding: 24px;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                margin-bottom: 8px;
+                color: #38bdf8;
+            }
+            .status-bar {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-bottom: 12px;
+                padding: 12px 16px;
+                background: #1e293b;
+                border-radius: 8px;
+                border: 1px solid #334155;
+                flex-wrap: wrap;
+            }
+            .indicator {
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                display: inline-block;
+                flex-shrink: 0;
+            }
+            .indicator.disconnected {
+                background: #f43f5e;
+                box-shadow: 0 0 8px #f43f5e;
+            }
+            .indicator.connecting {
+                background: #f59e0b;
+                box-shadow: 0 0 8px #f59e0b;
+                animation: pulse 1s infinite;
+            }
+            .indicator.connected {
+                background: #10b981;
+                box-shadow: 0 0 8px #10b981;
+            }
+            @keyframes pulse {
+                0%,
+                100% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0.4;
+                }
+            }
+            .status-text {
+                font-size: 0.875rem;
+                font-weight: 500;
+            }
+            .controls {
+                display: flex;
+                gap: 8px;
+                margin-left: auto;
+                flex-wrap: wrap;
+            }
+            button {
+                padding: 8px 16px;
+                border-radius: 6px;
+                border: 1px solid #334155;
+                background: #1e293b;
+                color: #e2e8f0;
+                cursor: pointer;
+                font-size: 0.8125rem;
+                font-weight: 600;
+                transition: all 0.15s;
+            }
+            button:hover {
+                background: #334155;
+                border-color: #475569;
+            }
+            button:disabled {
+                background: #0f172a;
+                color: #475569;
+                border-color: #1e293b;
+                cursor: not-allowed;
+            }
+            button.connect {
+                border-color: #10b981;
+                color: #10b981;
+            }
+            button.connect:hover:not(:disabled) {
+                background: #064e3b;
+            }
+            button.disconnect {
+                border-color: #f43f5e;
+                color: #f43f5e;
+            }
+            button.disconnect:hover:not(:disabled) {
+                background: #4c0519;
+            }
+            button.join-battle {
+                border-color: #a78bfa;
+                color: #a78bfa;
+            }
+            button.join-battle:hover:not(:disabled) {
+                background: #2e1065;
+            }
+            button.download-db {
+                border-color: #38bdf8;
+                color: #38bdf8;
+            }
+            button.download-db:hover:not(:disabled) {
+                background: #0c4a6e;
+            }
+            button.clear {
+                border-color: #64748b;
+                color: #94a3b8;
+            }
+
+            .auth-row {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                flex: 1 1 100%;
+                padding-top: 8px;
+                border-top: 1px solid #334155;
+                margin-top: 4px;
+            }
+            .auth-row label {
+                font-size: 0.75rem;
+                color: #94a3b8;
+                white-space: nowrap;
+                width: 110px;
+            }
+            .auth-row input {
+                flex: 1;
+                padding: 6px 10px;
+                border-radius: 4px;
+                border: 1px solid #334155;
+                background: #0f172a;
+                color: #e2e8f0;
+                font-size: 0.75rem;
+                font-family: "JetBrains Mono", "Fira Code", monospace;
+            }
+            .auth-row input::placeholder {
+                color: #475569;
+            }
+            .auth-row input[type="file"] {
+                background: #1e293b;
+                cursor: pointer;
+                padding: 4px 10px;
+            }
+
+            .user-info-row {
+                display: flex;
+                gap: 16px;
+                flex: 1 1 100%;
+                padding: 6px 12px;
+                background: #0f172a;
+                border-radius: 6px;
+                border: 1px solid #1e293b;
+                font-size: 0.8125rem;
+            }
+            .user-info-item {
+                color: #94a3b8;
+            }
+            .user-info-item span {
+                color: #38bdf8;
+                font-family: "JetBrains Mono", monospace;
+                font-weight: 600;
+            }
+
+            .round-info-bar {
+                background: #1e293b;
+                border: 1px solid #334155;
+                border-radius: 8px;
+                padding: 14px 16px;
+                margin-bottom: 12px;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 16px;
+                position: relative;
+                overflow: hidden;
+            }
+            .info-block-item label {
+                display: block;
+                font-size: 0.75rem;
+                color: #94a3b8;
+                text-transform: uppercase;
+                margin-bottom: 4px;
+                letter-spacing: 0.05em;
+            }
+            .info-block-item .value {
+                font-size: 1rem;
+                font-weight: 600;
+                color: #f8fafc;
+            }
+            .info-block-item .value.highlight {
+                color: #38bdf8;
+                font-family: "JetBrains Mono", monospace;
+                letter-spacing: 2px;
+            }
+            .info-block-item .value.meaning {
+                color: #10b981;
+            }
+
+            .countdown-container {
+                grid-column: 1 / -1;
+                background: #0f172a;
+                height: 18px;
+                border-radius: 4px;
+                border: 1px solid #334155;
+                overflow: hidden;
+                position: relative;
+                display: flex;
+                align-items: center;
+            }
+            .countdown-bar {
+                height: 100%;
+                width: 100%;
+                background: linear-gradient(90deg, #10b981, #38bdf8);
+                transition: width 1s linear;
+                width: 0%;
+            }
+            .countdown-text {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                font-size: 0.75rem;
+                font-weight: bold;
+                font-family: "JetBrains Mono", monospace;
+                color: #ffffff;
+                z-index: 1;
+            }
+
+            .db-warning-card {
+                grid-column: 1 / -1;
+                display: none;
+                background: #7c2d12;
+                border: 1px solid #ea580c;
+                color: #ffedd5;
+                padding: 10px 14px;
+                border-radius: 6px;
+                font-size: 0.8125rem;
+                font-weight: 500;
+                font-family: "JetBrains Mono", monospace;
+            }
+
+
+
+            .opponent-card {
+                grid-column: 1 / -1;
+                display: none;
+                align-items: center;
+                gap: 12px;
+                padding: 12px 14px;
+                background: #0f172a;
+                border: 1px solid #334155;
+                border-radius: 8px;
+            }
+            .opponent-avatar {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 2px solid #38bdf8;
+                display: none;
+                flex-shrink: 0;
+            }
+            .opponent-avatar-fallback {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background: #1e293b;
+                border: 2px solid #38bdf8;
+                color: #38bdf8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 1.2rem;
+                flex-shrink: 0;
+            }
+            .opponent-info {
+                min-width: 0;
+            }
+            .opponent-label {
+                font-size: 0.75rem;
+                color: #94a3b8;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-bottom: 4px;
+            }
+            .opponent-name-row {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                flex-wrap: wrap;
+            }
+            .opponent-name {
+                font-size: 1rem;
+                font-weight: 700;
+                color: #f8fafc;
+            }
+            .premium-badge {
+                display: none;
+                font-size: 0.6875rem;
+                padding: 2px 6px;
+                border-radius: 999px;
+                background: #2e1065;
+                color: #c4b5fd;
+                border: 1px solid #7c3aed;
+            }
+            .opponent-sub {
+                margin-top: 4px;
+                font-size: 0.75rem;
+                color: #94a3b8;
+                font-family: "JetBrains Mono", monospace;
+            }
+
+            .answer-bar {
+                display: flex;
+                gap: 12px;
+                margin-bottom: 20px;
+                padding: 16px;
+                background: #1e293b;
+                border-radius: 8px;
+                border: 1px solid #10b981;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .answer-bar label {
+                font-size: 0.875rem;
+                font-weight: 600;
+                color: #10b981;
+                white-space: nowrap;
+            }
+            .answer-bar input[type="text"] {
+                flex: 1;
+                min-width: 200px;
+                padding: 10px 14px;
+                border-radius: 6px;
+                border: 1px solid #334155;
+                background: #0f172a;
+                color: #e2e8f0;
+                font-size: 0.9rem;
+                font-weight: bold;
+                font-family: "JetBrains Mono", "Fira Code", monospace;
+            }
+            .answer-bar input[type="text"]:focus {
+                border-color: #10b981;
+                outline: none;
+            }
+
+            .checkbox-group {
+                display: flex;
+                gap: 12px;
+                align-items: center;
+            }
+            .auto-send-label {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                font-size: 0.8125rem;
+                color: #94a3b8;
+                cursor: pointer;
+                white-space: nowrap;
+                user-select: none;
+            }
+            .auto-send-label input {
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+            }
+
+            button.send-ans {
+                border-color: #10b981;
+                background: #064e3b;
+                color: #10b981;
+                font-size: 0.875rem;
+            }
+            button.send-ans:hover:not(:disabled) {
+                background: #10b981;
+                color: #0f172a;
+            }
+
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+                gap: 12px;
+                margin-bottom: 20px;
+            }
+            .stat-card {
+                background: #1e293b;
+                border: 1px solid #334155;
+                border-radius: 8px;
+                padding: 16px;
+            }
+            .stat-label {
+                font-size: 0.75rem;
+                color: #94a3b8;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+            .stat-value {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #38bdf8;
+                margin-top: 4px;
+            }
+
+            .panel-container {
+                background: #1e293b;
+                border: 1px solid #334155;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            .tab-header {
+                display: flex;
+                background: #0f172a;
+                border-bottom: 1px solid #334155;
+            }
+            .tab-btn {
+                padding: 12px 20px;
+                background: transparent;
+                border: none;
+                border-bottom: 2px solid transparent;
+                color: #64748b;
+                font-size: 0.875rem;
+                font-weight: 600;
+                border-radius: 0;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+            .tab-btn:hover {
+                background: #1e293b;
+                color: #cbd5e1;
+            }
+            .tab-btn.active {
+                color: #38bdf8;
+                border-bottom-color: #38bdf8;
+                background: #1e293b;
+            }
+
+            .tab-content {
+                display: none;
+                padding: 12px;
+                max-height: 600px;
+                overflow-y: auto;
+            }
+            .tab-content.active {
+                display: block;
+            }
+
+            .events-list {
+                display: flex;
+                flex-direction: column;
+            }
+            .event-item {
+                padding: 10px 12px;
+                border-radius: 6px;
+                margin-bottom: 6px;
+                background: #0f172a;
+                border-left: 3px solid #334155;
+                font-size: 0.8125rem;
+                font-family: "JetBrains Mono", monospace;
+                word-break: break-word;
+            }
+            .event-item.event-data {
+                border-left-color: #10b981;
+            }
+            .event-item.event-error {
+                border-left-color: #f43f5e;
+                background: #1a0a0d;
+            }
+            .event-item.event-auth {
+                border-left-color: #a78bfa;
+            }
+            .event-meta {
+                display: flex;
+                gap: 12px;
+                margin-bottom: 4px;
+                font-size: 0.6875rem;
+                color: #64748b;
+            }
+            .event-type.incoming {
+                color: #38bdf8;
+            }
+            .event-type.outgoing {
+                color: #a78bfa;
+            }
+            .event-data {
+                color: #94a3b8;
+                white-space: pre-wrap;
+            }
+
+            /* Utility Actions inside Table Tab */
+            .tab-action-bar {
+                display: flex;
+                justify-content: flex-end;
+                padding-bottom: 8px;
+                margin-bottom: 8px;
+                border-bottom: 1px solid #334155;
+            }
+
+            .server-search-bar {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                flex: 1 1 420px;
+                min-width: 260px;
+            }
+            .server-search-input {
+                flex: 1;
+                min-width: 220px;
+                padding: 8px 12px;
+                border-radius: 6px;
+                border: 1px solid #334155;
+                background: #0f172a;
+                color: #e2e8f0;
+                font-size: 0.8125rem;
+                font-family: "JetBrains Mono", "Fira Code", monospace;
+            }
+            .server-search-input:focus {
+                border-color: #38bdf8;
+                outline: none;
+            }
+            .server-search-input::placeholder {
+                color: #475569;
+            }
+            button.clear-search {
+                border-color: #64748b;
+                color: #94a3b8;
+                background: transparent;
+                padding: 6px 12px;
+                font-size: 0.75rem;
+                white-space: nowrap;
+            }
+            button.clear-search:hover:not(:disabled) {
+                background: #334155;
+            }
+            button.export-json {
+                border-color: #eab308;
+                color: #eab308;
+                background: transparent;
+                padding: 6px 12px;
+                font-size: 0.75rem;
+            }
+            button.export-json:hover:not(:disabled) {
+                background: #422006;
+            }
+
+            .vocab-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 0.8125rem;
+                font-family: "JetBrains Mono", monospace;
+                text-align: left;
+            }
+            .vocab-table th,
+            .vocab-table td {
+                padding: 10px 12px;
+                border-bottom: 1px solid #334155;
+            }
+            .vocab-table th {
+                background: #0f172a;
+                color: #94a3b8;
+                text-transform: uppercase;
+                font-size: 0.75rem;
+            }
+            .vocab-table tr:hover td {
+                background: #0f172a;
+            }
+            .vocab-table td.word-highlight {
+                color: #10b981;
+                font-weight: bold;
+            }
+
+            .empty-state {
+                text-align: center;
+                padding: 48px 24px;
+                color: #475569;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Paroto WebSocket Monitor & Auto Solver</h1>
+
+            <div class="status-bar">
+                <span class="indicator disconnected" id="indicator"></span>
+                <span class="status-text" id="statusText">Disconnected</span>
+                <span class="url-bar" id="urlBar"
+                    >wss://api-socket.parroto.app/socket.io/?EIO=4&transport=websocket</span
+                >
+                <div class="controls">
+                    <button class="connect" id="btnConnect">Kết nối</button>
+                    <button class="join-battle" id="btnJoinBattle">Tìm trận ⚔️</button>
+                    <button class="download-db" id="btnReloadServerData">Tải lại data server 🔄</button>
+                    <button class="disconnect" id="btnDisconnect">Ngắt kết nối</button>
+                    <button class="clear" id="btnClear">Xóa log</button>
+                </div>
+                <div class="auth-row">
+                    <label>Firebase Token:</label>
+                    <input type="text" id="firebaseToken" placeholder="access_token from parroto.app cookie" />
+                </div>
+
+                <div class="user-info-row">
+                    <div class="user-info-item">User ID: <span id="uiUserId">N/A</span></div>
+                    <div class="user-info-item">Email: <span id="uiUserEmail">N/A</span></div>
+                </div>
+
+            </div>
+
+            <div class="round-info-bar">
+                <div class="countdown-container">
+                    <div class="countdown-text" id="countdownText">Thời gian round: Chờ trận...</div>
+                    <div class="countdown-bar" id="countdownBar"></div>
+                </div>
+
+                <div class="db-warning-card" id="dbMissingWarning">
+                    ⚠️ Không tìm thấy từ vựng tương ứng với card_id:
+                    <span id="missingCardIdText" style="color: #cbd5e1">--</span> trong data server đã nạp!
+                </div>
+
+
+
+                <div class="opponent-card" id="opponentCard">
+                    <img id="opponentAvatar" class="opponent-avatar" alt="Opponent avatar" />
+
+                    <div class="opponent-avatar-fallback" id="opponentAvatarFallback">?</div>
+
+                    <div class="opponent-info">
+                        <div class="opponent-label">Đang đấu với</div>
+
+                        <div class="opponent-name-row">
+                            <span class="opponent-name" id="opponentName">--</span>
+                            <span class="premium-badge" id="opponentPremium">Premium</span>
+                        </div>
+
+                        <div class="opponent-sub">
+                            UID: <span id="opponentUserId">--</span> • Kim cương:
+                            <span id="opponentDiamonds">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-block-item">
+                    <label>Trận đấu</label>
+                    <div class="value" id="curRoundText">Round: -- / --</div>
+                </div>
+                <div class="info-block-item">
+                    <label>Định dạng từ (Mask)</label>
+                    <div class="value highlight" id="curWordMask">_ _ _ _</div>
+                </div>
+                <div class="info-block-item">
+                    <label>Nghĩa tiếng Việt</label>
+                    <div class="value meaning" id="curWordMeaning">Chờ tải dữ liệu...</div>
+                </div>
+                <div class="info-block-item" style="grid-column: span 2 / span 2">
+                    <label>Ví dụ câu ẩn từ</label>
+                    <div class="value" id="curWordExample" style="font-style: italic; color: #cbd5e1">...</div>
+                </div>
+            </div>
+
+            <div class="answer-bar">
+                <label>ĐÁP ÁN TRẬN ĐẤU:</label>
+                <input
+                    type="text"
+                    id="inputAnswer"
+                    placeholder="Chờ vào trận... Đáp án sẽ tự điền vào đây"
+                    autocomplete="off"
+                />
+
+                <div class="checkbox-group">
+                    <label class="auto-send-label"> <input type="checkbox" id="autoSendCheckbox" /> Tự động gửi </label>
+                    <label class="auto-send-label" style="color: #a78bfa">
+                        <input type="checkbox" id="autoJoinCheckbox" /> Tự động tìm trận 🔄
+                    </label>
+                </div>
+                <button class="send-ans" id="btnSendAnswer">Gửi 🎯</button>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Tổng sự kiện</div>
+                    <div class="stat-value" id="statTotal">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Gói tin nhận</div>
+                    <div class="stat-value" id="statReceived">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Gói tin gửi</div>
+                    <div class="stat-value" id="statSent">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Bạn đoán đúng</div>
+                    <div class="stat-value" id="statMyCorrect" style="color: #10b981">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Đối thủ đoán đúng</div>
+                    <div class="stat-value" id="statOpponentCorrect" style="color: #f43f5e">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Kết quả Match</div>
+                    <div class="stat-value" id="statMatchResult" style="color: #a78bfa">0W - 0L</div>
+                </div>
+            </div>
+
+            <div class="panel-container">
+                <div class="tab-header">
+                    <button class="tab-btn active" data-tab="tab-events">
+                        Event Log (<span id="countLogBadge">0</span>)
+                    </button>
+                    <button class="tab-btn" data-tab="tab-vocab">
+                        Từ Vựng Đã Thu Thập (<span id="countVocabBadge">0</span>)
+                    </button>
+                    <button class="tab-btn" data-tab="tab-server-data">
+                        Data Server (<span id="countServerDataBadge">0</span>)
+                    </button>
+                </div>
+
+                <div class="tab-content active" id="tab-events">
+                    <div class="events-list" id="eventsList">
+                        <div class="empty-state"><p>Chưa có sự kiện. Nhấn "Kết nối" để bắt đầu.</p></div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="tab-vocab">
+                    <div class="tab-action-bar">
+                        <button class="export-json" id="btnExportJson" disabled>Xuất dữ liệu JSON 📤</button>
+                    </div>
+                    <table class="vocab-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 30%">Card ID</th>
+                                <th style="width: 40%">Từ vựng (Word)</th>
+                                <th style="width: 30%">Thời gian lưu</th>
+                            </tr>
+                        </thead>
+                        <tbody id="vocabTableBody">
+                            <tr>
+                                <td colspan="3" class="empty-state" style="text-align: center; color: #475569">
+                                    Chưa thu thập từ mới nào trong phiên này.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tab-content" id="tab-server-data">
+                    <div class="tab-action-bar" style="justify-content: space-between; gap: 8px; flex-wrap: wrap">
+                        <div style="font-size: 0.8125rem; color: #94a3b8; align-self: center">
+                            Dữ liệu được nạp từ API: <span id="serverDataStatusText">Chưa tải</span>
+                        </div>
+
+                        <div class="server-search-bar">
+                            <input
+                                type="text"
+                                class="server-search-input"
+                                id="serverDataSearchInput"
+                                placeholder="Tìm theo card_id hoặc word..."
+                                autocomplete="off"
+                            />
+                            <button class="clear-search" id="btnClearServerSearch" disabled>Xóa tìm kiếm</button>
+                        </div>
+
+                        <button class="export-json" id="btnRefreshServerData">Tải lại từ server 🔄</button>
+                    </div>
+                    <table class="vocab-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 10%">ID</th>
+                                <th style="width: 35%">Card ID</th>
+                                <th style="width: 40%">Từ vựng (Word)</th>
+                                <th style="width: 15%">Nguồn</th>
+                            </tr>
+                        </thead>
+                        <tbody id="serverDataTableBody">
+                            <tr>
+                                <td colspan="4" class="empty-state" style="text-align: center; color: #475569">
+                                    Chưa tải data từ server.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script type="module">
+            const SOCKET_URL = "wss://api-socket.parroto.app/socket.io/?EIO=4&transport=websocket";
+            const API_BASE_URL = "http://localhost:8080";
+            const API_TIMEOUT_MS = 5000;
+
+            // --- State ---
+            let socket = null;
+            let stats = { total: 0, received: 0, sent: 0, errors: 0 };
+            let matchStats = { wins: 0, losses: 0 };
+            let myCorrectCount = 0;
+            let opponentCorrectCount = 0;
+            let events = [];
+            let collectedVocabs = [];
+            let lobbyInterval = null;
+            let currentRoundCardId = null;
+
+            // Data lấy từ API server. Đây là nguồn tra đáp án chính, thay cho SQLite client.
+            let serverCards = [];
+            let serverCardMap = new Map();
+            let pendingApiSyncCardIds = new Set();
+            let isServerDataLoaded = false;
+            let serverDataSearchKeyword = "";
+            let serverDataSearchDebounce = null;
+
+            let roundCountdownInterval = null;
+            let timeLeft = 30;
+
+            // --- DOM refs ---
+            const indicator = document.getElementById("indicator");
+            const statusText = document.getElementById("statusText");
+            const btnConnect = document.getElementById("btnConnect");
+            const btnDisconnect = document.getElementById("btnDisconnect");
+            const btnJoinBattle = document.getElementById("btnJoinBattle");
+            const btnReloadServerData = document.getElementById("btnReloadServerData");
+            const btnClear = document.getElementById("btnClear");
+            const eventsList = document.getElementById("eventsList");
+            const statTotal = document.getElementById("statTotal");
+            const statReceived = document.getElementById("statReceived");
+            const statSent = document.getElementById("statSent");
+            const statMatchResult = document.getElementById("statMatchResult");
+            const statMyCorrect = document.getElementById("statMyCorrect");
+            const statOpponentCorrect = document.getElementById("statOpponentCorrect");
+            const firebaseTokenInput = document.getElementById("firebaseToken");
+            const inputAnswer = document.getElementById("inputAnswer");
+            const autoSendCheckbox = document.getElementById("autoSendCheckbox");
+            const autoJoinCheckbox = document.getElementById("autoJoinCheckbox");
+            const btnSendAnswer = document.getElementById("btnSendAnswer");
+            const uiUserId = document.getElementById("uiUserId");
+            const uiUserEmail = document.getElementById("uiUserEmail");
+            const curRoundText = document.getElementById("curRoundText");
+            const curWordMask = document.getElementById("curWordMask");
+            const curWordMeaning = document.getElementById("curWordMeaning");
+            const curWordExample = document.getElementById("curWordExample");
+            const dbMissingWarning = document.getElementById("dbMissingWarning");
+            const missingCardIdText = document.getElementById("missingCardIdText");
+            const countLogBadge = document.getElementById("countLogBadge");
+            const countVocabBadge = document.getElementById("countVocabBadge");
+            const countServerDataBadge = document.getElementById("countServerDataBadge");
+            const vocabTableBody = document.getElementById("vocabTableBody");
+            const serverDataTableBody = document.getElementById("serverDataTableBody");
+            const serverDataStatusText = document.getElementById("serverDataStatusText");
+            const serverDataSearchInput = document.getElementById("serverDataSearchInput");
+            const btnClearServerSearch = document.getElementById("btnClearServerSearch");
+            const tabButtons = document.querySelectorAll(".tab-btn");
+            const tabContents = document.querySelectorAll(".tab-content");
+            const countdownText = document.getElementById("countdownText");
+            const countdownBar = document.getElementById("countdownBar");
+            const btnExportJson = document.getElementById("btnExportJson");
+            const btnRefreshServerData = document.getElementById("btnRefreshServerData");
+            const opponentCard = document.getElementById("opponentCard");
+            const opponentAvatar = document.getElementById("opponentAvatar");
+            const opponentAvatarFallback = document.getElementById("opponentAvatarFallback");
+            const opponentName = document.getElementById("opponentName");
+            const opponentPremium = document.getElementById("opponentPremium");
+            const opponentUserId = document.getElementById("opponentUserId");
+            const opponentDiamonds = document.getElementById("opponentDiamonds");
+
+            window.addEventListener("DOMContentLoaded", () => {
+                loadMatchStats();
+                initTabs();
+                autoLoadFirebaseTokenFromLocalStorage();
+                firebaseTokenInput.addEventListener("input", parseAndShowTokenInfo);
+                serverDataSearchInput.addEventListener("input", handleServerDataSearchInput);
+                btnClearServerSearch.addEventListener("click", clearServerDataSearch);
+
+                // Không đọc SQLite client nữa. Khi load web, nạp toàn bộ data từ API server.
+                loadCardsFromApi();
+            });
+
+            function initTabs() {
+                tabButtons.forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        tabButtons.forEach((b) => b.classList.remove("active"));
+                        tabContents.forEach((c) => c.classList.remove("active"));
+                        btn.classList.add("active");
+                        document.getElementById(btn.dataset.tab).classList.add("active");
+                    });
+                });
+            }
+
+            function startRoundTimer() {
+                clearInterval(roundCountdownInterval);
+                timeLeft = 30;
+                updateTimerUI();
+
+                roundCountdownInterval = setInterval(() => {
+                    timeLeft--;
+                    if (timeLeft <= 0) {
+                        timeLeft = 0;
+                        clearInterval(roundCountdownInterval);
+                    }
+                    updateTimerUI();
+                }, 1000);
+            }
+
+            function stopRoundTimer(message = "Round đã dừng") {
+                clearInterval(roundCountdownInterval);
+                countdownText.textContent = message;
+                countdownBar.style.width = "0%";
+            }
+
+            function updateTimerUI() {
+                countdownText.textContent = `⏱️ Còn lại: ${timeLeft} giây`;
+                const percentage = (timeLeft / 30) * 100;
+                countdownBar.style.width = `${percentage}%`;
+
+                if (timeLeft <= 10) {
+                    countdownBar.style.background = "linear-gradient(90deg, #ef4444, #f59e0b)";
+                } else {
+                    countdownBar.style.background = "linear-gradient(90deg, #10b981, #38bdf8)";
+                }
+            }
+
+            function decodeTokenData(token) {
+                if (!token) return null;
+                try {
+                    const parts = token.split(".");
+                    if (parts.length !== 3) return null;
+                    const payload = JSON.parse(atob(parts[1].replace(/-/g, "+").replace(/_/g, "/")));
+                    return { userId: payload.user_id || payload.sub || null, email: payload.email || null };
+                } catch (e) {
+                    return null;
+                }
+            }
+
+            function parseAndShowTokenInfo() {
+                const token = firebaseTokenInput.value.trim();
+                const userData = decodeTokenData(token);
+                if (userData) {
+                    uiUserId.textContent = userData.userId || "Không có ID";
+                    uiUserEmail.textContent = userData.email || "Không có Email";
+                    return userData;
+                } else {
+                    uiUserId.textContent = "N/A";
+                    uiUserEmail.textContent = "N/A";
+                    return null;
+                }
+            }
+
+            function saveMatchStats() {
+                localStorage.setItem("paroto_match_stats", JSON.stringify(matchStats));
+            }
+
+            function loadMatchStats() {
+                const cached = localStorage.getItem("paroto_match_stats");
+                if (cached) {
+                    try {
+                        matchStats = JSON.parse(cached);
+                    } catch (e) {}
+                }
+                updateStats();
+            }
+
+            async function fetchJsonWithTimeout(url, options = {}, timeoutMs = API_TIMEOUT_MS) {
+                const controller = new AbortController();
+                const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+                try {
+                    const response = await fetch(url, {
+                        ...options,
+                        signal: controller.signal,
+                    });
+
+                    let result = null;
+                    try {
+                        result = await response.json();
+                    } catch (_) {
+                        result = null;
+                    }
+
+                    return { response, result };
+                } finally {
+                    clearTimeout(timer);
+                }
+            }
+
+            function normalizeApiCardsData(result) {
+                // API hiện tại trả dạng: { success, message, data: [...] }
+                // Vẫn support thêm trường hợp API trả thẳng array.
+                const rawCards = Array.isArray(result) ? result : Array.isArray(result?.data) ? result.data : [];
+
+                return rawCards
+                    .map((item) => ({
+                        id: item.id ?? null,
+                        card_id: String(item.card_id || item.cardId || item.CardID || "").trim(),
+                        word: String(item.word || item.Word || "").trim(),
+                        source: item.source || "server",
+                    }))
+                    .filter((item) => item.card_id && item.word);
+            }
+
+            async function loadCardsFromApi() {
+                setServerDataStatus("Đang tải...");
+
+                try {
+                    const { response, result } = await fetchJsonWithTimeout(`${API_BASE_URL}/cards`, {
+                        method: "GET",
+                        headers: {
+                            Accept: "application/json",
+                        },
+                    });
+
+                    if (!response.ok) {
+                        addEvent(
+                            "error",
+                            "🔴 API Load",
+                            `Không tải được data server (${response.status}): ${result?.message || response.statusText}`,
+                            "event-error"
+                        );
+                        setServerDataStatus("Lỗi tải data");
+                        return;
+                    }
+
+                    serverCards = normalizeApiCardsData(result);
+                    rebuildServerCardMap();
+                    isServerDataLoaded = true;
+                    renderServerDataTable();
+
+                    addEvent(
+                        "auth",
+                        "🌐 API Load",
+                        `Đã nạp ${serverCards.length.toLocaleString("vi-VN")} từ vựng từ server`,
+                        "event-auth"
+                    );
+                } catch (err) {
+                    isServerDataLoaded = false;
+                    setServerDataStatus("Không gọi được API");
+                    addEvent(
+                        "error",
+                        "🔴 API Load",
+                        `Không gọi được API ${API_BASE_URL}/cards. Kiểm tra API Go đã chạy chưa. Chi tiết: ${String(err)}`,
+                        "event-error"
+                    );
+                }
+            }
+
+            function setServerDataStatus(text) {
+                serverDataStatusText.textContent = text;
+            }
+
+            function rebuildServerCardMap() {
+                serverCardMap = new Map();
+                for (const card of serverCards) {
+                    if (card.card_id) serverCardMap.set(card.card_id, card);
+                }
+            }
+
+            function findWordInServerData(cardId) {
+                const card = serverCardMap.get(cardId);
+                return card?.word || "";
+            }
+
+            function addOrUpdateServerCardInMemory(cardId, word, extra = {}) {
+                if (!cardId || !word) return;
+
+                const existing = serverCardMap.get(cardId);
+                if (existing) {
+                    existing.word = word;
+                    existing.source = extra.source || existing.source || "server";
+                    if (extra.id !== undefined && extra.id !== null) existing.id = extra.id;
+                } else {
+                    const newCard = {
+                        id: extra.id ?? null,
+                        card_id: cardId,
+                        word,
+                        source: extra.source || "new",
+                    };
+                    serverCards.unshift(newCard);
+                    serverCardMap.set(cardId, newCard);
+                }
+
+                renderServerDataTable();
+            }
+
+            function handleServerDataSearchInput() {
+                clearTimeout(serverDataSearchDebounce);
+
+                serverDataSearchDebounce = setTimeout(() => {
+                    serverDataSearchKeyword = serverDataSearchInput.value.trim().toLowerCase();
+                    btnClearServerSearch.disabled = serverDataSearchKeyword === "";
+                    renderServerDataTable();
+                }, 120);
+            }
+
+            function clearServerDataSearch() {
+                serverDataSearchKeyword = "";
+                serverDataSearchInput.value = "";
+                btnClearServerSearch.disabled = true;
+                renderServerDataTable();
+                serverDataSearchInput.focus();
+            }
+
+            function getFilteredServerCards() {
+                if (!serverDataSearchKeyword) return serverCards;
+
+                return serverCards.filter((card) => {
+                    const cardId = String(card.card_id || "").toLowerCase();
+                    const word = String(card.word || "").toLowerCase();
+                    return cardId.includes(serverDataSearchKeyword) || word.includes(serverDataSearchKeyword);
+                });
+            }
+
+            function renderServerDataTable() {
+                countServerDataBadge.textContent = serverCards.length;
+
+                if (!serverCards.length) {
+                    serverDataTableBody.innerHTML = `<tr><td colspan="4" class="empty-state" style="text-align: center; color: #475569;">Chưa có data từ server.</td></tr>`;
+                    setServerDataStatus("0 từ");
+                    return;
+                }
+
+                const filteredCards = getFilteredServerCards();
+                const totalText = serverCards.length.toLocaleString("vi-VN");
+                const filteredText = filteredCards.length.toLocaleString("vi-VN");
+
+                if (serverDataSearchKeyword) {
+                    setServerDataStatus(`${filteredText} / ${totalText} từ khớp tìm kiếm`);
+                } else {
+                    setServerDataStatus(`${totalText} từ đã nạp`);
+                }
+
+                if (!filteredCards.length) {
+                    serverDataTableBody.innerHTML = `<tr><td colspan="4" class="empty-state" style="text-align: center; color: #475569;">Không tìm thấy card_id hoặc word phù hợp.</td></tr>`;
+                    return;
+                }
+
+                // Hiển thị tối đa 500 dòng để tránh render quá nặng khi data lớn.
+                const visibleCards = filteredCards.slice(0, 500);
+                serverDataTableBody.innerHTML = visibleCards
+                    .map(
+                        (v) => `
+        <tr>
+          <td style="color: #64748b;">${v.id ?? "--"}</td>
+          <td style="color: #94a3b8; font-size: 0.75rem;">${escapeHtml(v.card_id)}</td>
+          <td class="word-highlight">${escapeHtml(v.word)}</td>
+          <td style="color: ${v.source === "new" ? "#10b981" : "#64748b"};">${escapeHtml(v.source || "server")}</td>
+        </tr>
+      `
+                    )
+                    .join("");
+            }
+
+            function collectNewWord(cardId, word) {
+                if (!word || !cardId) return;
+
+                const cleanCardId = String(cardId).trim();
+                const cleanWord = String(word).trim();
+                if (!cleanCardId || !cleanWord) return;
+
+                // Thêm ngay vào list data đã nạp để round sau có thể tra luôn, không cần reload trang.
+                addOrUpdateServerCardInMemory(cleanCardId, cleanWord, { source: "new" });
+
+                addEvent("auth", "📝 Auto-Collect", `Đã học từ mới: [${cleanWord}]`, "event-auth");
+
+                const nowStr = new Date().toLocaleTimeString("vi-VN", { hour12: false });
+                if (!collectedVocabs.some((v) => v.cardId === cleanCardId)) {
+                    collectedVocabs.unshift({ cardId: cleanCardId, word: cleanWord, time: nowStr });
+                    renderVocabTable();
+                }
+
+                // Gọi API ngầm để thêm vào SQLite DB phía server.
+                queueSyncWordToApi(cleanCardId, cleanWord);
+            }
+
+            function queueSyncWordToApi(cardId, word) {
+                if (!cardId || !word) return;
+                if (pendingApiSyncCardIds.has(cardId)) return;
+
+                pendingApiSyncCardIds.add(cardId);
+
+                // Tách khỏi call stack WebSocket, tránh API chậm ảnh hưởng xử lý game.
+                window.setTimeout(() => {
+                    syncWordToApi(cardId, word).finally(() => {
+                        pendingApiSyncCardIds.delete(cardId);
+                    });
+                }, 0);
+            }
+
+            async function syncWordToApi(cardId, word) {
+                try {
+                    const { response, result } = await fetchJsonWithTimeout(`${API_BASE_URL}/cards`, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                            Accept: "application/json",
+                        },
+                        body: JSON.stringify({
+                            card_id: cardId,
+                            word,
+                        }),
+                    });
+
+                    if (response.status === 201) {
+                        const savedCard = result?.data;
+                        addOrUpdateServerCardInMemory(cardId, word, {
+                            id: savedCard?.id ?? null,
+                            source: "server",
+                        });
+                        addEvent("auth", "🌐 API Sync", `Đã thêm từ lên API: [${word}] - card_id: ${cardId}`, "event-auth");
+                        return;
+                    }
+
+                    if (response.status === 409) {
+                        // Server đã có card này; vẫn giữ trong list đã nạp để dùng tra đáp án.
+                        addOrUpdateServerCardInMemory(cardId, word, { source: "server" });
+                        addEvent("auth", "🌐 API Sync", `API đã có card_id này, giữ trong list: ${cardId}`, "event-auth");
+                        return;
+                    }
+
+                    addEvent(
+                        "error",
+                        "🔴 API Sync",
+                        `Gọi API thất bại (${response.status}): ${result?.message || response.statusText}`,
+                        "event-error"
+                    );
+                } catch (err) {
+                    addEvent(
+                        "error",
+                        "🔴 API Sync",
+                        `Không gọi được API ${API_BASE_URL}/cards. Data vẫn đã thêm tạm vào list web. Chi tiết: ${String(err)}`,
+                        "event-error"
+                    );
+                }
+            }
+
+            function renderVocabTable() {
+                countVocabBadge.textContent = collectedVocabs.length;
+                if (collectedVocabs.length === 0) {
+                    vocabTableBody.innerHTML = `<tr><td colspan="3" class="empty-state" style="text-align: center; color: #475569;">Chưa thu thập từ mới nào.</td></tr>`;
+                    btnExportJson.disabled = true;
+                    return;
+                }
+                btnExportJson.disabled = false;
+                vocabTableBody.innerHTML = collectedVocabs
+                    .map(
+                        (v) => `
+        <tr>
+          <td style="color: #94a3b8; font-size: 0.75rem;">${escapeHtml(v.cardId)}</td>
+          <td class="word-highlight">${escapeHtml(v.word)}</td>
+          <td style="color: #64748b;">${escapeHtml(v.time)}</td>
+        </tr>
+      `
+                    )
+                    .join("");
+            }
+
+            btnExportJson.addEventListener("click", () => {
+                if (collectedVocabs.length === 0) return;
+                try {
+                    const jsonString = collectedVocabs.map((item) => JSON.stringify(item, null, 2)).join(",\n");
+                    const blob = new Blob([jsonString], { type: "application/json" });
+                    const a = document.createElement("a");
+                    const dateStr = new Date().toISOString().slice(0, 10);
+                    a.href = URL.createObjectURL(blob);
+                    a.download = `paroto_vocab_collected_${dateStr}.json`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+
+                    addEvent(
+                        "auth",
+                        "📤 Export JSON",
+                        `Đã xuất thành công ${collectedVocabs.length} từ vựng ra file JSON!`,
+                        "event-auth"
+                    );
+                } catch (err) {
+                    addEvent("error", "🔴 Lỗi Export JSON", String(err), "event-error");
+                }
+            });
+
+            function setStatus(status) {
+                indicator.className = "indicator " + status;
+                statusText.textContent =
+                    { disconnected: "Ngắt kết nối", connecting: "Đang kết nối...", connected: "Đã kết nối" }[status] ||
+                    status;
+            }
+
+            function resetBattleButton() {
+                btnJoinBattle.textContent = "Tìm trận ⚔️";
+                btnJoinBattle.disabled = false;
+            }
+
+            function updateStats() {
+                statTotal.textContent = stats.total;
+                statReceived.textContent = stats.received;
+                statSent.textContent = stats.sent;
+                countLogBadge.textContent = events.length;
+                statMyCorrect.textContent = myCorrectCount;
+                statOpponentCorrect.textContent = opponentCorrectCount;
+                statMatchResult.textContent = `${matchStats.wins}W - ${matchStats.losses}L`;
+                countServerDataBadge.textContent = serverCards.length;
+            }
+
+            function addEvent(direction, type, data, cssClass) {
+                stats.total++;
+                if (direction === "in") stats.received++;
+                else if (direction === "out") stats.sent++;
+                else if (direction === "error") stats.errors++;
+
+                const now = new Date();
+                events.unshift({
+                    direction,
+                    type,
+                    data,
+                    time: now.toLocaleTimeString("vi-VN", { hour12: false, fractionalSecondDigits: 3 }),
+                    cssClass: cssClass || "",
+                });
+                if (events.length > 500) events.length = 500;
+                renderEvents();
+            }
+
+            function autoLoadFirebaseTokenFromLocalStorage() {
+                try {
+                    const raw = localStorage.getItem("user_info");
+
+                    if (!raw) {
+                        addEvent("auth", "ℹ️ LocalStorage", "Không tìm thấy key user_info trong localStorage", "event-auth");
+                        return;
+                    }
+
+                    const userInfo = JSON.parse(raw);
+                    const token = userInfo?.stsTokenManager?.accessToken;
+
+                    if (!token) {
+                        addEvent(
+                            "error",
+                            "🔴 LocalStorage",
+                            "Có user_info nhưng không tìm thấy stsTokenManager.accessToken",
+                            "event-error"
+                        );
+                        return;
+                    }
+
+                    firebaseTokenInput.value = token;
+                    const tokenData = decodeTokenData(token);
+                    uiUserId.textContent = userInfo?.uid || tokenData?.userId || "Không có ID";
+                    uiUserEmail.textContent = userInfo?.email || tokenData?.email || "Không có Email";
+
+                    addEvent(
+                        "auth",
+                        "🔑 Auto Load Token",
+                        `Đã tự động lấy token từ localStorage. Email: ${userInfo?.email || tokenData?.email || "N/A"}`,
+                        "event-auth"
+                    );
+                } catch (err) {
+                    addEvent("error", "🔴 Lỗi đọc localStorage", String(err), "event-error");
+                }
+            }
+
+            function renderEvents() {
+                if (events.length === 0) {
+                    eventsList.innerHTML = `<div class="empty-state"><p>Chưa có sự kiện.</p></div>`;
+                    return;
+                }
+                eventsList.innerHTML = events
+                    .map(
+                        (e) => `
+        <div class="event-item ${e.cssClass}">
+          <div class="event-meta">
+            <span>${escapeHtml(e.time)}</span>
+            <span class="event-type ${e.direction === "in" ? "incoming" : e.direction === "out" ? "outgoing" : e.direction === "auth" ? "auth" : ""}">[${escapeHtml(e.direction.toUpperCase())}]</span>
+            <span>${escapeHtml(e.type)}</span>
+          </div>
+          <div class="event-data">${typeof e.data === "string" ? escapeHtml(e.data) : escapeHtml(JSON.stringify(e.data, null, 2))}</div>
+        </div>
+      `
+                    )
+                    .join("");
+                updateStats();
+            }
+
+            function resetOpponentCard() {
+                opponentCard.style.display = "none";
+                opponentAvatar.src = "";
+                opponentAvatar.style.display = "none";
+                opponentAvatarFallback.style.display = "flex";
+                opponentAvatarFallback.textContent = "?";
+                opponentName.textContent = "--";
+                opponentUserId.textContent = "--";
+                opponentDiamonds.textContent = "0";
+                opponentPremium.style.display = "none";
+            }
+
+            function showOpponentCard(opponent) {
+                if (!opponent) {
+                    resetOpponentCard();
+                    return;
+                }
+
+                const name = opponent.displayName || "Không rõ tên";
+                opponentCard.style.display = "flex";
+                opponentName.textContent = name;
+                opponentUserId.textContent = opponent.userId || "--";
+
+                const diamonds = Number(opponent.diamonds || 0);
+                opponentDiamonds.textContent = diamonds.toLocaleString("vi-VN");
+                opponentPremium.style.display = opponent.isPremium ? "inline-flex" : "none";
+
+                const firstChar = name.trim().charAt(0).toUpperCase() || "?";
+                opponentAvatarFallback.textContent = firstChar;
+
+                if (opponent.photoURL) {
+                    opponentAvatar.src = opponent.photoURL;
+                    opponentAvatar.style.display = "block";
+                    opponentAvatarFallback.style.display = "none";
+
+                    opponentAvatar.onerror = () => {
+                        opponentAvatar.style.display = "none";
+                        opponentAvatarFallback.style.display = "flex";
+                    };
+                } else {
+                    opponentAvatar.style.display = "none";
+                    opponentAvatarFallback.style.display = "flex";
+                }
+            }
+
+            function autoFillAndMaybeSendAnswer(word) {
+                inputAnswer.value = word;
+
+                if (!autoSendCheckbox.checked) return;
+
+                const wordLen = word.length;
+                let randomDelay = 1000;
+
+                if (wordLen < 5) {
+                    randomDelay = Math.floor(Math.random() * 291) + 200;
+                } else if (wordLen <= 8) {
+                    randomDelay = Math.floor(Math.random() * 401) + 600;
+                } else {
+                    randomDelay = Math.floor(Math.random() * 501) + 1000;
+                }
+
+                addEvent(
+                    "auth",
+                    "🤖 Auto-Solver",
+                    `Từ dài ${wordLen} ký tự. Sẽ gửi sau ${(randomDelay / 1000).toFixed(2)} giây...`,
+                    "event-auth"
+                );
+
+                setTimeout(() => {
+                    if (inputAnswer.value.trim() !== "") sendAnswer();
+                }, randomDelay);
+            }
+
+            function handleSocketIOMessage(raw) {
+                if (typeof raw !== "string") return;
+                if (raw === "2") {
+                    if (socket?.readyState === WebSocket.OPEN) socket.send("3");
+                    return;
+                }
+                if (raw === "3") return;
+
+                if (raw[0] === "4") {
+                    const suffix = raw.substring(1);
+                    if (suffix[0] === "2") {
+                        try {
+                            const parsed = JSON.parse(suffix.substring(1));
+                            const eventName = parsed[0];
+                            const eventData = parsed.length > 1 ? parsed[1] : null;
+                            addEvent("in", `📨 ${eventName}`, eventData, "event-data");
+
+                            if (eventName === "vocab-battle:game-start") {
+                                btnJoinBattle.textContent = "Đang trong trận ⚔️";
+                                btnJoinBattle.disabled = true;
+                                myCorrectCount = 0;
+                                opponentCorrectCount = 0;
+                                showOpponentCard(eventData?.opponent);
+                                updateStats();
+                            }
+
+                            if (eventName === "vocab-battle:round-start") {
+                                dbMissingWarning.style.display = "none";
+                                startRoundTimer();
+
+                                const round = eventData?.round || 0;
+                                const totalRounds = eventData?.totalRounds || 0;
+                                const card = eventData?.card;
+
+                                if (card) {
+                                    currentRoundCardId = card.cardId;
+                                    curRoundText.textContent = `Round: ${round} / ${totalRounds}`;
+                                    curWordMask.textContent = `${card.wordMask || ""} (${card.wordLength || 0} ký tự)`;
+                                    curWordMeaning.textContent = card.translation?.vi || "Không có dịch nghĩa";
+
+                                    const exEn = card.exampleMasked?.en || "";
+                                    const exVi = card.exampleMasked?.vi || "";
+                                    curWordExample.innerHTML = `${escapeHtml(exEn)}<br><small style="color: #94a3b8;">→ ${escapeHtml(exVi)}</small>`;
+                                }
+
+                                const cardId = card?.cardId;
+                                if (cardId) {
+                                    const word = findWordInServerData(cardId);
+                                    if (word) {
+                                        autoFillAndMaybeSendAnswer(word);
+                                    } else {
+                                        missingCardIdText.textContent = cardId;
+                                        dbMissingWarning.style.display = "block";
+                                        inputAnswer.value = "";
+
+                                        if (!isServerDataLoaded) {
+                                            addEvent(
+                                                "error",
+                                                "⚠️ Server Data",
+                                                "Chưa nạp được data từ server nên không thể tra đáp án. Hãy kiểm tra API Go hoặc bấm Tải lại data server.",
+                                                "event-error"
+                                            );
+                                        }
+                                    }
+                                }
+                            }
+
+                            if (eventName === "vocab-battle:round-result") {
+                                stopRoundTimer("Round kết thúc ✅");
+                                const resultWord = eventData?.word;
+                                if (resultWord && currentRoundCardId) {
+                                    collectNewWord(currentRoundCardId, resultWord);
+                                }
+
+                                const myUserId = decodeTokenData(firebaseTokenInput.value.trim())?.userId;
+                                const winnerId = eventData?.winnerId;
+
+                                if (myUserId && winnerId) {
+                                    if (winnerId === myUserId) {
+                                        myCorrectCount++;
+                                    } else {
+                                        opponentCorrectCount++;
+                                    }
+                                    updateStats();
+                                }
+                            }
+
+                            if (eventName === "vocab-battle:round-timeout") {
+                                stopRoundTimer("Hết giờ round! ⏰");
+                                const timeoutWord = eventData?.word;
+                                if (timeoutWord && currentRoundCardId) {
+                                    collectNewWord(currentRoundCardId, timeoutWord);
+                                }
+                            }
+
+                            if (eventName === "vocab-battle:game-over") {
+                                stopRoundTimer("Trận đấu kết thúc 🏁");
+                                dbMissingWarning.style.display = "none";
+                                const reason = eventData?.reason || "all_rounds_done";
+                                const winner = eventData?.winnerId || "Không rõ";
+                                const myUserId = decodeTokenData(firebaseTokenInput.value.trim())?.userId;
+
+                                let resultNotice = "";
+                                if (!myUserId) {
+                                    resultNotice = "⚠️ UID trống";
+                                    addEvent("error", "🏆 Kết quả", resultNotice, "event-error");
+                                } else if (winner === myUserId) {
+                                    matchStats.wins++;
+                                    resultNotice = "🎉 BẠN CHIẾN THẮNG!";
+                                    addEvent("auth", "🏆 Kết quả", `${resultNotice} (Winner: ${winner})`, "event-auth");
+                                } else {
+                                    matchStats.losses++;
+                                    resultNotice = "💀 BẠN THẤT BẠI!";
+                                    addEvent("error", "🏆 Kết quả", `${resultNotice} (Winner: ${winner})`, "event-error");
+                                }
+
+                                saveMatchStats();
+                                resetBattleButton();
+                                resetOpponentCard();
+                                currentRoundCardId = null;
+
+                                curRoundText.textContent = "Round: -- / --";
+                                curWordMask.textContent = "_ _ _ _";
+                                curWordMeaning.textContent = "Trận đấu kết thúc!";
+                                curWordExample.textContent = "...";
+
+                                if (autoJoinCheckbox.checked) {
+                                    addEvent("auth", "🔄 Auto-Join", "Hệ thống sẽ tự động tìm trận mới sau 2 giây...", "event-auth");
+                                    setTimeout(() => {
+                                        if (autoJoinCheckbox.checked) joinBattle();
+                                    }, 2000);
+                                } else {
+                                    setTimeout(() => {
+                                        alert(
+                                            `Trận đấu kết thúc!\n${resultNotice}\nTỉ số từ vựng: Bạn ${myCorrectCount} - ${opponentCorrectCount} Đối thủ\nLý do: ${reason}`
+                                        );
+                                    }, 100);
+                                }
+                            }
+                        } catch (e) {
+                            console.error(e);
+                            addEvent("error", "🔴 Parse Event", String(e), "event-error");
+                        }
+                    }
+                }
+            }
+
+            function connect() {
+                if (socket?.readyState === WebSocket.OPEN || socket?.readyState === WebSocket.CONNECTING) return;
+                setStatus("connecting");
+                try {
+                    socket = new WebSocket(SOCKET_URL);
+                } catch (err) {
+                    setStatus("disconnected");
+                    return;
+                }
+
+                socket.onopen = () => {
+                    setStatus("connected");
+                    const token = firebaseTokenInput.value.trim();
+                    const userData = parseAndShowTokenInfo();
+                    if (token) {
+                        socket.send(`40${JSON.stringify({ firebaseToken: token })}`);
+                        if (userData?.userId) addEvent("auth", "🔑 Token Checked", `UID: ${userData.userId}`, "event-auth");
+                    } else {
+                        socket.send("40");
+                    }
+                };
+                socket.onmessage = (event) => handleSocketIOMessage(event.data);
+                socket.onclose = () => {
+                    setStatus("disconnected");
+                    if (lobbyInterval) clearInterval(lobbyInterval);
+                    stopRoundTimer("Mất kết nối Socket 🔴");
+                    resetBattleButton();
+                    resetOpponentCard();
+                    socket = null;
+                };
+            }
+
+            function disconnect() {
+                if (socket) {
+                    if (lobbyInterval) clearInterval(lobbyInterval);
+                    stopRoundTimer("Chờ trận...");
+                    socket.close(1000, "User disconnect");
+                }
+            }
+
+            function joinBattle() {
+                if (socket?.readyState === WebSocket.OPEN) {
+                    socket.send('42["join-vocab-battle"]');
+                    btnJoinBattle.textContent = "Đang tìm trận...";
+                    btnJoinBattle.disabled = true;
+                    addEvent("out", "⚔️ Tìm trận", '["join-vocab-battle"]', "event-auth");
+                } else {
+                    addEvent("error", "Lỗi", "Hãy kết nối thành công trước!", "event-error");
+                }
+            }
+
+            function sendAnswer() {
+                const txt = inputAnswer.value.trim();
+                if (!txt || socket?.readyState !== WebSocket.OPEN) return;
+                socket.send("42" + JSON.stringify(["vocab-battle-answer", { answer: txt }]));
+                inputAnswer.value = "";
+                inputAnswer.focus();
+            }
+
+            function escapeHtml(value) {
+                return String(value ?? "")
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+
+            btnConnect.addEventListener("click", connect);
+            btnDisconnect.addEventListener("click", disconnect);
+            btnJoinBattle.addEventListener("click", joinBattle);
+            btnReloadServerData.addEventListener("click", loadCardsFromApi);
+            btnRefreshServerData.addEventListener("click", loadCardsFromApi);
+            btnClear.addEventListener("click", () => {
+                events = [];
+                stats = { total: 0, received: 0, sent: 0, errors: 0 };
+                myCorrectCount = 0;
+                opponentCorrectCount = 0;
+                renderEvents();
+                collectedVocabs = [];
+                renderVocabTable();
+                stopRoundTimer("Chờ trận...");
+                resetOpponentCard();
+            });
+            btnSendAnswer.addEventListener("click", sendAnswer);
+            inputAnswer.addEventListener("keydown", (e) => {
+                if (e.key === "Enter") sendAnswer();
+            });
+        </script>
+    </body>
+</html>

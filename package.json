@@ -1,0 +1,10 @@
+{
+	"scripts": {
+    "start:client": "pnpm --dir CLIENT start",
+		"start:go": "go run .\\main.go",
+    "dev": "concurrently -k -n CLIENT,GO \"pnpm run start:client\" \"pnpm run start:go\""
+  },
+	"devDependencies": {
+		"concurrently": "^10.0.3"
+	}
+}
