@@ -18,6 +18,10 @@ import {
   Zap,
   KeyRound,
   Gem,
+  Bot,
+  Play,
+  Square,
+  ListChecks,
 } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
@@ -65,6 +69,43 @@ type UserInfo = {
   email: string;
 };
 
+type BotQueueInputBot = {
+  botId: string;
+  firebaseToken: string;
+  userId: string;
+  email: string;
+};
+
+type BotQueueServerBot = {
+  botId?: string;
+  bot_id?: string;
+  firebaseToken?: string;
+  firebase_token?: string;
+  userId?: string;
+  user_id?: string;
+  email?: string;
+  status?: string;
+  lastEvent?: string;
+  last_event?: string;
+  message?: string;
+  retryCount?: number;
+  retry_count?: number;
+  startedAt?: string;
+  started_at?: string;
+  updatedAt?: string;
+  updated_at?: string;
+};
+
+type BotQueueStatus = {
+  running?: boolean;
+  activeSearching?: string;
+  active_searching?: string;
+  bots: BotQueueServerBot[];
+  message?: string;
+  totalBots?: number;
+  updatedAt?: string;
+};
+
 const DEFAULT_USER_INFO: UserInfo = {
   userId: 'Không có ID',
   email: 'Không có Email',
@@ -109,6 +150,90 @@ const getAvoidUserIdList = (value: string) =>
     .map((id) => id.trim().toLowerCase())
     .filter(Boolean);
 
+const parseBotQueueInput = (value: string): BotQueueInputBot[] => {
+  return value
+    .split('\n')
+    .map((rawLine, index) => {
+      const line = rawLine.trim();
+      if (!line) return null;
+
+      // Hỗ trợ 2 kiểu nhập:
+      // 1) Mỗi dòng là 1 Firebase Token
+      // 2) bot_1|FirebaseToken
+      const parts = line.split('|').map((part) => part.trim());
+      const hasCustomBotId = parts.length >= 2;
+      const botId = hasCustomBotId && parts[0] ? parts[0] : `bot_${index + 1}`;
+      const firebaseToken = hasCustomBotId ? parts.slice(1).join('|').trim() : line;
+
+      if (!firebaseToken) return null;
+
+      const info = getUserInfoFromFirebaseToken(firebaseToken);
+      return {
+        botId,
+        firebaseToken,
+        userId: info.userId,
+        email: info.email,
+      };
+    })
+    .filter((item): item is BotQueueInputBot => Boolean(item));
+};
+
+const normalizeBotQueueResponse = (payload: any): BotQueueStatus => {
+  const data = payload?.data ?? payload ?? {};
+  const bots = Array.isArray(data?.bots) ? data.bots : Array.isArray(data) ? data : [];
+
+  return {
+    ...data,
+    bots,
+  };
+};
+
+const getBotQueueStatusLabel = (status?: string) => {
+  switch ((status || '').toLowerCase()) {
+    case 'waiting':
+      return 'Đang chờ';
+    case 'connecting':
+      return 'Đang kết nối';
+    case 'searching':
+      return 'Đang tìm trận';
+    case 'in_battle':
+      return 'Đã vào trận';
+    case 'finished':
+      return 'Hoàn tất';
+    case 'error':
+      return 'Lỗi';
+    case 'stopped':
+      return 'Đã dừng';
+    case 'draft':
+      return 'Chưa gửi server';
+    default:
+      return status || '--';
+  }
+};
+
+const getBotQueueStatusClass = (status?: string) => {
+  switch ((status || '').toLowerCase()) {
+    case 'waiting':
+      return 'border-slate-200 bg-slate-100 text-slate-600';
+    case 'connecting':
+      return 'border-amber-200 bg-amber-50 text-amber-700';
+    case 'searching':
+      return 'border-sky-200 bg-sky-50 text-sky-700';
+    case 'in_battle':
+      return 'border-emerald-200 bg-emerald-50 text-emerald-700';
+    case 'finished':
+      return 'border-violet-200 bg-violet-50 text-violet-700';
+    case 'error':
+      return 'border-rose-200 bg-rose-50 text-rose-700';
+    case 'stopped':
+      return 'border-slate-200 bg-white text-slate-500';
+    case 'draft':
+      return 'border-dashed border-slate-200 bg-white text-slate-400';
+    default:
+      return 'border-slate-200 bg-white text-slate-600';
+  }
+};
+
 export default function ParotoMonitor() {
   const [socketStatus, setSocketStatus] = useState<'disconnected' | 'connecting' | 'connected'>('disconnected');
   const [firebaseToken, setFirebaseToken] = useState('');
@@ -120,6 +245,13 @@ export default function ParotoMonitor() {
   const [autoRefreshToken, setAutoRefreshToken] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [avoidUserIds, setAvoidUserIds] = useState('');
+  const [botQueueText, setBotQueueText] = useState('');
+  const [botQueueDelayMs, setBotQueueDelayMs] = useState('1000');
+  const [botQueueAutoRefresh, setBotQueueAutoRefresh] = useState(true);
+  const [botQueueStatus, setBotQueueStatus] = useState<BotQueueStatus | null>(null);
+  const [isStartingBotQueue, setIsStartingBotQueue] = useState(false);
+  const [isStoppingBotQueue, setIsStoppingBotQueue] = useState(false);
+  const [isLoadingBotQueue, setIsLoadingBotQueue] = useState(false);
 
   const [userInfo, setUserInfo] = useState<UserInfo>(DEFAULT_USER_INFO);
   const [stats, setStats] = useState({ total: 0, received: 0, sent: 0, errors: 0 });
@@ -168,6 +300,7 @@ export default function ParotoMonitor() {
   const matchStatsRef = useRef({ wins: 0, losses: 0 });
   const userInfoRef = useRef<UserInfo>(DEFAULT_USER_INFO);
   const serverLoadingRef = useRef(false);
+  const botQueuePollingRef = useRef<NodeJS.Timeout | null>(null);
 
   const applyFirebaseToken = (token: string, logSource = 'Manual Input', shouldLog = false) => {
     const cleanToken = token.trim();
@@ -236,6 +369,11 @@ export default function ParotoMonitor() {
     setAutoRefreshToken(val);
     autoRefreshTokenRef.current = val;
     localStorage.setItem('paroto_auto_refresh_token', String(val));
+  };
+
+  const handleSetBotQueueAutoRefresh = (val: boolean) => {
+    setBotQueueAutoRefresh(val);
+    localStorage.setItem('paroto_bot_queue_auto_refresh', String(val));
   };
 
   const handleAvoidUserIdsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -321,6 +459,38 @@ export default function ParotoMonitor() {
     return map;
   }, [serverCards]);
 
+  const botQueueInputBots = useMemo(() => parseBotQueueInput(botQueueText), [botQueueText]);
+
+  const botQueueDisplayRows = useMemo(() => {
+    const serverBots = botQueueStatus?.bots || [];
+    if (serverBots.length > 0) return serverBots;
+
+    return botQueueInputBots.map((bot) => ({
+      botId: bot.botId,
+      userId: bot.userId,
+      email: bot.email,
+      status: 'draft',
+      lastEvent: 'Chưa gửi server',
+    }));
+  }, [botQueueInputBots, botQueueStatus]);
+
+  const botQueueSummary = useMemo(() => {
+    const counts = botQueueDisplayRows.reduce<Record<string, number>>((acc, bot) => {
+      const status = (bot.status || 'unknown').toLowerCase();
+      acc[status] = (acc[status] || 0) + 1;
+      return acc;
+    }, {});
+
+    return {
+      total: botQueueDisplayRows.length,
+      waiting: counts.waiting || 0,
+      searching: counts.searching || 0,
+      inBattle: counts.in_battle || 0,
+      error: counts.error || 0,
+      stopped: counts.stopped || 0,
+    };
+  }, [botQueueDisplayRows]);
+
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -358,6 +528,15 @@ export default function ParotoMonitor() {
     setAvoidUserIds(cachedAvoidUserIds);
     avoidUserIdsRef.current = cachedAvoidUserIds;
 
+    const cachedBotQueueText = localStorage.getItem('paroto_bot_queue_list') || '';
+    setBotQueueText(cachedBotQueueText);
+
+    const cachedBotQueueDelay = localStorage.getItem('paroto_bot_queue_delay_ms') || '1000';
+    setBotQueueDelayMs(cachedBotQueueDelay);
+
+    const cachedBotQueueAutoRefresh = localStorage.getItem('paroto_bot_queue_auto_refresh') !== 'false';
+    setBotQueueAutoRefresh(cachedBotQueueAutoRefresh);
+
     try {
       const cachedFirebaseToken =
         localStorage.getItem('paroto_firebase_token') ||
@@ -387,6 +566,25 @@ export default function ParotoMonitor() {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    if (!botQueueAutoRefresh) {
+      if (botQueuePollingRef.current) clearInterval(botQueuePollingRef.current);
+      botQueuePollingRef.current = null;
+      return;
+    }
+
+    loadBotQueueStatus(true);
+    botQueuePollingRef.current = setInterval(() => {
+      loadBotQueueStatus(true);
+    }, 4000);
+
+    return () => {
+      if (botQueuePollingRef.current) clearInterval(botQueuePollingRef.current);
+      botQueuePollingRef.current = null;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [botQueueAutoRefresh]);
 
   const pushLog = (direction: LogEvent['direction'], type: string, data: any) => {
     const now = new Date();
@@ -774,6 +972,98 @@ export default function ParotoMonitor() {
     );
   }, [serverCards, serverSearch]);
 
+
+  const loadBotQueueStatus = async (silent = false) => {
+    if (!silent) setIsLoadingBotQueue(true);
+
+    try {
+      const res = await axios.get(`${API_BASE_URL}/bot-queue/status`, { timeout: 8000 });
+      const normalized = normalizeBotQueueResponse(res.data);
+      setBotQueueStatus(normalized);
+
+      if (!silent) {
+        pushLog('auth', '🤖 Bot Queue Status', `Đã tải trạng thái ${normalized.bots.length} bot từ Go server.`);
+      }
+    } catch (err: any) {
+      if (!silent) {
+        pushLog('error', '🔴 Bot Queue Status Error', err.response?.data?.message || err.message);
+      }
+    } finally {
+      if (!silent) setIsLoadingBotQueue(false);
+    }
+  };
+
+  const startBotQueue = async () => {
+    if (!botQueueInputBots.length) {
+      pushLog('error', '🔴 Bot Queue', 'Danh sách bot đang trống. Mỗi dòng cần là 1 Firebase Token hoặc botId|FirebaseToken.');
+      return;
+    }
+
+    const invalidBots = botQueueInputBots.filter((bot) => bot.userId === DEFAULT_USER_INFO.userId);
+    if (invalidBots.length > 0) {
+      pushLog('error', '🔴 Bot Queue', `Có ${invalidBots.length} bot không decode được UID. Kiểm tra lại Firebase Token.`);
+      return;
+    }
+
+    setIsStartingBotQueue(true);
+
+    try {
+      const delayAfterGameStartMs = Math.max(0, Number(botQueueDelayMs) || 1000);
+      localStorage.setItem('paroto_bot_queue_list', botQueueText);
+      localStorage.setItem('paroto_bot_queue_delay_ms', String(delayAfterGameStartMs));
+
+      const payload = {
+        delayAfterGameStartMs,
+        bots: botQueueInputBots.map((bot) => ({
+          botId: bot.botId,
+          firebaseToken: bot.firebaseToken,
+        })),
+      };
+
+      const res = await axios.post(`${API_BASE_URL}/bot-queue/start`, payload, { timeout: 12000 });
+      const normalized = normalizeBotQueueResponse(res.data);
+      setBotQueueStatus(normalized);
+      pushLog('auth', '▶️ Bot Queue Start', `Đã gửi ${botQueueInputBots.length} bot lên Go server. Delay=${delayAfterGameStartMs}ms.`);
+
+      await loadBotQueueStatus(true);
+    } catch (err: any) {
+      pushLog('error', '🔴 Bot Queue Start Error', err.response?.data?.message || err.message);
+    } finally {
+      setIsStartingBotQueue(false);
+    }
+  };
+
+  const stopBotQueue = async () => {
+    setIsStoppingBotQueue(true);
+
+    try {
+      const res = await axios.post(`${API_BASE_URL}/bot-queue/stop`, {}, { timeout: 8000 });
+      const normalized = normalizeBotQueueResponse(res.data);
+      setBotQueueStatus(normalized);
+      pushLog('auth', '⏹️ Bot Queue Stop', 'Đã gửi lệnh dừng hàng chờ bot tới Go server.');
+      await loadBotQueueStatus(true);
+    } catch (err: any) {
+      pushLog('error', '🔴 Bot Queue Stop Error', err.response?.data?.message || err.message);
+    } finally {
+      setIsStoppingBotQueue(false);
+    }
+  };
+
+  const getBotQueueRowInfo = (bot: BotQueueServerBot) => {
+    const botId = bot.botId || bot.bot_id || '--';
+    const inputBot = botQueueInputBots.find((item) => item.botId === botId);
+
+    return {
+      botId,
+      userId: bot.userId || bot.user_id || inputBot?.userId || '--',
+      email: bot.email || inputBot?.email || '--',
+      status: bot.status || 'unknown',
+      lastEvent: bot.lastEvent || bot.last_event || bot.message || '--',
+      retryCount: bot.retryCount ?? bot.retry_count ?? 0,
+      updatedAt: bot.updatedAt || bot.updated_at || bot.startedAt || bot.started_at || '--',
+    };
+  };
+
   const exportCollectedJson = () => {
     if (!collectedVocabs.length) return;
     const blob = new Blob([JSON.stringify(collectedVocabs, null, 2)], { type: 'application/json' });
@@ -976,6 +1266,174 @@ export default function ParotoMonitor() {
                   <KeyRound className={`mr-1 h-3 w-3 ${isRefreshing ? 'animate-spin' : ''}`} />
                   Force Refresh Now
                 </Button>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+
+        {/* Bot Queue Manager */}
+        <Card className="border-slate-200 bg-white shadow-sm">
+          <CardHeader className="border-b border-slate-100 pb-3">
+            <CardTitle className="flex items-center justify-between gap-3 text-sm font-bold text-slate-700">
+              <span className="flex items-center gap-2">
+                <Bot className="h-4 w-4 text-sky-500" /> Bot Queue Manager
+              </span>
+              <Badge
+                variant="outline"
+                className={`font-mono text-[11px] ${botQueueStatus?.running ? 'border-emerald-200 bg-emerald-50 text-emerald-700' : 'border-slate-200 bg-white text-slate-500'}`}
+              >
+                {botQueueStatus?.running ? 'RUNNING' : 'IDLE'}
+              </Badge>
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4 p-5">
+            <div className="grid gap-4 lg:grid-cols-3">
+              <div className="space-y-2 lg:col-span-1">
+                <label className="font-mono text-xs font-semibold text-slate-500">Danh sách bot:</label>
+                <textarea
+                  value={botQueueText}
+                  onChange={(e) => {
+                    setBotQueueText(e.target.value);
+                    localStorage.setItem('paroto_bot_queue_list', e.target.value);
+                  }}
+                  placeholder={`Mỗi dòng là 1 bot.\nCách 1: FirebaseToken\nCách 2: bot_1|FirebaseToken`}
+                  className="min-h-[180px] w-full rounded-md border border-slate-200 bg-white p-3 font-mono text-xs text-slate-700 outline-none placeholder:text-slate-400 focus:border-sky-400 focus:ring-2 focus:ring-sky-100"
+                />
+                <p className="text-[11px] leading-relaxed text-slate-400">
+                  Client chỉ gửi danh sách bot lên Go server. Server sẽ điều phối: bot trước vào trận thì bot sau mới được đưa vào hàng chờ.
+                </p>
+              </div>
+
+              <div className="space-y-3 lg:col-span-2">
+                <div className="grid gap-3 md:grid-cols-4">
+                  <div className="rounded-lg border border-slate-100 bg-slate-50 p-3 text-center">
+                    <div className="text-[10px] font-semibold uppercase tracking-wider text-slate-500">Tổng bot</div>
+                    <div className="mt-1 text-xl font-bold text-slate-700">{botQueueSummary.total}</div>
+                  </div>
+                  <div className="rounded-lg border border-sky-100 bg-sky-50 p-3 text-center">
+                    <div className="text-[10px] font-semibold uppercase tracking-wider text-sky-600">Đang tìm</div>
+                    <div className="mt-1 text-xl font-bold text-sky-700">{botQueueSummary.searching}</div>
+                  </div>
+                  <div className="rounded-lg border border-emerald-100 bg-emerald-50 p-3 text-center">
+                    <div className="text-[10px] font-semibold uppercase tracking-wider text-emerald-600">Trong trận</div>
+                    <div className="mt-1 text-xl font-bold text-emerald-700">{botQueueSummary.inBattle}</div>
+                  </div>
+                  <div className="rounded-lg border border-rose-100 bg-rose-50 p-3 text-center">
+                    <div className="text-[10px] font-semibold uppercase tracking-wider text-rose-600">Lỗi</div>
+                    <div className="mt-1 text-xl font-bold text-rose-700">{botQueueSummary.error}</div>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-2 rounded-lg border border-slate-100 bg-slate-50 p-3">
+                  <div className="flex items-center gap-2">
+                    <label className="whitespace-nowrap text-xs font-semibold text-slate-500">Delay sau game-start:</label>
+                    <Input
+                      type="number"
+                      min={0}
+                      value={botQueueDelayMs}
+                      onChange={(e) => {
+                        setBotQueueDelayMs(e.target.value);
+                        localStorage.setItem('paroto_bot_queue_delay_ms', e.target.value);
+                      }}
+                      className="h-8 w-28 border-slate-200 bg-white font-mono text-xs"
+                    />
+                    <span className="text-xs text-slate-400">ms</span>
+                  </div>
+
+                  <div className="flex items-center gap-1.5 border-l border-slate-200 pl-3">
+                    <Checkbox
+                      id="botQueueAutoRefresh"
+                      checked={botQueueAutoRefresh}
+                      onCheckedChange={(c) => handleSetBotQueueAutoRefresh(!!c)}
+                      className="border-slate-300 data-[state=checked]:bg-sky-500 data-[state=checked]:border-sky-500"
+                    />
+                    <label htmlFor="botQueueAutoRefresh" className="cursor-pointer select-none text-xs font-semibold text-sky-600">
+                      Tự refresh trạng thái
+                    </label>
+                  </div>
+
+                  <div className="ml-auto flex flex-wrap gap-2">
+                    <Button
+                      size="sm"
+                      className="bg-sky-500 text-white hover:bg-sky-600"
+                      onClick={startBotQueue}
+                      disabled={isStartingBotQueue || botQueueInputBots.length === 0}
+                    >
+                      <Play className="mr-1.5 h-3.5 w-3.5" />
+                      {isStartingBotQueue ? 'Đang start...' : 'Start Queue'}
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                      onClick={() => loadBotQueueStatus(false)}
+                      disabled={isLoadingBotQueue}
+                    >
+                      <RefreshCw className={`mr-1.5 h-3.5 w-3.5 ${isLoadingBotQueue ? 'animate-spin' : ''}`} />
+                      Status
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="border-rose-200 bg-white text-rose-600 hover:bg-rose-50"
+                      onClick={stopBotQueue}
+                      disabled={isStoppingBotQueue}
+                    >
+                      <Square className="mr-1.5 h-3.5 w-3.5" />
+                      {isStoppingBotQueue ? 'Đang dừng...' : 'Stop'}
+                    </Button>
+                  </div>
+                </div>
+
+                <div className="max-h-[280px] overflow-y-auto rounded-lg border border-slate-200 bg-slate-50/40">
+                  <Table>
+                    <TableHeader className="sticky top-0 z-10 bg-white shadow-sm">
+                      <TableRow className="border-slate-200 hover:bg-transparent">
+                        <TableHead className="w-[14%] text-xs font-semibold text-slate-600">Bot</TableHead>
+                        <TableHead className="w-[20%] text-xs font-semibold text-slate-600">UID</TableHead>
+                        <TableHead className="w-[22%] text-xs font-semibold text-slate-600">Email</TableHead>
+                        <TableHead className="w-[16%] text-xs font-semibold text-slate-600">Trạng thái</TableHead>
+                        <TableHead className="w-[20%] text-xs font-semibold text-slate-600">Event cuối</TableHead>
+                        <TableHead className="w-[8%] text-xs font-semibold text-slate-600">Retry</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {botQueueDisplayRows.length === 0 ? (
+                        <TableRow>
+                          <TableCell colSpan={6} className="py-8 text-center text-xs text-slate-500">
+                            <ListChecks className="mx-auto mb-2 h-7 w-7 text-slate-300" />
+                            Chưa có bot nào. Dán danh sách bot ở ô bên trái rồi nhấn Start Queue.
+                          </TableCell>
+                        </TableRow>
+                      ) : (
+                        botQueueDisplayRows.map((bot, idx) => {
+                          const row = getBotQueueRowInfo(bot);
+                          return (
+                            <TableRow key={`${row.botId}-${idx}`} className="border-slate-100 font-mono text-xs hover:bg-white">
+                              <TableCell className="font-bold text-slate-700">{row.botId}</TableCell>
+                              <TableCell className="max-w-[180px] truncate text-slate-500" title={row.userId}>{row.userId}</TableCell>
+                              <TableCell className="max-w-[180px] truncate text-slate-500" title={row.email}>{row.email}</TableCell>
+                              <TableCell>
+                                <Badge variant="outline" className={`font-sans text-[11px] ${getBotQueueStatusClass(row.status)}`}>
+                                  {getBotQueueStatusLabel(row.status)}
+                                </Badge>
+                              </TableCell>
+                              <TableCell className="max-w-[220px] truncate text-slate-500" title={row.lastEvent}>{row.lastEvent}</TableCell>
+                              <TableCell className="text-center text-slate-500">{row.retryCount}</TableCell>
+                            </TableRow>
+                          );
+                        })
+                      )}
+                    </TableBody>
+                  </Table>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-3 rounded-md border border-slate-100 bg-white px-3 py-2 text-[11px] text-slate-500">
+                  <span>Active searching: <b className="font-mono text-sky-600">{botQueueStatus?.activeSearching || botQueueStatus?.active_searching || '--'}</b></span>
+                  <span>Waiting: <b className="font-mono text-slate-700">{botQueueSummary.waiting}</b></span>
+                  <span>Stopped: <b className="font-mono text-slate-700">{botQueueSummary.stopped}</b></span>
+                </div>
               </div>
             </div>
           </CardContent>

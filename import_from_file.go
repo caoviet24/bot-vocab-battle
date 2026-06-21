@@ -11,7 +11,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
-const SQLITE_DB_PATH = "vocabulary.db"
+const SQLITE_DB_PATH = "SERVER/vocabulary.db"
 
 var FOLDERS = []string{
 	// "1000_WORD_COMMOM",
@@ -20,7 +20,8 @@ var FOLDERS = []string{
 	// "600_IELTS_BASIC",
 	// "600_TOEIC_BASIC",
 	// "BAND_4_5_IELTS",
-	"COLLECTION",
+	// "COLLECTION",
+	"IMPORT",
 }
 
 type Card struct {
