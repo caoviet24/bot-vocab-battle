@@ -34,6 +34,7 @@ func Run() {
 	serverlog.Route("POST", "/cards", "Create a new word")
 	serverlog.Route("GET", "/cards", "List words")
 	serverlog.Route("POST", "/refresh-token", "Proxy Firebase refresh token API")
+	serverlog.Route("POST", "/guess-word", "Guess a word using LLM")
 	serverlog.Route("POST", "/bot-queue/start", "Start bot queue")
 	serverlog.Route("GET", "/bot-queue/status", "Get bot queue status")
 	serverlog.Route("POST", "/bot-queue/stop", "Stop bot queue")

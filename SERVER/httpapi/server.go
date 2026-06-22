@@ -24,6 +24,7 @@ func (s *Server) Routes() http.Handler {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/cards", serverlog.WithLogging(s.cards))
+	mux.HandleFunc("/guess-word", serverlog.WithLogging(s.guessWord))
 	mux.HandleFunc("/refresh-token", serverlog.WithLogging(s.refreshToken))
 	mux.HandleFunc("/bot-queue/start", serverlog.WithLogging(s.botQueueStart))
 	mux.HandleFunc("/bot-queue/status", serverlog.WithLogging(s.botQueueStatus))
