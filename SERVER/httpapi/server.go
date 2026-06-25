@@ -24,6 +24,7 @@ func (s *Server) Routes() http.Handler {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/cards", serverlog.WithLogging(s.cards))
+	mux.HandleFunc("/info", serverlog.WithLogging(s.updateUserInfo))
 	mux.HandleFunc("/collection/cards", serverlog.WithLogging(s.collectionCards))
 	mux.HandleFunc("/collection/data.json", serverlog.WithLogging(s.collectionDataJSON))
 	mux.HandleFunc("/guess-word", serverlog.WithLogging(s.guessWord))
@@ -45,6 +46,7 @@ func (s *Server) Routes() http.Handler {
 
 func enableCORS(w http.ResponseWriter) {
 	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE")
-	w.Header().Set("Access-Control-Allow-Headers", "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, X-User-Timezone")
+	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE, OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-User-Timezone")
+	w.Header().Set("Access-Control-Max-Age", "86400")
 }

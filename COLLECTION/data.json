@@ -6666,6 +6666,2503 @@
         "wordLength": 6,
         "wordMask": "______"
       }
+    },
+    {
+      "card": {
+        "cardId": "6a32c45209446f571c4fac9f",
+        "data": {
+          "answer": "conservationist",
+          "collectedAt": "2026-06-25T03:33:45.484Z",
+          "collectedAtServer": "2026-06-25T10:33:45+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "conservationist"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "يناضل الناشط البيئي المحلي لحماية الغابة.",
+          "en": "The local *************** fights to protect the forest.",
+          "id": "Konservasionis lokal berjuang untuk melindungi hutan.",
+          "ja": "地元の自然保護活動家は森林を守るために戦っている。",
+          "th": "นักอนุรักษ์ท้องถิ่นต่อสู้เพื่อปกป้องป่า",
+          "vi": "Nhà bảo tồn địa phương đấu tranh để bảo vệ rừng."
+        },
+        "explanation": {
+          "ar": "هذا الشخص يعمل على حماية الطبيعة والحيوانات والموارد الطبيعية. إنهم يحاولون الحفاظ على البيئة آمنة وصحية.",
+          "en": "This person works to protect nature, animals, and natural resources. They try to keep the environment safe and healthy.",
+          "id": "Orang ini bekerja untuk melindungi alam, hewan, dan sumber daya alam. Mereka berusaha menjaga lingkungan tetap aman dan sehat.",
+          "ja": "この人は、自然、動物、天然資源を保護するために活動します。彼らは環境を安全で健康に保つよう努めます。",
+          "th": "บุคคลนี้ทำงานเพื่อปกป้องธรรมชาติ สัตว์ และทรัพยากรธรรมชาติ พวกเขาพยายามรักษาสิ่งแวดล้อมให้ปลอดภัยและมีสุขภาพดี",
+          "vi": "Người này làm việc để bảo vệ thiên nhiên, động vật và tài nguyên thiên nhiên. Họ cố gắng giữ cho môi trường an toàn và lành mạnh."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 15,
+        "translation": {
+          "ar": "محافظ بيئي",
+          "id": "konservasionis",
+          "ja": "環境保護家",
+          "th": "นักอนุรักษ์",
+          "vi": "nhà bảo tồn"
+        },
+        "type": "noun",
+        "wordLength": 15,
+        "wordMask": "_______________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691c1694d3a2e879f9c6d664",
+        "data": {
+          "answer": "decoration",
+          "collectedAt": "2026-06-25T03:33:57.185Z",
+          "collectedAtServer": "2026-06-25T10:33:57+07:00",
+          "round": 3,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "decoration"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "الغرفة بحاجة إلى زينة جديدة.",
+          "en": "The room needs a new **********.",
+          "id": "Ruangan itu membutuhkan dekorasi baru.",
+          "ja": "その部屋には新しい装飾が必要です。",
+          "th": "ห้องนี้ต้องการของตกแต่งใหม่",
+          "vi": "Căn phòng cần một vật trang trí mới."
+        },
+        "explanation": {
+          "ar": "هذه أشياء تستخدمها لجعل الغرفة أو الكعكة أو أي شيء يبدو أجمل وأكثر احتفالية. إنها تضيف جمالًا أو اهتمامًا.",
+          "en": "These are things you use to make a room, a cake, or an object look nicer and more festive. They add beauty or interest.",
+          "id": "Ini adalah benda-benda yang Anda gunakan untuk membuat ruangan, kue, atau objek terlihat lebih indah dan meriah. Mereka menambah keindahan atau daya tarik.",
+          "ja": "部屋やケーキ、物などをより素敵で華やかに見せるために使うものです。美しさや面白さを加えます。",
+          "th": "สิ่งเหล่านี้คือสิ่งที่คุณใช้เพื่อทำให้ห้อง เค้ก หรือวัตถุดูสวยงามและรื่นเริงมากขึ้น พวกมันช่วยเพิ่มความสวยงามหรือความน่าสนใจ",
+          "vi": "Đây là những thứ bạn dùng để làm cho một căn phòng, một chiếc bánh, hoặc một vật thể trông đẹp hơn và trang trọng hơn. Chúng thêm vẻ đẹp hoặc sự thú vị."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c167ad3a2e879f9c6d161/images/691c1694d3a2e879f9c6d664_1763710901579.webp",
+        "letterCount": 10,
+        "translation": {
+          "ar": "زينة",
+          "id": "dekorasi",
+          "ja": "装飾",
+          "th": "ของตกแต่ง",
+          "vi": "trang trí"
+        },
+        "type": "noun",
+        "wordLength": 10,
+        "wordMask": "__________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c6de09446f571c4fd119",
+        "data": {
+          "answer": "consensus",
+          "collectedAt": "2026-06-25T03:34:16.351Z",
+          "collectedAtServer": "2026-06-25T10:34:16+07:00",
+          "round": 6,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "consensus"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "نحن بحاجة إلى التوصل إلى توافق في الآراء بشأن هذه القضية.",
+          "en": "We need to reach a ********* on this issue.",
+          "id": "Kita perlu mencapai konsensus mengenai masalah ini.",
+          "ja": "この問題については、合意に達する必要があります。",
+          "th": "เราจำเป็นต้องบรรลุฉันทามติในประเด็นนี้",
+          "vi": "Chúng ta cần đạt được sự đồng thuận về vấn đề này."
+        },
+        "explanation": {
+          "ar": "هذا هو اتفاق عام أو رأي مشترك بين جميع الأشخاص في مجموعة.",
+          "en": "This is a general agreement or shared opinion among all the people in a group.",
+          "id": "Ini adalah kesepakatan umum atau pendapat bersama di antara semua orang dalam suatu kelompok.",
+          "ja": "これは、グループ内のすべての人々の間の一般的な合意または共有された意見です。",
+          "th": "นี่คือข้อตกลงทั่วไปหรือความคิดเห็นร่วมกันในหมู่คนทั้งหมดในกลุ่ม",
+          "vi": "Đây là một sự đồng thuận chung hoặc ý kiến ​​chung giữa tất cả mọi người trong một nhóm."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "إجماع",
+          "id": "konsensus",
+          "ja": "合意",
+          "th": "ฉันทามติ",
+          "vi": "sự đồng thuận"
+        },
+        "type": "noun",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c6e009446f571c4fd14f",
+        "data": {
+          "answer": "estimated time of arrival",
+          "collectedAt": "2026-06-25T03:34:24.664Z",
+          "collectedAtServer": "2026-06-25T10:34:24+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "estimated time of arrival"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "أعلن الطيار عن وقت وصولنا المتوقع.",
+          "en": "The pilot announced our *************************.",
+          "id": "Pilot mengumumkan perkiraan waktu kedatangan kami.",
+          "ja": "パイロットは私たちの到着予定時刻を発表しました。",
+          "th": "นักบินประกาศเวลาที่คาดว่าจะมาถึงของเรา",
+          "vi": "Phi công đã thông báo thời gian đến dự kiến của chúng tôi."
+        },
+        "explanation": {
+          "ar": "هذا هو الوقت المتوقع لوصول طائرة أو قطار أو سيارة إلى وجهتها.",
+          "en": "This is the predicted time when a plane, train, or car is expected to reach its destination.",
+          "id": "Ini adalah waktu yang diprediksi kapan pesawat, kereta api, atau mobil diharapkan tiba di tujuannya.",
+          "ja": "飛行機、電車、または車が目的地に到着すると予想される時刻です。",
+          "th": "นี่คือเวลาที่คาดการณ์ว่าเครื่องบิน รถไฟ หรือรถยนต์จะเดินทางไปถึงจุดหมายปลายทาง",
+          "vi": "Đây là thời gian dự kiến khi máy bay, tàu hỏa hoặc ô tô được mong đợi đến đích."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 22,
+        "translation": {
+          "ar": "وقت الوصول المقدر",
+          "id": "perkiraan waktu tiba",
+          "ja": "到着予定時刻",
+          "th": "เวลาถึงโดยประมาณ",
+          "vi": "giờ đến dự kiến"
+        },
+        "type": "noun",
+        "wordLength": 25,
+        "wordMask": "_________ ____ __ _______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e22a71efcc97eb25bc2",
+        "data": {
+          "answer": "bucket",
+          "collectedAt": "2026-06-25T03:34:36.712Z",
+          "collectedAtServer": "2026-06-25T10:34:36+07:00",
+          "round": 9,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "bucket"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "من فضلك املأ الدلو بالماء.",
+          "en": "Please fill the ****** with water.",
+          "id": "Tolong isi ember itu dengan air.",
+          "ja": "バケツに水を満たしてください。",
+          "th": "กรุณาเติมน้ำใส่ถัง",
+          "vi": "Xin hãy đổ đầy nước vào xô."
+        },
+        "explanation": {
+          "ar": "هذه حاوية مفتوحة، عادة ما تكون مستديرة، ولها مقبض في الأعلى. يستخدمها الناس لحمل الماء أو الرمل أو أشياء أخرى.",
+          "en": "This is an open container, usually round, with a handle on top. People use it to carry water, sand, or other things.",
+          "id": "Ini adalah wadah terbuka, biasanya bulat, dengan pegangan di atasnya. Orang menggunakannya untuk membawa air, pasir, atau barang lainnya.",
+          "ja": "これは、通常丸い形をした、上部に取っ手が付いている開いた容器です。人々は水、砂、その他の物を運ぶためにこれを使います。",
+          "th": "นี่คือภาชนะเปิด มักจะเป็นทรงกลม มีหูหิ้วอยู่ด้านบน ผู้คนใช้มันเพื่อขนน้ำ ทราย หรือสิ่งของอื่นๆ",
+          "vi": "Đây là một vật chứa mở, thường hình tròn, có quai xách ở trên. Người ta dùng nó để đựng nước, cát hoặc những thứ khác."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 6,
+        "translation": {
+          "ar": "دلو",
+          "id": "ember",
+          "ja": "バケツ",
+          "th": "ถัง",
+          "vi": "cái xô"
+        },
+        "type": "noun",
+        "wordLength": 6,
+        "wordMask": "______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c6a409446f571c4fce5e",
+        "data": {
+          "answer": "still life",
+          "collectedAt": "2026-06-25T03:34:42.892Z",
+          "collectedAtServer": "2026-06-25T10:34:42+07:00",
+          "round": 10,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "still life"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "رسمت لوحة طبيعة صامتة جميلة من الفاكهة.",
+          "en": "She painted a beautiful ********** of fruit.",
+          "id": "Dia melukis ********** buah yang indah.",
+          "ja": "彼女は美しい果物の静物画を描いた。",
+          "th": "เธอวาดภาพหุ่นนิ่งผลไม้ที่สวยงาม",
+          "vi": "Cô ấy đã vẽ một bức tranh tĩnh vật trái cây tuyệt đẹp."
+        },
+        "explanation": {
+          "ar": "هذا نوع من الأعمال الفنية يظهر أشياء جامدة مثل الفاكهة أو الزهور أو الأدوات المنزلية مرتبة معًا.",
+          "en": "This is a type of artwork that shows inanimate objects like fruit, flowers, or household items arranged together.",
+          "id": "Ini adalah jenis karya seni yang menunjukkan benda mati seperti buah, bunga, atau barang rumah tangga yang diatur bersama.",
+          "ja": "これは、果物、花、家庭用品などの無生物を組み合わせて配置した芸術作品の一種です。",
+          "th": "นี่คืองานศิลปะประเภทหนึ่งที่แสดงวัตถุที่ไม่มีชีวิต เช่น ผลไม้ ดอกไม้ หรือของใช้ในครัวเรือนที่จัดวางรวมกัน",
+          "vi": "Đây là một loại hình nghệ thuật thể hiện các vật thể vô tri như trái cây, hoa hoặc đồ gia dụng được sắp xếp cùng nhau."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "طبيعة صامتة",
+          "id": "benda mati",
+          "ja": "静物画",
+          "th": "ภาพหุ่นนิ่ง",
+          "vi": "tĩnh vật"
+        },
+        "type": "noun",
+        "wordLength": 10,
+        "wordMask": "_____ ____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "690257db7082791d767d1bbb",
+        "data": {
+          "answer": "negative",
+          "collectedAt": "2026-06-25T03:35:07.192Z",
+          "collectedAtServer": "2026-06-25T10:35:07+07:00",
+          "round": 3,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "negative"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "حاول ألا يكون لديك نظرة سلبية للحياة.",
+          "en": "Try not to have a ******** outlook on life.",
+          "id": "Cobalah untuk tidak memiliki pandangan negatif tentang kehidupan.",
+          "th": "พยายามอย่ามีทัศนคติเชิงลบต่อชีวิต",
+          "vi": "Cố gắng đừng có cái nhìn tiêu cực về cuộc sống."
+        },
+        "explanation": {
+          "ar": "يصف هذا شيئًا سيئًا أو ضارًا أو غير مرحب به. يمكن أن يعني أيضًا قول لا أو عدم الموافقة على شيء ما.",
+          "en": "This describes something bad, harmful, or unwelcome. It can also mean saying no or disagreeing with something.",
+          "id": "Ini menggambarkan sesuatu yang buruk, berbahaya, atau tidak diinginkan. Ini juga bisa berarti mengatakan tidak atau tidak setuju dengan sesuatu.",
+          "th": "สิ่งนี้อธิบายถึงบางสิ่งที่แย่ เป็นอันตราย หรือไม่พึงประสงค์ นอกจากนี้ยังอาจหมายถึงการปฏิเสธหรือไม่เห็นด้วยกับบางสิ่ง",
+          "vi": "Điều này mô tả một điều gì đó xấu, có hại hoặc không mong muốn. Nó cũng có thể có nghĩa là nói không hoặc không đồng ý với điều gì đó."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/690257657082791d767d1849/images/negative_1762674648474.webp",
+        "letterCount": 8,
+        "translation": {
+          "ar": "سلبي",
+          "id": "negatif",
+          "th": "เชิงลบ",
+          "vi": "tiêu cực"
+        },
+        "type": "adjective",
+        "wordLength": 8,
+        "wordMask": "________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c68109446f571c4fcc51",
+        "data": {
+          "answer": "biome",
+          "collectedAt": "2026-06-25T03:35:23.631Z",
+          "collectedAtServer": "2026-06-25T10:35:23+07:00",
+          "round": 6,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "biome"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "الغابات المطيرة هي منطقة حيوية متنوعة ومعقدة.",
+          "en": "The rainforest is a diverse and complex *****.",
+          "id": "Hutan hujan adalah bioma yang beragam dan kompleks.",
+          "ja": "熱帯雨林は多様で複雑なバイオームです。",
+          "th": "ป่าฝนเป็นชีวนิเวศที่หลากหลายและซับซ้อน",
+          "vi": "Rừng nhiệt đới là một quần xã sinh vật đa dạng và phức tạp."
+        },
+        "explanation": {
+          "ar": "هذه منطقة طبيعية كبيرة على الأرض ذات نوع معين من المناخ والنباتات والحيوانات.",
+          "en": "This is a large natural area on Earth with a specific type of climate, plants, and animals.",
+          "id": "Ini adalah area alami yang luas di Bumi dengan jenis iklim, tumbuhan, dan hewan tertentu.",
+          "ja": "これは、特定の気候、植物、動物のタイプを持つ地球上の広大な自然地域です。",
+          "th": "นี่คือพื้นที่ธรรมชาติขนาดใหญ่บนโลกที่มีสภาพภูมิอากาศ พืช และสัตว์เฉพาะประเภท",
+          "vi": "Đây là một khu vực tự nhiên rộng lớn trên Trái đất với một loại khí hậu, thực vật và động vật cụ thể."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 5,
+        "translation": {
+          "ar": "منطقة أحيائية",
+          "id": "bioma",
+          "ja": "生物群系",
+          "th": "ชีวนิเวศ",
+          "vi": "quần xã sinh vật"
+        },
+        "type": "noun",
+        "wordLength": 5,
+        "wordMask": "_____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c3e109446f571c4fa507",
+        "data": {
+          "answer": "crumple",
+          "collectedAt": "2026-06-25T03:35:42.054Z",
+          "collectedAtServer": "2026-06-25T10:35:42+07:00",
+          "round": 9,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "crumple"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "الورق القديم سيتجعد بسهولة.",
+          "en": "The old paper will ******* easily.",
+          "id": "Kertas tua itu akan mudah kusut.",
+          "ja": "古い紙は簡単にくしゃくしゃになります。",
+          "th": "กระดาษเก่าจะยับง่าย",
+          "vi": "Tờ giấy cũ sẽ dễ dàng bị vò nát."
+        },
+        "explanation": {
+          "ar": "عندما تفعل هذا لشيء مثل الورق أو القماش، فإنك تسحقه إلى العديد من الطيات والتجاعيد. يصبح شكله فوضوياً وغير متساوٍ.",
+          "en": "When you do this to something like paper or cloth, you crush it into many folds and wrinkles. It becomes a messy, uneven shape.",
+          "id": "Ketika Anda melakukan ini pada sesuatu seperti kertas atau kain, Anda meremasnya menjadi banyak lipatan dan kerutan. Bentuknya menjadi berantakan dan tidak rata.",
+          "ja": "紙や布のようなものに対してこれを行うと、多くの折り目やしわができてくしゃくしゃになります。乱雑で不均一な形になります。",
+          "th": "เมื่อคุณทำสิ่งนี้กับบางอย่าง เช่น กระดาษหรือผ้า คุณจะขยำมันให้เป็นรอยพับและรอยยับมากมาย มันจะกลายเป็นรูปทรงที่ยุ่งเหยิงและไม่สม่ำเสมอ",
+          "vi": "Khi bạn làm điều này với thứ gì đó như giấy hoặc vải, bạn vò nát nó thành nhiều nếp gấp và nhăn nhúm. Nó trở thành một hình dạng lộn xộn, không đều."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 7,
+        "translation": {
+          "ar": "يجعّد",
+          "id": "meremas",
+          "ja": "揉む",
+          "th": "ขยำ",
+          "vi": "vò"
+        },
+        "type": "verb",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "690255767082791d767d11aa",
+        "data": {
+          "answer": "be in danger",
+          "collectedAt": "2026-06-25T03:36:40.938Z",
+          "collectedAtServer": "2026-06-25T10:36:40+07:00",
+          "round": 5,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "be in danger"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "حاول ألا تكون في خطر عندما تتسلق.",
+          "en": "Try not to ************ when you climb.",
+          "id": "Usahakan untuk tidak berada dalam bahaya saat Anda mendaki.",
+          "th": "พยายามอย่าตกอยู่ในอันตรายเมื่อคุณปีนเขา",
+          "vi": "Cố gắng đừng gặp nguy hiểm khi bạn leo núi."
+        },
+        "explanation": {
+          "ar": "أن تكون معرضًا لخطر الأذى أو الإصابة أو التدمير. هذا يعني أن شيئًا سيئًا قد يحدث لك أو قد يختفي.",
+          "en": "To be at risk of harm, injury, or destruction. This means something bad could happen to you or it could disappear.",
+          "id": "Berada dalam risiko bahaya, cedera, atau kehancangan. Ini berarti sesuatu yang buruk bisa terjadi pada Anda atau itu bisa menghilang.",
+          "th": "ตกอยู่ในความเสี่ยงที่จะได้รับอันตราย บาดเจ็บ หรือถูกทำลาย ซึ่งหมายความว่าสิ่งเลวร้ายอาจเกิดขึ้นกับคุณหรืออาจหายไป",
+          "vi": "Có nguy cơ bị tổn hại, thương tích hoặc phá hủy. Điều này có nghĩa là điều gì đó tồi tệ có thể xảy ra với bạn hoặc nó có thể biến mất."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/690254477082791d767d10ab/images/690255767082791d767d11aa_1762628132990.webp",
+        "letterCount": 10,
+        "translation": {
+          "ar": "في خطر",
+          "id": "dalam bahaya",
+          "th": "ตกอยู่ในอันตราย",
+          "vi": "gặp nguy hiểm"
+        },
+        "type": "idiom",
+        "wordLength": 12,
+        "wordMask": "__ __ ______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e1ba71efcc97eb2562a",
+        "data": {
+          "answer": "in charge of",
+          "collectedAt": "2026-06-25T03:37:03.674Z",
+          "collectedAtServer": "2026-06-25T10:37:03+07:00",
+          "round": 8,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "in charge of"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "هي المسؤولة عن الفريق بأكمله.",
+          "en": "She is ************ the whole team.",
+          "id": "Dia bertanggung jawab atas seluruh tim.",
+          "ja": "彼女はチーム全体の責任者です。",
+          "th": "เธอรับผิดชอบทีมทั้งหมด",
+          "vi": "Cô ấy phụ trách toàn bộ đội."
+        },
+        "explanation": {
+          "ar": "هذا يعني أنك مسؤول عن شيء أو شخص ما. لديك سيطرة أو سلطة عليه.",
+          "en": "This means you are responsible for something or someone. You have control or authority over it.",
+          "id": "Ini berarti Anda bertanggung jawab atas sesuatu atau seseorang. Anda memiliki kendali atau wewenang atasnya.",
+          "ja": "これは、何かや誰かに対して責任があることを意味します。それに対して支配権や権限を持っています。",
+          "th": "หมายความว่าคุณรับผิดชอบบางสิ่งบางอย่างหรือบางคน คุณมีอำนาจควบคุมหรืออำนาจเหนือสิ่งนั้น",
+          "vi": "Điều này có nghĩa là bạn chịu trách nhiệm về một cái gì đó hoặc ai đó. Bạn có quyền kiểm soát hoặc quyền hạn đối với nó."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 10,
+        "translation": {
+          "ar": "مسؤول",
+          "id": "bertanggung jawab",
+          "ja": "担当",
+          "th": "รับผิดชอบ",
+          "vi": "phụ trách"
+        },
+        "type": "phrase",
+        "wordLength": 12,
+        "wordMask": "__ ______ __"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c3fa09446f571c4fa761",
+        "data": {
+          "answer": "aloof",
+          "collectedAt": "2026-06-25T03:37:10.562Z",
+          "collectedAtServer": "2026-06-25T10:37:10+07:00",
+          "round": 9,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "aloof"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "بدت متحفظة ولم تنضم إلى المحادثة.",
+          "en": "She seemed ***** and did not join the conversation.",
+          "id": "Dia tampak menyendiri dan tidak bergabung dalam percakapan.",
+          "ja": "彼女はよそよそしく見え、会話に参加しなかった。",
+          "th": "เธอดูห่างเหินและไม่เข้าร่วมการสนทนา",
+          "vi": "Cô ấy có vẻ xa cách và không tham gia vào cuộc trò chuyện."
+        },
+        "explanation": {
+          "ar": "شخص بعيد وغير ودود، غالبًا ما يختار البقاء منفصلاً عن الآخرين. قد يبدون غير مهتمين بالانضمام إلى الأنشطة الجماعية أو تكوين صداقات.",
+          "en": "Someone who is distant and unfriendly, often choosing to stay separate from others. They might seem uninterested in joining group activities or making friends.",
+          "id": "Seseorang yang jauh dan tidak ramah, sering memilih untuk tetap terpisah dari orang lain. Mereka mungkin tampak tidak tertarik untuk bergabung dalam kegiatan kelompok atau berteman.",
+          "ja": "他人から距離を置き、不親切で、しばしば他人から離れていようとする人。彼らはグループ活動に参加したり、友達を作ったりすることに興味がないように見えるかもしれません。",
+          "th": "คนที่ห่างเหินและไม่เป็นมิตร มักจะเลือกที่จะอยู่แยกจากผู้อื่น พวกเขาอาจดูไม่สนใจที่จะเข้าร่วมกิจกรรมกลุ่มหรือผูกมิตร",
+          "vi": "Một người xa cách và không thân thiện, thường chọn cách tách biệt khỏi người khác. Họ có vẻ không quan tâm đến việc tham gia các hoạt động nhóm hoặc kết bạn."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 5,
+        "translation": {
+          "ar": "منعزل",
+          "id": "menyendiri",
+          "ja": "よそよそしい",
+          "th": "ห่างเหิน",
+          "vi": "xa cách"
+        },
+        "type": "adjective",
+        "wordLength": 5,
+        "wordMask": "_____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6902573f7082791d767d176b",
+        "data": {
+          "answer": "obsolete",
+          "collectedAt": "2026-06-25T03:37:20.421Z",
+          "collectedAtServer": "2026-06-25T10:37:20+07:00",
+          "round": 10,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "obsolete"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "نموذج الهاتف القديم هذا أصبح الآن عفا عليه الزمن.",
+          "en": "That old phone model is now ********.",
+          "id": "Model ponsel lama itu sekarang sudah usang.",
+          "th": "โทรศัพท์รุ่นเก่าเครื่องนั้นล้าสมัยไปแล้ว",
+          "vi": "Mẫu điện thoại cũ đó giờ đã lỗi thời."
+        },
+        "explanation": {
+          "ar": "يصف هذا شيئًا لم يعد مفيدًا أو يتم إنتاجه لأنه قديم الطراز. لقد تم استبداله بأشياء أحدث وأفضل.",
+          "en": "This describes something that is no longer useful or produced because it is old-fashioned. It has been replaced by newer, better things.",
+          "id": "Ini menggambarkan sesuatu yang tidak lagi berguna atau diproduksi karena sudah ketinggalan zaman. Ini telah digantikan oleh hal-hal yang lebih baru dan lebih baik.",
+          "th": "คำนี้ใช้อธิบายสิ่งที่ไม่มีประโยชน์หรือไม่ได้ผลิตอีกต่อไปเพราะล้าสมัย มันถูกแทนที่ด้วยสิ่งใหม่ที่ดีกว่า",
+          "vi": "Từ này mô tả điều gì đó không còn hữu ích hoặc được sản xuất vì nó đã lỗi thời. Nó đã được thay thế bằng những thứ mới hơn, tốt hơn."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/6902571e7082791d767d16e7/images/6902573f7082791d767d176b_1762668391443.webp",
+        "letterCount": 8,
+        "translation": {
+          "ar": "بائد",
+          "id": "usang",
+          "ja": "廃れた",
+          "th": "ล้าสมัย",
+          "vi": "lỗi thời"
+        },
+        "type": "adjective",
+        "wordLength": 8,
+        "wordMask": "________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "690255ab7082791d767d1372",
+        "data": {
+          "answer": "socialise",
+          "collectedAt": "2026-06-25T03:38:16.863Z",
+          "collectedAtServer": "2026-06-25T10:38:16+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-timeout",
+          "totalRounds": 10,
+          "word": "socialise"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "من الجيد الاختلاط بأشخاص جدد.",
+          "en": "It is good to ********* with new people.",
+          "id": "Sangat baik untuk bersosialisasi dengan orang baru.",
+          "th": "เป็นเรื่องดีที่จะเข้าสังคมกับผู้คนใหม่ๆ",
+          "vi": "Thật tốt khi giao lưu với những người mới."
+        },
+        "explanation": {
+          "ar": "عندما تقضي وقتًا مع أشخاص آخرين، مثل الأصدقاء أو العائلة، وتتحدثون أو تفعلون أشياء معًا، فإنك تفعل ذلك. هذا يعني الانخراط في أنشطة جماعية.",
+          "en": "When you spend time with other people, like friends or family, and talk or do things together, you do this. It means engaging in group activities.",
+          "id": "Ketika Anda menghabiskan waktu dengan orang lain, seperti teman atau keluarga, dan berbicara atau melakukan sesuatu bersama, Anda melakukan ini. Ini berarti terlibat dalam aktivitas kelompok.",
+          "th": "เมื่อคุณใช้เวลากับผู้อื่น เช่น เพื่อนหรือครอบครัว และพูดคุยหรือทำกิจกรรมร่วมกัน คุณกำลังทำสิ่งนี้ มันหมายถึงการเข้าร่วมกิจกรรมกลุ่ม",
+          "vi": "Khi bạn dành thời gian với những người khác, như bạn bè hoặc gia đình, và nói chuyện hoặc làm việc cùng nhau, bạn làm điều này. Nó có nghĩa là tham gia vào các hoạt động nhóm."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/690254477082791d767d10ab/images/690255ab7082791d767d1372_1762629767918.webp",
+        "letterCount": 9,
+        "translation": {
+          "ar": "يتواصل اجتماعياً، يختلط بالناس",
+          "id": "bersosialisasi",
+          "th": "พบปะสังสรรค์, เข้าสังคม",
+          "vi": "giao lưu, hòa nhập xã hội"
+        },
+        "type": "verb",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691caceb80f35c712a769d08",
+        "data": {
+          "answer": "consensus",
+          "collectedAt": "2026-06-25T03:39:49.424Z",
+          "collectedAtServer": "2026-06-25T10:39:49+07:00",
+          "round": 5,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "consensus"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "توصلنا إلى توافق في الآراء بشأن قواعد الفريق الجديدة.",
+          "en": "We reached a ********* on the new team rules.",
+          "id": "Kami mencapai konsensus tentang aturan tim yang baru.",
+          "ja": "私たちは新しいチームの規則について合意に達しました。",
+          "th": "เราบรรลุข้อตกลงร่วมกันเกี่ยวกับกฎใหม่ของทีม",
+          "vi": "Chúng tôi đã đạt được sự đồng thuận về các quy tắc mới của đội."
+        },
+        "explanation": {
+          "ar": "اتفاق عام يتوصل إليه معظم أو جميع الأشخاص في مجموعة. يعني أن الجميع يتشاركون إلى حد كبير نفس الرأي أو القرار.",
+          "en": "A general agreement reached by most or all the people in a group. It means everyone largely shares the same opinion or decision.",
+          "id": "Kesepakatan umum yang dicapai oleh sebagian besar atau semua orang dalam suatu kelompok. Ini berarti semua orang sebagian besar memiliki pendapat atau keputusan yang sama.",
+          "ja": "グループ内のほとんどまたは全員が達した一般的な合意。全員が概ね同じ意見や決定を共有していることを意味します。",
+          "th": "ข้อตกลงทั่วไปที่คนส่วนใหญ่หรือทุกคนในกลุ่มบรรลุร่วมกัน หมายถึงทุกคนส่วนใหญ่มีความเห็นหรือการตัดสินใจเดียวกัน",
+          "vi": "Một thỏa thuận chung đạt được bởi hầu hết hoặc tất cả mọi người trong một nhóm. Nó có nghĩa là mọi người phần lớn chia sẻ cùng một ý kiến hoặc quyết định."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c16fad3a2e879f9c6ebe0/images/691caceb80f35c712a769d08_1768928307837.webp",
+        "letterCount": 9,
+        "translation": {
+          "ar": "إجماع",
+          "id": "konsensus",
+          "ja": "合意",
+          "th": "ฉันทามติ",
+          "vi": "đồng thuận"
+        },
+        "type": "noun",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c4d709446f571c4fb7a5",
+        "data": {
+          "answer": "trilogy",
+          "collectedAt": "2026-06-25T03:40:04.390Z",
+          "collectedAtServer": "2026-06-25T10:40:04+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "trilogy"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "استمتعت بقراءة ثلاثية كتب الفنتازيا.",
+          "en": "I enjoyed reading the fantasy book *******.",
+          "id": "Saya menikmati membaca trilogi buku fantasi itu.",
+          "ja": "私はファンタジー小説の三部作を読むのを楽しんだ。",
+          "th": "ฉันสนุกกับการอ่านไตรภาคหนังสือแฟนตาซี",
+          "vi": "Tôi thích đọc bộ ba tiểu thuyết giả tưởng."
+        },
+        "explanation": {
+          "ar": "هذه مجموعة من ثلاثة كتب أو أفلام أو مسرحيات مترابطة وتروي قصة متواصلة. غالباً ما يتم إصدارها واحداً تلو الآخر.",
+          "en": "This is a group of three books, movies, or plays that are connected and tell a continuous story. They are often released one after another.",
+          "id": "Ini adalah kelompok tiga buku, film, atau drama yang saling terhubung dan menceritakan kisah yang berkelanjutan. Mereka sering dirilis satu per satu.",
+          "ja": "これは、関連性があり、連続した物語を語る3冊の本、映画、または劇のグループです。それらはしばしば次々とリリースされます。",
+          "th": "นี่คือกลุ่มของหนังสือ ภาพยนตร์ หรือบทละครสามเรื่องที่เชื่อมโยงกันและเล่าเรื่องราวต่อเนื่องกัน มักจะออกฉายทีละเรื่อง",
+          "vi": "Đây là một nhóm ba cuốn sách, bộ phim hoặc vở kịch có liên quan và kể một câu chuyện liên tục. Chúng thường được phát hành lần lượt."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 7,
+        "translation": {
+          "ar": "ثلاثية",
+          "id": "trilogi",
+          "ja": "三部作",
+          "th": "ไตรภาค",
+          "vi": "bộ ba"
+        },
+        "type": "noun",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691c1665d3a2e879f9c6c883",
+        "data": {
+          "answer": "economy",
+          "collectedAt": "2026-06-25T03:40:24.855Z",
+          "collectedAtServer": "2026-06-25T10:40:24+07:00",
+          "round": 10,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "economy"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "اقتصاد البلاد ينمو باطراد.",
+          "en": "The country's ******* is growing steadily.",
+          "id": "Ekonomi negara itu tumbuh dengan stabil.",
+          "ja": "その国の経済は着実に成長しています。",
+          "th": "เศรษฐกิจของประเทศกำลังเติบโตอย่างต่อเนื่อง",
+          "vi": "Nền kinh tế của đất nước đang tăng trưởng ổn định."
+        },
+        "explanation": {
+          "ar": "يشير هذا إلى كيفية إدارة الدولة لأموالها وسلعها وخدماتها. ويشمل كيفية عمل الناس وشراء وبيع الأشياء.",
+          "en": "This refers to how a country manages its money, goods, and services. It includes how people work, buy, and sell things.",
+          "id": "Ini mengacu pada bagaimana suatu negara mengelola uang, barang, dan layanannya. Ini termasuk bagaimana orang bekerja, membeli, dan menjual barang.",
+          "ja": "これは、国がお金、商品、サービスをどのように管理するかを指します。人々がどのように働き、物を買い、売るかを含みます。",
+          "th": "นี่หมายถึงวิธีการที่ประเทศจัดการเงิน สินค้า และบริการของตน รวมถึงวิธีการที่ผู้คนทำงาน ซื้อ และขายสิ่งของ",
+          "vi": "Điều này đề cập đến cách một quốc gia quản lý tiền bạc, hàng hóa và dịch vụ của mình. Nó bao gồm cách mọi người làm việc, mua và bán mọi thứ."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c1642d3a2e879f9c6c0f4/images/691c1665d3a2e879f9c6c883_1763539704795.webp",
+        "letterCount": 7,
+        "translation": {
+          "ar": "اقتصاد",
+          "id": "ekonomi",
+          "ja": "経済",
+          "th": "เศรษฐกิจ",
+          "vi": "nền kinh tế"
+        },
+        "type": "noun",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691cab76a020a28e61edb374",
+        "data": {
+          "answer": "voluntary",
+          "collectedAt": "2026-06-25T03:42:20.674Z",
+          "collectedAtServer": "2026-06-25T10:42:20+07:00",
+          "round": 4,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "voluntary"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "كان العمل تطوعيًا، لذلك لم يتلق أي أجر.",
+          "en": "The work was *********, so he received no pay.",
+          "id": "Pekerjaan itu sukarela, jadi dia tidak menerima bayaran.",
+          "ja": "その仕事は自発的なものだったので、彼はお金を受け取らなかった。",
+          "th": "งานนี้เป็นงานอาสาสมัคร เขาจึงไม่ได้รับค่าจ้าง",
+          "vi": "Công việc đó là tự nguyện, nên anh ấy không nhận được lương."
+        },
+        "explanation": {
+          "ar": "إذا تم فعل شيء عن طيب خاطر ودون إكراه، فهو كذلك. غالبًا ما يقوم الناس بهذا النوع من العمل لمساعدة الآخرين.",
+          "en": "If something is done willingly and without being forced, it is this. People often do this kind of work to help others.",
+          "id": "Jika sesuatu dilakukan dengan sukarela dan tanpa paksaan, itulah artinya. Orang sering melakukan pekerjaan semacam ini untuk membantu orang lain.",
+          "ja": "何かが自らの意思で、強制されずにされる場合、それはこの言葉で表されます。人々はしばしば他人を助けるためにこの種の仕事をします。",
+          "th": "หากสิ่งใดสิ่งหนึ่งถูกทำขึ้นด้วยความเต็มใจและไม่ถูกบังคับ สิ่งนั้นคือ 'voluntary' ผู้คนมักจะทำงานประเภทนี้เพื่อช่วยเหลือผู้อื่น",
+          "vi": "Nếu một việc gì đó được thực hiện một cách tự nguyện và không bị ép buộc, thì đó là việc này. Mọi người thường làm loại công việc này để giúp đỡ người khác."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c16efd3a2e879f9c6ea68/images/691cab76a020a28e61edb374_1769347460870.webp",
+        "letterCount": 9,
+        "translation": {
+          "ar": "طوعي",
+          "id": "sukarela",
+          "ja": "自発的",
+          "th": "สมัครใจ",
+          "vi": "tự nguyện"
+        },
+        "type": "adjective",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c4dc09446f571c4fb82c",
+        "data": {
+          "answer": "the electric chair",
+          "collectedAt": "2026-06-25T03:42:47.530Z",
+          "collectedAtServer": "2026-06-25T10:42:47+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "the electric chair"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "لا تزال بعض الدول تستخدم الكرسي الكهربائي للمجرمين.",
+          "en": "Some countries still use ****************** for criminals.",
+          "id": "Beberapa negara masih menggunakan kursi listrik untuk penjahat.",
+          "ja": "一部の国では、いまだに犯罪者に対して電気椅子を使用しています。",
+          "th": "บางประเทศยังคงใช้เก้าอี้ไฟฟ้าสำหรับอาชญากร",
+          "vi": "Một số quốc gia vẫn sử dụng ghế điện để xử tử tội phạm."
+        },
+        "explanation": {
+          "ar": "هذا كرسي خاص يستخدم في بعض الأماكن لإعدام المجرمين كشكل من أشكال العقاب. يجلس الشخص فيه ويتلقى صدمة كهربائية قوية تسبب الوفاة.",
+          "en": "This is a special piece of furniture used in some places to execute criminals as a form of punishment. The person is seated in it and receives a strong electric shock that causes death.",
+          "id": "Ini adalah perabot khusus yang digunakan di beberapa tempat untuk mengeksekusi penjahat sebagai bentuk hukuman. Orang tersebut didudukkan di dalamnya dan menerima sengatan listrik kuat yang menyebabkan kematian.",
+          "ja": "これは、一部の場所で犯罪者を処刑するための刑罰の一形態として使用される特別な家具です。その人は椅子に座らされ、死に至る強力な電気ショックを受けます。",
+          "th": "นี่คือเก้าอี้พิเศษที่ใช้ในบางแห่งเพื่อประหารชีวิตอาชญากรเพื่อเป็นการลงโทษ บุคคลนั้นจะถูกนั่งลงบนเก้าอี้และได้รับกระแสไฟฟ้าแรงสูงที่ทำให้เสียชีวิต",
+          "vi": "Đây là một loại ghế đặc biệt được sử dụng ở một số nơi để hành quyết tội phạm như một hình thức trừng phạt. Người đó được ngồi vào ghế và nhận một cú sốc điện mạnh gây tử vong."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 16,
+        "translation": {
+          "ar": "كرسي كهربائي",
+          "id": "kursi listrik",
+          "ja": "電気椅子",
+          "th": "เก้าอี้ไฟฟ้า",
+          "vi": "ghế điện"
+        },
+        "type": "noun",
+        "wordLength": 18,
+        "wordMask": "___ ________ _____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c3fa09446f571c4fa764",
+        "data": {
+          "answer": "resentful",
+          "collectedAt": "2026-06-25T03:42:53.665Z",
+          "collectedAtServer": "2026-06-25T10:42:53+07:00",
+          "round": 8,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "resentful"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "شعرت بالاستياء من القرار غير العادل.",
+          "en": "She felt ********* about the unfair decision.",
+          "id": "Dia merasa kesal tentang keputusan yang tidak adil itu.",
+          "ja": "彼女はその不公平な決定に憤慨した。",
+          "th": "เธอรู้สึกไม่พอใจกับการตัดสินใจที่ไม่ยุติธรรม",
+          "vi": "Cô ấy cảm thấy bực tức về quyết định không công bằng."
+        },
+        "explanation": {
+          "ar": "الشعور بالغضب أو المرارة لأنك تعتقد أن شخصًا ما قد عاملك بشكل غير عادل أو يمتلك شيئًا تستحقه. هذا الشعور يمكن أن يستمر لفترة طويلة.",
+          "en": "Feeling angry or bitter because you believe someone has treated you unfairly or has something you deserve. This feeling can last for a long time.",
+          "id": "Merasa marah atau pahit karena Anda percaya seseorang telah memperlakukan Anda secara tidak adil atau memiliki sesuatu yang Anda pantas dapatkan. Perasaan ini bisa bertahan lama.",
+          "ja": "誰かが自分を不公平に扱った、あるいは自分が当然得るべきものを持っていると信じているために、怒りや苦々しさを感じる状態。この感情は長く続くことがあります。",
+          "th": "รู้สึกโกรธหรือขมขื่นเพราะคุณเชื่อว่ามีคนปฏิบัติต่อคุณอย่างไม่ยุติธรรมหรือมีบางสิ่งที่คุณสมควรได้รับ ความรู้สึกนี้สามารถคงอยู่ได้นาน",
+          "vi": "Cảm thấy tức giận hoặc cay đắng vì bạn tin rằng ai đó đã đối xử bất công với bạn hoặc có thứ bạn xứng đáng được hưởng. Cảm giác này có thể kéo dài."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "مستاء",
+          "id": "kesal",
+          "ja": "憤慨",
+          "th": "ขุ่นเคือง",
+          "vi": "bực bội"
+        },
+        "type": "adjective",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c64809446f571c4fc975",
+        "data": {
+          "answer": "pepsin",
+          "collectedAt": "2026-06-25T03:43:25.452Z",
+          "collectedAtServer": "2026-06-25T10:43:25+07:00",
+          "round": 1,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "pepsin"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "يساعد البيبسين على تكسير البروتين في المعدة.",
+          "en": "****** helps break down protein in the stomach.",
+          "id": "****** membantu memecah protein di perut.",
+          "ja": "ペプシンは胃の中でタンパク質を分解するのを助ける。",
+          "th": "****** ช่วยย่อยโปรตีนในกระเพาะอาหาร",
+          "vi": "****** giúp phân giải protein trong dạ dày."
+        },
+        "explanation": {
+          "ar": "هذه مادة خاصة في معدتك تساعد جسمك على تكسير البروتين من الطعام.",
+          "en": "This is a special substance in your stomach that helps your body break down the protein from food.",
+          "id": "Ini adalah zat khusus di perut Anda yang membantu tubuh Anda memecah protein dari makanan.",
+          "ja": "これは胃の中にある特別な物質で、体が食べ物から摂取したタンパク質を分解するのを助ける。",
+          "th": "นี่คือสารพิเศษในกระเพาะอาหารของคุณที่ช่วยให้ร่างกายของคุณย่อยสลายโปรตีนจากอาหาร",
+          "vi": "Đây là một chất đặc biệt trong dạ dày giúp cơ thể bạn phân giải protein từ thức ăn."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 6,
+        "translation": {
+          "ar": "بيبسين",
+          "id": "pepsin",
+          "ja": "ペプシン",
+          "th": "เปปซิน",
+          "vi": "pepsin"
+        },
+        "type": "noun",
+        "wordLength": 6,
+        "wordMask": "______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c34509446f571c4f9bbf",
+        "data": {
+          "answer": "spectacular",
+          "collectedAt": "2026-06-25T03:43:58.077Z",
+          "collectedAtServer": "2026-06-25T10:43:58+07:00",
+          "round": 5,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "spectacular"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "كان عرض الألعاب النارية مذهلاً.",
+          "en": "The fireworks show was ***********.",
+          "id": "Pertunjukan kembang api itu spektakuler.",
+          "ja": "花火大会は壮観だった。",
+          "th": "การแสดงดอกไม้ไฟนั้นงดงามตระการตา",
+          "vi": "Màn trình diễn pháo hoa thật ngoạn mục."
+        },
+        "explanation": {
+          "ar": "يصف هذا شيئًا مثيرًا للإعجاب للغاية، جميلًا، أو مثيرًا للرؤية. إنه مدهش ورائع حقًا.",
+          "en": "This describes something extremely impressive, beautiful, or exciting to see. It is truly amazing and wonderful.",
+          "id": "Ini menggambarkan sesuatu yang sangat mengesankan, indah, atau menarik untuk dilihat. Ini benar-benar menakjubkan dan luar biasa.",
+          "ja": "これは、非常に印象的で美しく、または見ていてわくわくするものを表します。それは本当に驚くべき、素晴らしいものです。",
+          "th": "คำนี้อธิบายถึงสิ่งที่น่าประทับใจ สวยงาม หรือน่าตื่นเต้นอย่างยิ่งที่ได้เห็น มันน่าทึ่งและยอดเยี่ยมอย่างแท้จริง",
+          "vi": "Điều này mô tả một cái gì đó cực kỳ ấn tượng, đẹp đẽ hoặc thú vị để xem. Nó thực sự tuyệt vời và kỳ diệu."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 11,
+        "translation": {
+          "ar": "مذهل",
+          "id": "spektakuler",
+          "ja": "壮観な",
+          "th": "ตระการตา",
+          "vi": "ngoạn mục"
+        },
+        "type": "adjective",
+        "wordLength": 11,
+        "wordMask": "___________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691cabb1a020a28e61edba8e",
+        "data": {
+          "answer": "confess",
+          "collectedAt": "2026-06-25T03:44:05.941Z",
+          "collectedAtServer": "2026-06-25T10:44:05+07:00",
+          "round": 6,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "confess"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "قرر أن يعترف بخطئه.",
+          "en": "He decided to ******* his mistake.",
+          "id": "Dia memutuskan untuk mengakui kesalahannya.",
+          "ja": "彼は自分の間違いを告白することにした。",
+          "th": "เขาตัดสินใจสารภาพความผิดพลาดของเขา",
+          "vi": "Anh ấy quyết định thú nhận lỗi lầm của mình."
+        },
+        "explanation": {
+          "ar": "الاعتراف بأنك فعلت شيئًا خاطئًا أو ارتكبت جريمة. أنت تقول الحقيقة حول خطأ ارتكبته.",
+          "en": "To admit that you have done something wrong or committed a crime. You tell the truth about a mistake you made.",
+          "id": "Mengakui bahwa Anda telah melakukan kesalahan atau melakukan kejahatan. Anda mengatakan yang sebenarnya tentang kesalahan yang Anda buat.",
+          "ja": "何か間違ったことをした、または罪を犯したことを認めること。自分が犯した間違いについて真実を話すことです。",
+          "th": "การยอมรับว่าคุณได้ทำสิ่งผิดพลาดหรือก่ออาชญากรรม คุณบอกความจริงเกี่ยวกับความผิดพลาดที่คุณทำไป",
+          "vi": "Thừa nhận rằng bạn đã làm điều gì đó sai hoặc phạm tội. Bạn nói sự thật về lỗi lầm bạn đã mắc phải."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c16efd3a2e879f9c6ea68/images/691cabb1a020a28e61edba8e_1768923192726.webp",
+        "letterCount": 7,
+        "translation": {
+          "ar": "اعترف",
+          "id": "mengaku",
+          "ja": "告白する",
+          "th": "สารภาพ",
+          "vi": "thú nhận"
+        },
+        "type": "verb",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691c1666d3a2e879f9c6ca7a",
+        "data": {
+          "answer": "slice",
+          "collectedAt": "2026-06-25T03:44:11.726Z",
+          "collectedAtServer": "2026-06-25T10:44:11+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "slice"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "أريد شريحة من فطيرة التفاح الدافئة.",
+          "en": "I want a ***** of warm apple pie.",
+          "id": "Saya ingin sepotong pai apel hangat.",
+          "ja": "温かいアップルパイを一切れください。",
+          "th": "ฉันอยากได้พายแอปเปิลอุ่นๆ สักชิ้น",
+          "vi": "Tôi muốn một lát bánh táo ấm."
+        },
+        "explanation": {
+          "ar": "هذه قطعة رقيقة ومسطحة مقطوعة من شيء أكبر، مثل الخبز أو الكعك. يمكنك أيضًا الحصول على جزء صغير من شيء ما.",
+          "en": "This is a thin, flat piece cut from a larger item, like bread or cake. You can also have a small portion of something.",
+          "id": "Ini adalah potongan tipis dan datar yang dipotong dari barang yang lebih besar, seperti roti atau kue. Anda juga bisa memiliki porsi kecil dari sesuatu.",
+          "ja": "これは、パンやケーキのような大きなものから切り取られた薄くて平らな一片です。また、何かの少量という意味もあります。",
+          "th": "นี่คือชิ้นบางๆ แบนๆ ที่ตัดมาจากของชิ้นใหญ่ เช่น ขนมปังหรือเค้ก คุณยังสามารถมีส่วนเล็กๆ ของบางสิ่งได้",
+          "vi": "Đây là một miếng mỏng, phẳng được cắt từ một vật lớn hơn, như bánh mì hoặc bánh ngọt. Bạn cũng có thể có một phần nhỏ của thứ gì đó."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c1642d3a2e879f9c6c0f4/images/691c1666d3a2e879f9c6ca7a_1765732604592.webp",
+        "letterCount": 5,
+        "translation": {
+          "ar": "شريحة",
+          "id": "irisan",
+          "ja": "薄切り",
+          "th": "ชิ้น",
+          "vi": "lát"
+        },
+        "type": "noun",
+        "wordLength": 5,
+        "wordMask": "_____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c49109446f571c4fb0de",
+        "data": {
+          "answer": "howl",
+          "collectedAt": "2026-06-25T03:45:06.763Z",
+          "collectedAtServer": "2026-06-25T10:45:06+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "howl"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "سيعوي الذئب على القمر الليلة.",
+          "en": "The wolf will **** at the moon tonight.",
+          "id": "Serigala akan melolong ke bulan malam ini.",
+          "ja": "今夜、オオカミは月に遠吠えするだろう。",
+          "th": "หมาป่าจะหอนใส่ดวงจันทร์คืนนี้",
+          "vi": "Con sói sẽ hú lên mặt trăng tối nay."
+        },
+        "explanation": {
+          "ar": "أن تفعل هذا هو إصدار صوت طويل، عالٍ، ومحزن، مثل الذئب أو الكلب. قد يفعل الناس ذلك أيضًا عندما يكونون في ألم شديد أو حزينين جدًا.",
+          "en": "To do this is to make a long, loud, mournful sound, like a wolf or a dog. People might also do it when they are in great pain or very sad.",
+          "id": "Melakukan ini berarti mengeluarkan suara panjang, keras, dan menyedihkan, seperti serigala atau anjing. Orang juga mungkin melakukannya ketika mereka sangat kesakitan atau sangat sedih.",
+          "ja": "これを行うとは、オオカミや犬のように、長く、大きく、悲しげな音を出すことです。人々も、ひどく苦しんでいるときや非常に悲しいときにこれを行うことがあります。",
+          "th": "การทำเช่นนี้คือการส่งเสียงยาว ดัง และโหยหวน เหมือนหมาป่าหรือสุนัข ผู้คนอาจทำเช่นนี้เมื่อพวกเขากำลังเจ็บปวดมากหรือเศร้ามาก",
+          "vi": "Làm điều này là tạo ra một âm thanh dài, lớn, ai oán, giống như tiếng chó sói hoặc chó. Con người cũng có thể làm vậy khi họ đang rất đau đớn hoặc rất buồn."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 4,
+        "translation": {
+          "ar": "يعوي",
+          "id": "melolong",
+          "ja": "吠える",
+          "th": "หอน",
+          "vi": "hú lên"
+        },
+        "type": "verb",
+        "wordLength": 4,
+        "wordMask": "____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c60509446f571c4fc819",
+        "data": {
+          "answer": "reason with",
+          "collectedAt": "2026-06-25T03:46:43.319Z",
+          "collectedAtServer": "2026-06-25T10:46:43+07:00",
+          "round": 6,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "reason with"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "من الصعب التفاهم مع شخص غاضب.",
+          "en": "It is hard to *********** an angry person.",
+          "id": "Sulit untuk berunding dengan orang yang marah.",
+          "ja": "怒っている人と議論するのは難しい。",
+          "th": "เป็นการยากที่จะใช้เหตุผลกับคนโกรธ",
+          "vi": "Thật khó để nói lý với một người đang tức giận."
+        },
+        "explanation": {
+          "ar": "تحاول جعل شخص ما يفهم لماذا يجب عليه تغيير رأيه أو سلوكه باستخدام حجج هادئة ومنطقية.",
+          "en": "You try to make someone understand why they should change their mind or behavior using calm and logical arguments.",
+          "id": "Anda mencoba membuat seseorang memahami mengapa mereka harus mengubah pikiran atau perilaku mereka menggunakan argumen yang tenang dan logis.",
+          "ja": "穏やかで論理的な議論を用いて、相手に考えや行動を変えるべき理由を理解させようとすること。",
+          "th": "คุณพยายามทำให้ใครบางคนเข้าใจว่าทำไมพวกเขาควรเปลี่ยนความคิดหรือพฤติกรรมของตนเอง โดยใช้เหตุผลที่สงบและมีตรรกะ",
+          "vi": "Bạn cố gắng làm cho ai đó hiểu tại sao họ nên thay đổi suy nghĩ hoặc hành vi của mình bằng cách sử dụng các lập luận bình tĩnh và hợp lý."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 10,
+        "translation": {
+          "ar": "يقنع",
+          "id": "membujuk",
+          "ja": "説得する",
+          "th": "พูดให้เข้าใจ",
+          "vi": "lý luận với"
+        },
+        "type": "phrasal_verb",
+        "wordLength": 11,
+        "wordMask": "______ ____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c34809446f571c4f9c04",
+        "data": {
+          "answer": "outlast",
+          "collectedAt": "2026-06-25T03:47:04.301Z",
+          "collectedAtServer": "2026-06-25T10:47:04+07:00",
+          "round": 9,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "outlast"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "هذه الشجرة القديمة ستصمد لأجيال عديدة.",
+          "en": "This old tree will ******* many generations.",
+          "id": "Pohon tua ini akan bertahan lebih lama dari banyak generasi.",
+          "ja": "この老木は多くの世代よりも長生きするだろう。",
+          "th": "ต้นไม้เก่าแก่นี้จะอยู่รอดได้นานกว่าหลายชั่วอายุคน",
+          "vi": "Cây cổ thụ này sẽ tồn tại qua nhiều thế hệ."
+        },
+        "explanation": {
+          "ar": "أن يستمر في الوجود أو يكون قوياً لفترة أطول من شيء آخر. هذا يعني أن شيئًا واحدًا يدوم أطول من الآخر.",
+          "en": "To continue to exist or be strong for a longer time than something else. This means one thing lasts longer than another.",
+          "id": "Untuk terus ada atau menjadi kuat untuk waktu yang lebih lama daripada yang lain. Ini berarti satu hal bertahan lebih lama dari yang lain.",
+          "ja": "他の何かよりも長く存在し続ける、または強いままであること。これは、あるものが別のものよりも長持ちすることを意味します。",
+          "th": "ดำรงอยู่หรือแข็งแกร่งต่อไปได้นานกว่าสิ่งอื่น ซึ่งหมายความว่าสิ่งหนึ่งอยู่ได้นานกว่าอีกสิ่งหนึ่ง",
+          "vi": "Tiếp tục tồn tại hoặc mạnh mẽ trong thời gian dài hơn thứ khác. Điều này có nghĩa là một thứ tồn tại lâu hơn thứ khác."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 7,
+        "translation": {
+          "ar": "يدوم أطول",
+          "id": "melampaui",
+          "ja": "凌ぐ",
+          "th": "อยู่ทนกว่า",
+          "vi": "tồn tại lâu hơn"
+        },
+        "type": "verb",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c68009446f571c4fcc3c",
+        "data": {
+          "answer": "automate",
+          "collectedAt": "2026-06-25T03:47:53.603Z",
+          "collectedAtServer": "2026-06-25T10:47:53+07:00",
+          "round": 1,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "automate"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "نريد أتمتة عملية الفرز في المصنع.",
+          "en": "We want to ******** the sorting process at the factory.",
+          "id": "Kami ingin mengotomatiskan proses penyortiran di pabrik.",
+          "ja": "私たちは工場での仕分けプロセスを自動化したいと考えています。",
+          "th": "เราต้องการทำให้กระบวนการคัดแยกที่โรงงานเป็นระบบอัตโนมัติ",
+          "vi": "Chúng tôi muốn tự động hóa quy trình phân loại tại nhà máy."
+        },
+        "explanation": {
+          "ar": "جعل آلة أو نظام يعمل بمفرده دون مساعدة بشرية.",
+          "en": "To make a machine or system work by itself without human help.",
+          "id": "Membuat mesin atau sistem bekerja sendiri tanpa bantuan manusia.",
+          "ja": "機械やシステムを人間の助けなしに自動で動作させること。",
+          "th": "การทำให้เครื่องจักรหรือระบบทำงานได้ด้วยตัวเองโดยไม่ต้องอาศัยความช่วยเหลือจากมนุษย์",
+          "vi": "Làm cho một cỗ máy hoặc hệ thống tự hoạt động mà không cần sự giúp đỡ của con người."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 8,
+        "translation": {
+          "ar": "أتمتة",
+          "id": "mengotomatiskan",
+          "ja": "自動化する",
+          "th": "ทำอัตโนมัติ",
+          "vi": "tự động hóa"
+        },
+        "type": "verb",
+        "wordLength": 8,
+        "wordMask": "________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c36a09446f571c4f9e29",
+        "data": {
+          "answer": "frustrated",
+          "collectedAt": "2026-06-25T03:48:00.892Z",
+          "collectedAtServer": "2026-06-25T10:48:00+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "frustrated"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "شعرت بالإحباط بسبب التأخير.",
+          "en": "I felt ********** with the delay.",
+          "id": "Saya merasa frustrasi dengan penundaan itu.",
+          "ja": "遅延にイライラした。",
+          "th": "ฉันรู้สึกหงุดหงิดกับความล่าช้า",
+          "vi": "Tôi cảm thấy thất vọng vì sự chậm trễ."
+        },
+        "explanation": {
+          "ar": "تشعر بهذا الشعور عندما تحاول فعل شيء ولكن لا تنجح، مما يجعلك منزعجاً أو غير صبور. إنه شعور بالعرقلة أو العالق.",
+          "en": "You feel this way when you try to do something but cannot succeed, making you annoyed or impatient. It's a feeling of being blocked or stuck.",
+          "id": "Anda merasa seperti ini ketika Anda mencoba melakukan sesuatu tetapi tidak berhasil, membuat Anda kesal atau tidak sabar. Ini adalah perasaan terhalang atau terjebak.",
+          "ja": "何かをしようとしても成功せず、イライラしたり我慢できなくなったりする気持ちです。行き詰まったり、立ち往生したりする感覚です。",
+          "th": "คุณรู้สึกแบบนี้เมื่อพยายามทำบางสิ่งแต่ไม่สำเร็จ ทำให้คุณหงุดหงิดหรือไม่พอใจ เป็นความรู้สึกของการถูกขัดขวางหรือติดขัด",
+          "vi": "Bạn cảm thấy như vậy khi cố gắng làm điều gì đó nhưng không thành công, khiến bạn khó chịu hoặc mất kiên nhẫn. Đó là cảm giác bị cản trở hoặc mắc kẹt."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 10,
+        "translation": {
+          "ar": "محبط",
+          "id": "frustrasi",
+          "ja": "もどかしい",
+          "th": "หงุดหงิด",
+          "vi": "nản lòng"
+        },
+        "type": "adjective",
+        "wordLength": 10,
+        "wordMask": "__________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c5fa09446f571c4fc6d5",
+        "data": {
+          "answer": "diverge",
+          "collectedAt": "2026-06-25T03:49:10.430Z",
+          "collectedAtServer": "2026-06-25T10:49:10+07:00",
+          "round": 1,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "diverge"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "تتفرع المسارات عند شجرة البلوط القديمة.",
+          "en": "The paths ******* at the old oak tree.",
+          "id": "Jalan-jalan itu bercabang di pohon ek tua.",
+          "ja": "その道は古いオークの木で分岐しています。",
+          "th": "เส้นทางแยกออกที่ต้นโอ๊กเก่า",
+          "vi": "Các con đường rẽ nhánh tại cây sồi già."
+        },
+        "explanation": {
+          "ar": "أن تتحرك بعيدًا وتتجه في اتجاهات مختلفة من نقطة مشتركة.",
+          "en": "To move apart and go in different directions from a common point.",
+          "id": "Untuk bergerak terpisah dan pergi ke arah yang berbeda dari titik yang sama.",
+          "ja": "共通の点から離れて、異なる方向に進むこと。",
+          "th": "เคลื่อนที่แยกออกจากกันและไปในทิศทางที่แตกต่างกันจากจุดร่วม",
+          "vi": "Di chuyển ra xa và đi theo các hướng khác nhau từ một điểm chung."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 7,
+        "translation": {
+          "ar": "يتفرع",
+          "id": "menyimpang",
+          "ja": "分岐する",
+          "th": "แยกออก",
+          "vi": "phân kỳ"
+        },
+        "type": "verb",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c6d109446f571c4fcf9c",
+        "data": {
+          "answer": "confiscate",
+          "collectedAt": "2026-06-25T03:49:47.280Z",
+          "collectedAtServer": "2026-06-25T10:49:47+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "confiscate"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "سيصادر المعلم هاتفك إذا استخدمته.",
+          "en": "The teacher will ********** your phone if you use it.",
+          "id": "Guru akan menyita ponselmu jika kamu menggunakannya.",
+          "ja": "先生はあなたが電話を使ったら没収するでしょう。",
+          "th": "ครูจะยึดโทรศัพท์ของคุณถ้าคุณใช้มัน",
+          "vi": "Giáo viên sẽ tịch thu điện thoại của bạn nếu bạn sử dụng nó."
+        },
+        "explanation": {
+          "ar": "عندما تصادر السلطات شيئًا من شخص ما، عادة كعقاب أو لأنه غير قانوني.",
+          "en": "When authorities take something away from someone, usually as a punishment or because it's illegal.",
+          "id": "Ketika pihak berwenang mengambil sesuatu dari seseorang, biasanya sebagai hukuman atau karena ilegal.",
+          "ja": "当局が誰かから何かを取り上げることで、通常は罰として、またはそれが違法であるためです。",
+          "th": "เมื่อเจ้าหน้าที่ยึดสิ่งของจากใครบางคน มักจะเป็นการลงโทษหรือเพราะเป็นสิ่งผิดกฎหมาย",
+          "vi": "Khi các nhà chức trách lấy đi thứ gì đó của ai đó, thường là để trừng phạt hoặc vì nó bất hợp pháp."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 10,
+        "translation": {
+          "ar": "يصادر",
+          "id": "menyita",
+          "ja": "没収",
+          "th": "ยึด",
+          "vi": "tịch thu"
+        },
+        "type": "verb",
+        "wordLength": 10,
+        "wordMask": "__________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691cace580f35c712a769c45",
+        "data": {
+          "answer": "moderate",
+          "collectedAt": "2026-06-25T04:08:42.841Z",
+          "collectedAtServer": "2026-06-25T11:08:42+07:00",
+          "round": 5,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "moderate"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "كان الطقس معتدلاً وممتعًا.",
+          "en": "The weather was ******** and pleasant.",
+          "id": "Cuacanya sedang dan menyenangkan.",
+          "ja": "天候は穏やかで快適だった。",
+          "th": "อากาศปานกลางและน่ารื่นรมย์",
+          "vi": "Thời tiết ôn hòa và dễ chịu."
+        },
+        "explanation": {
+          "ar": "يصف هذا شيئًا ليس متطرفًا، سواء في الكمية أو الحجم أو الرأي. يعني أنه في مكان ما في المنتصف أو معقول.",
+          "en": "This describes something that is not extreme, either in amount, size, or opinion. It means it is somewhere in the middle or reasonable.",
+          "id": "Ini menggambarkan sesuatu yang tidak ekstrem, baik dalam jumlah, ukuran, atau pendapat. Ini berarti berada di tengah-tengah atau masuk akal.",
+          "ja": "これは、量、サイズ、意見のいずれにおいても極端ではないものを表します。つまり、中間くらいか、妥当な範囲内にあるということです。",
+          "th": "คำนี้อธิบายถึงสิ่งที่ไม่สุดโต่ง ไม่ว่าจะเป็นปริมาณ ขนาด หรือความคิดเห็น หมายความว่าอยู่ตรงกลางหรือสมเหตุสมผล",
+          "vi": "Điều này mô tả một cái gì đó không cực đoan, dù là về số lượng, kích thước hay ý kiến. Nó có nghĩa là nó ở đâu đó ở giữa hoặc hợp lý."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c16fad3a2e879f9c6ebe0/images/691cace580f35c712a769c45_1772789274110.webp",
+        "letterCount": 8,
+        "translation": {
+          "ar": "معتدل",
+          "id": "sedang",
+          "ja": "適度な",
+          "th": "ปานกลาง",
+          "vi": "vừa phải"
+        },
+        "type": "adjective",
+        "wordLength": 8,
+        "wordMask": "________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c6ef09446f571c4fd2fc",
+        "data": {
+          "answer": "belt-tightening",
+          "collectedAt": "2026-06-25T04:09:28.256Z",
+          "collectedAtServer": "2026-06-25T11:09:28+07:00",
+          "round": 9,
+          "sourceEvent": "vocab-battle:round-timeout",
+          "totalRounds": 10,
+          "word": "belt-tightening"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "أعلنت الشركة عن فترة تقشف.",
+          "en": "The company announced a period of ***************.",
+          "id": "Perusahaan mengumumkan periode penghematan.",
+          "ja": "会社は緊縮財政の期間を発表した。",
+          "th": "บริษัทประกาศช่วงเวลาของการรัดเข็มขัด",
+          "vi": "Công ty đã thông báo một giai đoạn thắt lưng buộc bụng."
+        },
+        "explanation": {
+          "ar": "يصف هذا الوضع الذي يحتاج فيه الأفراد أو الحكومات إلى إنفاق أموال أقل بسبب الصعوبات المالية.",
+          "en": "This describes a situation where people or governments need to spend less money because of financial difficulties.",
+          "id": "Ini menggambarkan situasi di mana orang atau pemerintah perlu mengeluarkan lebih sedikit uang karena kesulitan keuangan.",
+          "ja": "財政難のため、個人や政府がお金を節約する必要がある状況を指す。",
+          "th": "สิ่งนี้อธิบายสถานการณ์ที่ผู้คนหรือรัฐบาลจำเป็นต้องใช้จ่ายเงินน้อยลงเนื่องจากปัญหาทางการเงิน",
+          "vi": "Điều này mô tả một tình huống mà mọi người hoặc chính phủ cần chi tiêu ít tiền hơn do khó khăn tài chính."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 15,
+        "translation": {
+          "ar": "تقشف",
+          "id": "penghematan",
+          "ja": "緊縮",
+          "th": "รัดเข็มขัด",
+          "vi": "cắt giảm chi tiêu"
+        },
+        "type": "noun",
+        "wordLength": 15,
+        "wordMask": "_______________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c4df09446f571c4fb86e",
+        "data": {
+          "answer": "breeze",
+          "collectedAt": "2026-06-25T04:09:34.326Z",
+          "collectedAtServer": "2026-06-25T11:09:34+07:00",
+          "round": 10,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "breeze"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "هبت نسيم بارد عبر النافذة المفتوحة.",
+          "en": "A cool ****** blew through the open window.",
+          "id": "Angin sepoi-sepoi bertiup melalui jendela yang terbuka.",
+          "ja": "涼しいそよ風が開いた窓から吹き込んできた。",
+          "th": "ลมเย็นๆ พัดผ่านหน้าต่างที่เปิดอยู่",
+          "vi": "Một làn gió mát thổi qua cửa sổ đang mở."
+        },
+        "explanation": {
+          "ar": "هذه رياح خفيفة ولطيفة. غالبًا ما تكون ممتعة في يوم دافئ.",
+          "en": "This is a soft, gentle wind. It often feels pleasant on a warm day.",
+          "id": "Ini adalah angin sepoi-sepoi yang lembut. Seringkali terasa menyenangkan di hari yang hangat.",
+          "ja": "これは、柔らかく穏やかな風のことです。暖かい日には心地よく感じられることが多いです。",
+          "th": "นี่คือลมที่พัดเบาๆ และอ่อนโยน มักจะรู้สึกสบายในวันที่อากาศอบอุ่น",
+          "vi": "Đây là một làn gió nhẹ, dịu. Nó thường mang lại cảm giác dễ chịu vào một ngày ấm áp."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 6,
+        "translation": {
+          "ar": "نسيم",
+          "id": "angin sepoi",
+          "ja": "微風",
+          "th": "ลมโชย",
+          "vi": "gió nhẹ"
+        },
+        "type": "noun",
+        "wordLength": 6,
+        "wordMask": "______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c47409446f571c4fad6c",
+        "data": {
+          "answer": "a great deal of",
+          "collectedAt": "2026-06-25T04:12:08.142Z",
+          "collectedAtServer": "2026-06-25T11:12:08+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "a great deal of"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "لقد بذلوا قدراً كبيراً من الجهد في المشروع.",
+          "en": "They put *************** effort into the project.",
+          "id": "Mereka mengerahkan banyak upaya ke dalam proyek.",
+          "ja": "彼らはそのプロジェクトに多大な努力を注ぎました。",
+          "th": "พวกเขาใช้ความพยายามอย่างมากในโครงการนี้",
+          "vi": "Họ đã bỏ rất nhiều công sức vào dự án."
+        },
+        "explanation": {
+          "ar": "تعني هذه العبارة 'كمية كبيرة جداً' من شيء ما. تستخدمها للحديث عن الأشياء غير المعدودة، مثل الوقت أو الجهد أو المال.",
+          "en": "This phrase means a very large amount or quantity of something. You use it to talk about uncountable things, like time, effort, or money.",
+          "id": "Frasa ini berarti jumlah atau kuantitas yang sangat besar dari sesuatu. Anda menggunakannya untuk berbicara tentang hal-hal yang tidak dapat dihitung, seperti waktu, usaha, atau uang.",
+          "ja": "このフレーズは、非常に大量または多量の何かを意味します。時間、労力、お金など、数えられないものについて話すときに使います。",
+          "th": "วลีนี้หมายถึงปริมาณหรือจำนวนที่มากของบางสิ่ง คุณใช้เพื่อพูดถึงสิ่งที่ไม่สามารถนับได้ เช่น เวลา ความพยายาม หรือเงิน",
+          "vi": "Cụm từ này có nghĩa là một lượng hoặc số lượng rất lớn của một cái gì đó. Bạn sử dụng nó để nói về những thứ không đếm được, như thời gian, công sức hoặc tiền bạc."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 12,
+        "translation": {
+          "ar": "كثير",
+          "id": "banyak",
+          "ja": "多量",
+          "th": "มาก",
+          "vi": "nhiều"
+        },
+        "type": "phrase",
+        "wordLength": 15,
+        "wordMask": "_ _____ ____ __"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c4b309446f571c4fb4b0",
+        "data": {
+          "answer": "outsourcing",
+          "collectedAt": "2026-06-25T04:12:19.379Z",
+          "collectedAtServer": "2026-06-25T11:12:19+07:00",
+          "round": 4,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "outsourcing"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "فكرت الشركة في الاستعانة بمصادر خارجية (***********) لخدمة العملاء لديها.",
+          "en": "The company considered *********** its customer service.",
+          "id": "Perusahaan mempertimbangkan untuk melakukan *********** layanan pelanggannya.",
+          "ja": "その会社は顧客サービスをアウトソーシングすることを検討した。",
+          "th": "บริษัทพิจารณาการจ้างงานภายนอก (***********) สำหรับบริการลูกค้าของตน",
+          "vi": "Công ty đã cân nhắc việc thuê ngoài (***********) dịch vụ khách hàng của mình."
+        },
+        "explanation": {
+          "ar": "يحدث هذا عندما تدفع شركة لشركة أخرى، غالبًا في بلد مختلف، للقيام ببعض أعمالها. يمكن أن يساعد ذلك الشركات على توفير المال.",
+          "en": "This happens when a company pays another company, often in a different country, to do some of its work. It can help businesses save money.",
+          "id": "Ini terjadi ketika sebuah perusahaan membayar perusahaan lain, seringkali di negara yang berbeda, untuk melakukan sebagian pekerjaannya. Ini dapat membantu bisnis menghemat uang.",
+          "ja": "これは、ある企業が別の企業（しばしば異なる国にある）に自社の一部の業務を行わせる場合に起こります。これにより、企業はコストを削減できます。",
+          "th": "สิ่งนี้เกิดขึ้นเมื่อบริษัทจ่ายเงินให้บริษัทอื่น ซึ่งมักจะอยู่ในประเทศอื่น เพื่อทำงานบางส่วนของตน มันสามารถช่วยธุรกิจประหยัดเงินได้",
+          "vi": "Điều này xảy ra khi một công ty trả tiền cho một công ty khác, thường ở một quốc gia khác, để thực hiện một số công việc của mình. Nó có thể giúp các doanh nghiệp tiết kiệm tiền."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 11,
+        "translation": {
+          "ar": "تعهيد",
+          "id": "alih daya",
+          "ja": "外部委託",
+          "th": "การจ้างภายนอก",
+          "vi": "thuê ngoài"
+        },
+        "type": "noun",
+        "wordLength": 11,
+        "wordMask": "___________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691c1666d3a2e879f9c6c9ed",
+        "data": {
+          "answer": "hire",
+          "collectedAt": "2026-06-25T04:12:56.625Z",
+          "collectedAtServer": "2026-06-25T11:12:56+07:00",
+          "round": 1,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "hire"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "نحن بحاجة إلى توظيف مساعد جديد.",
+          "en": "We need to **** a new assistant.",
+          "id": "Kita perlu merekrut asisten baru.",
+          "ja": "新しいアシスタントを雇う必要があります。",
+          "th": "เราจำเป็นต้องจ้างผู้ช่วยคนใหม่",
+          "vi": "Chúng ta cần thuê một trợ lý mới."
+        },
+        "explanation": {
+          "ar": "عندما توظف شركة شخصًا وتدفع له للعمل لديها. يمكنك أيضًا الدفع لاستخدام شيء ما لفترة قصيرة، مثل سيارة.",
+          "en": "When a company gives someone a job and pays them to work for them. You can also pay to use something for a short time, like a car.",
+          "id": "Ketika sebuah perusahaan memberikan pekerjaan kepada seseorang dan membayarnya untuk bekerja. Anda juga bisa membayar untuk menggunakan sesuatu untuk waktu yang singkat, seperti mobil.",
+          "ja": "会社が誰かに仕事を与え、その対価として賃金を支払うこと。また、車のように何かを短期間使用するためにお金を払うこともできます。",
+          "th": "เมื่อบริษัทให้งานใครบางคนและจ่ายเงินให้พวกเขาทำงานให้ คุณยังสามารถจ่ายเงินเพื่อใช้บางสิ่งบางอย่างในช่วงเวลาสั้นๆ เช่น รถยนต์",
+          "vi": "Khi một công ty tuyển dụng ai đó và trả tiền cho họ để làm việc. Bạn cũng có thể trả tiền để sử dụng thứ gì đó trong một thời gian ngắn, như một chiếc ô tô."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c1642d3a2e879f9c6c0f4/images/hire_1763538649712.webp",
+        "letterCount": 4,
+        "translation": {
+          "ar": "استأجر",
+          "id": "menyewa",
+          "ja": "雇う",
+          "th": "จ้าง",
+          "vi": "thuê"
+        },
+        "type": "verb",
+        "wordLength": 4,
+        "wordMask": "____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c40209446f571c4fa829",
+        "data": {
+          "answer": "heartbroken",
+          "collectedAt": "2026-06-25T04:13:07.419Z",
+          "collectedAtServer": "2026-06-25T11:13:07+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "heartbroken"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "كانت حزينة القلب بعد فقدان حيوانها الأليف.",
+          "en": "She was *********** after losing her pet.",
+          "id": "Dia sangat sedih setelah kehilangan hewan peliharaannya.",
+          "ja": "彼女はペットを亡くしてひどく悲しんでいた。",
+          "th": "เธอเสียใจมากหลังจากสัตว์เลี้ยงของเธอตาย",
+          "vi": "Cô ấy đau lòng sau khi mất thú cưng."
+        },
+        "explanation": {
+          "ar": "عندما يشعر شخص ما بالحزن الشديد والانزعاج، غالبًا بسبب خسارة أو خيبة أمل، يوصف بهذه الطريقة. إنه شعور بألم عاطفي عميق.",
+          "en": "When someone feels extremely sad and upset, often because of a loss or disappointment, they are described this way. It's a feeling of deep emotional pain.",
+          "id": "Ketika seseorang merasa sangat sedih dan kecewa, seringkali karena kehilangan atau kekecewaan, mereka digambarkan seperti ini. Ini adalah perasaan sakit emosional yang mendalam.",
+          "ja": "喪失感や失望のために、誰かが非常に悲しく、動揺している状態を表します。深い感情的な痛みの感覚です。",
+          "th": "เมื่อมีคนรู้สึกเศร้าและเสียใจอย่างมาก มักเกิดจากการสูญเสียหรือความผิดหวัง พวกเขาจะถูกอธิบายด้วยคำนี้ เป็นความรู้สึกเจ็บปวดทางอารมณ์อย่างลึกซึ้ง",
+          "vi": "Khi ai đó cảm thấy vô cùng buồn bã và thất vọng, thường là do mất mát hoặc thất vọng, họ được mô tả như vậy. Đó là cảm giác đau đớn sâu sắc về mặt cảm xúc."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 11,
+        "translation": {
+          "ar": "مفطور القلب",
+          "id": "patah hati",
+          "ja": "傷心",
+          "th": "อกหัก",
+          "vi": "đau lòng"
+        },
+        "type": "adjective",
+        "wordLength": 11,
+        "wordMask": "___________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c6e909446f571c4fd23f",
+        "data": {
+          "answer": "advertorial",
+          "collectedAt": "2026-06-25T04:13:43.498Z",
+          "collectedAtServer": "2026-06-25T11:13:43+07:00",
+          "round": 4,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "advertorial"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "كان المقال في الواقع إعلانًا ترويجيًا لمنتج جديد.",
+          "en": "The article was actually an *********** for a new product.",
+          "id": "Artikel itu sebenarnya adalah *********** untuk produk baru.",
+          "ja": "その記事は実際には新製品の広告記事（アドバトリアル）だった。",
+          "th": "บทความนั้นจริงๆ แล้วเป็น *********** สำหรับผลิตภัณฑ์ใหม่",
+          "vi": "Bài viết đó thực chất là một bài quảng cáo trá hình cho một sản phẩm mới."
+        },
+        "explanation": {
+          "ar": "هذا إعلان يبدو وكأنه مقال عادي أو خبر، لكن هدفه الحقيقي هو الترويج لمنتج أو خدمة.",
+          "en": "This is an advertisement that looks like a normal article or news story, but its real purpose is to promote a product or service.",
+          "id": "Ini adalah iklan yang terlihat seperti artikel atau berita biasa, tetapi tujuan sebenarnya adalah untuk mempromosikan produk atau layanan.",
+          "ja": "通常の記事やニュースのように見えますが、その本当の目的は製品やサービスを宣伝することである広告のことです。",
+          "th": "นี่คือโฆษณาที่ดูเหมือนบทความหรือข่าวทั่วไป แต่จุดประสงค์ที่แท้จริงคือการโปรโมตผลิตภัณฑ์หรือบริการ",
+          "vi": "Đây là một quảng cáo trông giống như một bài báo hoặc tin tức bình thường, nhưng mục đích thực sự của nó là quảng bá một sản phẩm hoặc dịch vụ."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 11,
+        "translation": {
+          "ar": "مقال إعلاني",
+          "id": "advertorial",
+          "ja": "記事広告",
+          "th": "บทความโฆษณา",
+          "vi": "bài báo thương mại"
+        },
+        "type": "noun",
+        "wordLength": 11,
+        "wordMask": "___________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c33e09446f571c4f9b14",
+        "data": {
+          "answer": "extraordinary",
+          "collectedAt": "2026-06-25T04:13:54.775Z",
+          "collectedAtServer": "2026-06-25T11:13:54+07:00",
+          "round": 6,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "extraordinary"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "قام العالم باكتشاف غير عادي العام الماضي.",
+          "en": "The scientist made an ************* discovery last year.",
+          "id": "Ilmuwan itu membuat penemuan luar biasa tahun lalu.",
+          "ja": "その科学者は昨年、並外れた発見をしました。",
+          "th": "นักวิทยาศาสตร์ได้ค้นพบสิ่งที่น่าทึ่งเมื่อปีที่แล้ว",
+          "vi": "Nhà khoa học đã tạo ra một khám phá phi thường vào năm ngoái."
+        },
+        "explanation": {
+          "ar": "شيء غير عادي جدًا، خاص، أو أفضل بكثير من المعتاد. إنه مفاجئ ومدهش.",
+          "en": "Something that is very unusual, special, or much better than normal. It is surprising and remarkable.",
+          "id": "Sesuatu yang sangat tidak biasa, istimewa, atau jauh lebih baik dari normal. Ini mengejutkan dan luar biasa.",
+          "ja": "非常に珍しい、特別な、または通常よりもはるかに優れたもの。驚くべき、注目に値するものです。",
+          "th": "บางสิ่งบางอย่างที่ไม่ธรรมดามาก พิเศษ หรือดีกว่าปกติมาก เป็นสิ่งที่น่าประหลาดใจและน่าทึ่ง",
+          "vi": "Một thứ gì đó rất khác thường, đặc biệt hoặc tốt hơn nhiều so với bình thường. Nó gây ngạc nhiên và đáng chú ý."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 13,
+        "translation": {
+          "ar": "استثنائي",
+          "id": "luar biasa",
+          "ja": "並外れた",
+          "th": "พิเศษ",
+          "vi": "phi thường"
+        },
+        "type": "adjective",
+        "wordLength": 13,
+        "wordMask": "_____________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c44109446f571c4faaf8",
+        "data": {
+          "answer": "histogram",
+          "collectedAt": "2026-06-25T04:14:05.959Z",
+          "collectedAtServer": "2026-06-25T11:14:05+07:00",
+          "round": 8,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "histogram"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "أظهر المدرج التكراري توزيع البيانات بوضوح.",
+          "en": "The ********* showed data distribution clearly.",
+          "id": "********* menunjukkan distribusi data dengan jelas.",
+          "ja": "ヒストグラムはデータの分布を明確に示していた。",
+          "th": "ฮิสโทแกรมแสดงการกระจายของข้อมูลได้อย่างชัดเจน",
+          "vi": "Biểu đồ ********* đã thể hiện rõ ràng sự phân phối dữ liệu."
+        },
+        "explanation": {
+          "ar": "هذا نوع من الرسوم البيانية يستخدم الأعمدة لإظهار عدد مرات ظهور الأرقام أو القيم المختلفة في مجموعة من البيانات. يساعدك على رؤية النمط أو توزيع المعلومات.",
+          "en": "This is a type of graph that uses bars to show how often different numbers or values appear in a set of data. It helps you see the pattern or distribution of information.",
+          "id": "Ini adalah jenis grafik yang menggunakan batang untuk menunjukkan seberapa sering angka atau nilai yang berbeda muncul dalam satu set data. Ini membantu Anda melihat pola atau distribusi informasi.",
+          "ja": "これは、棒を使って、一連のデータ内で異なる数値や値がどのくらいの頻度で出現するかを示すグラフの一種です。情報のパターンや分布を把握するのに役立ちます。",
+          "th": "นี่คือแผนภูมิชนิดหนึ่งที่ใช้แท่งเพื่อแสดงความถี่ที่ตัวเลขหรือค่าต่าง ๆ ปรากฏในชุดข้อมูล ช่วยให้คุณเห็นรูปแบบหรือการกระจายของข้อมูล",
+          "vi": "Đây là một loại biểu đồ sử dụng các thanh để hiển thị tần suất xuất hiện của các số hoặc giá trị khác nhau trong một tập dữ liệu. Nó giúp bạn thấy được mẫu hình hoặc sự phân phối của thông tin."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "المدرج التكراري",
+          "id": "histogram",
+          "ja": "ヒストグラム",
+          "th": "ฮิสโทแกรม",
+          "vi": "biểu đồ tần suất"
+        },
+        "type": "noun",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691cacd080f35c712a7699b7",
+        "data": {
+          "answer": "idiot",
+          "collectedAt": "2026-06-25T04:14:20.690Z",
+          "collectedAtServer": "2026-06-25T11:14:20+07:00",
+          "round": 10,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "idiot"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "لا تكن أحمق؛ انظر في الاتجاهين.",
+          "en": "Don't be an *****; look both ways.",
+          "id": "Jangan jadi *****; lihatlah ke kedua arah.",
+          "ja": "馬鹿なことをするな。両方向を見なさい。",
+          "th": "อย่าโง่เง่า; มองทั้งสองทาง",
+          "vi": "Đừng ngốc nghếch; hãy nhìn cả hai phía."
+        },
+        "explanation": {
+          "ar": "هذه كلمة غير مهذبة لشخص أحمق جدًا أو غبي. تُستخدم لوصف شخص يتصرف بحماقة.",
+          "en": "This is an impolite word for a very foolish or stupid person. It is used to describe someone who acts unwisely.",
+          "id": "Ini adalah kata yang tidak sopan untuk orang yang sangat bodoh atau dungu. Ini digunakan untuk menggambarkan seseorang yang bertindak tidak bijaksana.",
+          "ja": "非常に愚かな、または馬鹿な人を指す失礼な言葉です。賢明でない行動をする人を表現するために使われます。",
+          "th": "นี่เป็นคำที่ไม่สุภาพสำหรับคนโง่เขลาหรือโง่มาก ใช้เพื่ออธิบายคนที่กระทำอย่างไม่ฉลาด",
+          "vi": "Đây là một từ không lịch sự dùng để chỉ một người rất ngu ngốc hoặc khờ dại. Nó được dùng để mô tả người hành động thiếu khôn ngoan."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c16fad3a2e879f9c6ebe0/images/691cacd080f35c712a7699b7_1768926711854.webp",
+        "letterCount": 5,
+        "translation": {
+          "ar": "أحمق",
+          "id": "idiot",
+          "ja": "馬鹿",
+          "th": "คนโง่",
+          "vi": "tên ngốc"
+        },
+        "type": "noun",
+        "wordLength": 5,
+        "wordMask": "_____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e1ba71efcc97eb25650",
+        "data": {
+          "answer": "sign up for",
+          "collectedAt": "2026-06-25T04:14:35.587Z",
+          "collectedAtServer": "2026-06-25T11:14:35+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "sign up for"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "يمكنك الاشتراك في النشرة الإخبارية عبر الإنترنت.",
+          "en": "You can *********** the newsletter online.",
+          "id": "Anda bisa mendaftar untuk buletin secara online.",
+          "ja": "オンラインでニュースレターに登録できます。",
+          "th": "คุณสามารถลงทะเบียนรับจดหมายข่าวออนไลน์ได้",
+          "vi": "Bạn có thể đăng ký nhận bản tin trực tuyến."
+        },
+        "explanation": {
+          "ar": "تفعل هذا عندما تضع اسمك في قائمة للانضمام إلى نشاط أو خدمة. على سبيل المثال، قد تفعل هذا لفصل دراسي جديد أو رسالة إخبارية عبر البريد الإلكتروني.",
+          "en": "You do this when you put your name on a list to join an activity or service. For example, you might do this for a new class or an email newsletter.",
+          "id": "Anda melakukan ini ketika Anda mendaftarkan nama Anda untuk bergabung dengan suatu aktivitas atau layanan. Misalnya, Anda mungkin melakukan ini untuk kelas baru atau buletin email.",
+          "ja": "活動やサービスに参加するために、リストに名前を記入することです。例えば、新しいクラスやメールニュースレターのためにこれを行うかもしれません。",
+          "th": "คุณทำสิ่งนี้เมื่อคุณใส่ชื่อของคุณลงในรายการเพื่อเข้าร่วมกิจกรรมหรือบริการ ตัวอย่างเช่น คุณอาจทำสิ่งนี้สำหรับชั้นเรียนใหม่หรือจดหมายข่าวทางอีเมล",
+          "vi": "Bạn làm điều này khi bạn ghi tên mình vào danh sách để tham gia một hoạt động hoặc dịch vụ. Ví dụ, bạn có thể làm điều này cho một lớp học mới hoặc một bản tin email."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "يسجل",
+          "id": "mendaftar",
+          "ja": "登録する",
+          "th": "ลงทะเบียน",
+          "vi": "đăng ký"
+        },
+        "type": "verb",
+        "wordLength": 11,
+        "wordMask": "____ __ ___"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691cad0480f35c712a769ff3",
+        "data": {
+          "answer": "liver",
+          "collectedAt": "2026-06-25T04:14:46.663Z",
+          "collectedAtServer": "2026-06-25T11:14:46+07:00",
+          "round": 4,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "liver"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "فحص الطبيب وظائف الكبد لديه.",
+          "en": "The doctor checked his ***** function.",
+          "id": "Dokter memeriksa fungsi hatinya.",
+          "ja": "医師は彼の肝機能を検査しました。",
+          "th": "หมอตรวจการทำงานของตับของเขา",
+          "vi": "Bác sĩ đã kiểm tra chức năng gan của anh ấy."
+        },
+        "explanation": {
+          "ar": "هذا عضو كبير داخل جسمك يساعد على تنظيف دمك وهضم الطعام. يقع في الجزء العلوي الأيمن من بطنك.",
+          "en": "This is a large organ inside your body that helps clean your blood and digest food. It is located in the upper right part of your abdomen.",
+          "id": "Ini adalah organ besar di dalam tubuh Anda yang membantu membersihkan darah dan mencerna makanan. Letaknya di bagian kanan atas perut Anda.",
+          "ja": "これは体内の大きな臓器で、血液を浄化し、食物を消化するのに役立ちます。腹部右上に位置しています。",
+          "th": "นี่คืออวัยวะขนาดใหญ่ภายในร่างกายของคุณที่ช่วยทำความสะอาดเลือดและย่อยอาหาร ตั้งอยู่ในส่วนบนขวาของช่องท้องของคุณ",
+          "vi": "Đây là một cơ quan lớn bên trong cơ thể bạn giúp làm sạch máu và tiêu hóa thức ăn. Nó nằm ở phần trên bên phải của bụng bạn."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c16fad3a2e879f9c6ebe0/images/liver_1768923746970.webp",
+        "letterCount": 5,
+        "translation": {
+          "ar": "كبد",
+          "id": "hati",
+          "ja": "肝臓",
+          "th": "ตับ",
+          "vi": "gan"
+        },
+        "type": "noun",
+        "wordLength": 5,
+        "wordMask": "_____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e27a71efcc97eb25fa8",
+        "data": {
+          "answer": "certified",
+          "collectedAt": "2026-06-25T04:15:04.588Z",
+          "collectedAtServer": "2026-06-25T11:15:04+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "certified"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "هو مدرب يوغا معتمد.",
+          "en": "He is a ********* yoga instructor.",
+          "id": "Dia adalah instruktur yoga bersertifikat.",
+          "ja": "彼は認定ヨガインストラクターです。",
+          "th": "เขาเป็นครูสอนโยคะที่ได้รับการรับรอง",
+          "vi": "Anh ấy là một huấn luyện viên yoga được chứng nhận."
+        },
+        "explanation": {
+          "ar": "هذا يعني أن شيئًا ما قد تم اعتماده رسميًا أو أن شخصًا ما قد أكمل تدريبًا خاصًا. يوضح أنه يفي بمعيار أو مؤهل مطلوب.",
+          "en": "This means something has been officially approved or someone has completed special training. It shows they meet a required standard or qualification.",
+          "id": "Ini berarti sesuatu telah disetujui secara resmi atau seseorang telah menyelesaikan pelatihan khusus. Ini menunjukkan bahwa mereka memenuhi standar atau kualifikasi yang disyaratkan.",
+          "ja": "これは、何かが公式に承認されたこと、または誰かが特別な訓練を修了したことを意味します。それは、彼らが要求される基準または資格を満たしていることを示します。",
+          "th": "สิ่งนี้หมายความว่าบางสิ่งได้รับการอนุมัติอย่างเป็นทางการหรือมีคนผ่านการฝึกอบรมพิเศษ แสดงให้เห็นว่าพวกเขาเป็นไปตามมาตรฐานหรือคุณสมบัติที่กำหนด",
+          "vi": "Điều này có nghĩa là một thứ gì đó đã được chính thức phê duyệt hoặc ai đó đã hoàn thành khóa đào tạo đặc biệt. Nó cho thấy họ đáp ứng một tiêu chuẩn hoặc trình độ yêu cầu."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "معتمد",
+          "id": "bersertifikat",
+          "ja": "認定された",
+          "th": "รับรอง",
+          "vi": "được chứng nhận"
+        },
+        "type": "adjective",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c5e109446f571c4fc62b",
+        "data": {
+          "answer": "recede",
+          "collectedAt": "2026-06-25T04:15:16.506Z",
+          "collectedAtServer": "2026-06-25T11:15:16+07:00",
+          "round": 9,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "recede"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "ستتراجع مياه الفيضان ببطء بعد توقف المطر.",
+          "en": "The floodwaters will ****** slowly after the rain stops.",
+          "id": "Air banjir akan surut perlahan setelah hujan berhenti.",
+          "ja": "雨が止んだ後、洪水はゆっくりと引いていくだろう。",
+          "th": "น้ำท่วมจะลดลงช้าๆ หลังจากฝนหยุด",
+          "vi": "Nước lũ sẽ rút dần sau khi mưa tạnh."
+        },
+        "explanation": {
+          "ar": "عندما يفعل شيء ما هذا، فإنه يتراجع أو يبتعد أكثر.",
+          "en": "When something does this, it moves back or further away.",
+          "id": "Ketika sesuatu melakukan ini, ia bergerak mundur atau menjauh.",
+          "ja": "何かがこのように動くとき、それは後退するか、さらに遠ざかる。",
+          "th": "เมื่อสิ่งใดสิ่งหนึ่งทำเช่นนี้ มันจะเคลื่อนที่ถอยหลังหรือห่างออกไป",
+          "vi": "Khi một thứ gì đó làm điều này, nó lùi lại hoặc di chuyển ra xa hơn."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 6,
+        "translation": {
+          "ar": "تراجع",
+          "id": "menjauh",
+          "ja": "遠ざかる",
+          "th": "ถอยหลัง",
+          "vi": "lùi lại"
+        },
+        "type": "verb",
+        "wordLength": 6,
+        "wordMask": "______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c3af09446f571c4fa02d",
+        "data": {
+          "answer": "ridicule",
+          "collectedAt": "2026-06-25T04:15:42.035Z",
+          "collectedAtServer": "2026-06-25T11:15:42+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "ridicule"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "لا تسخر من أحد بسبب أخطائه.",
+          "en": "Do not ******** someone for their mistakes.",
+          "id": "Jangan mengolok-olok seseorang karena kesalahannya.",
+          "ja": "誰かの間違いを嘲笑してはいけません。",
+          "th": "อย่าล้อเลียนใครบางคนสำหรับความผิดพลาดของพวกเขา",
+          "vi": "Đừng chế giễu ai đó vì những lỗi lầm của họ."
+        },
+        "explanation": {
+          "ar": "السخرية من شخص أو شيء بطريقة تجعله يشعر بالحماقة أو الغباء. إنه ليس شيئًا لطيفًا للقيام به.",
+          "en": "To make fun of someone or something in a way that makes them feel foolish or stupid. It is not a kind thing to do.",
+          "id": "Mengolok-olok seseorang atau sesuatu dengan cara yang membuat mereka merasa bodoh atau konyol. Ini bukan hal yang baik untuk dilakukan.",
+          "ja": "誰かや何かを、その人が愚かだと感じたり、ばかげていると感じさせたりする方法でからかうこと。親切な行為ではありません。",
+          "th": "การล้อเลียนใครบางคนหรือบางสิ่งบางอย่างในลักษณะที่ทำให้พวกเขารู้สึกโง่เขลาหรือไม่ฉลาด มันไม่ใช่สิ่งที่ดีที่จะทำ",
+          "vi": "Chế giễu ai đó hoặc điều gì đó theo cách khiến họ cảm thấy ngớ ngẩn hoặc ngu ngốc. Đây không phải là một việc tốt."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 8,
+        "translation": {
+          "ar": "يسخر",
+          "id": "mengolok-olok",
+          "ja": "あざける",
+          "th": "เยาะเย้ย",
+          "vi": "chế giễu"
+        },
+        "type": "verb",
+        "wordLength": 8,
+        "wordMask": "________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e26a71efcc97eb25f2b",
+        "data": {
+          "answer": "tardiness",
+          "collectedAt": "2026-06-25T04:15:52.770Z",
+          "collectedAtServer": "2026-06-25T11:15:52+07:00",
+          "round": 4,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "tardiness"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "تأخرها المستمر تسبب في مشاكل للفريق.",
+          "en": "Her constant ********* caused problems for the team.",
+          "id": "Keterlambatannya yang terus-menerus menyebabkan masalah bagi tim.",
+          "ja": "彼女の絶え間ない遅刻はチームに問題を引き起こしました。",
+          "th": "การมาสายอย่างต่อเนื่องของเธอทำให้เกิดปัญหาสำหรับทีม",
+          "vi": "Sự chậm trễ liên tục của cô ấy đã gây ra vấn đề cho đội."
+        },
+        "explanation": {
+          "ar": "يشير هذا إلى حالة أو صفة التأخر عن موعد أو حدث. إنه يصف الوصول بعد الوقت المحدد.",
+          "en": "This refers to the state or quality of being late for an appointment or event. It describes arriving after the scheduled time.",
+          "id": "Ini mengacu pada keadaan atau kualitas terlambat untuk janji atau acara. Ini menggambarkan kedatangan setelah waktu yang dijadwalkan.",
+          "ja": "これは、約束やイベントに遅れる状態や性質を指します。予定時刻より遅れて到着することを表します。",
+          "th": "สิ่งนี้หมายถึงสถานะหรือคุณภาพของการมาสายสำหรับการนัดหมายหรืองาน มันอธิบายถึงการมาถึงหลังจากเวลาที่กำหนด",
+          "vi": "Điều này đề cập đến trạng thái hoặc phẩm chất của việc đến muộn một cuộc hẹn hoặc sự kiện. Nó mô tả việc đến sau thời gian đã định."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "تأخير",
+          "id": "keterlambatan",
+          "ja": "遅刻",
+          "th": "การมาสาย",
+          "vi": "sự chậm trễ"
+        },
+        "type": "noun",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c69b09446f571c4fcd77",
+        "data": {
+          "answer": "counterculture",
+          "collectedAt": "2026-06-25T04:16:04.662Z",
+          "collectedAtServer": "2026-06-25T11:16:04+07:00",
+          "round": 1,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "counterculture"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "شهدت الستينيات صعود حركات الثقافة المضادة.",
+          "en": "The 1960s saw a rise in ************** movements.",
+          "id": "Tahun 1960-an menyaksikan kebangkitan gerakan **************.",
+          "ja": "1960年代にはカウンターカルチャー運動が台頭しました。",
+          "th": "ทศวรรษ 1960 ได้เห็นการเพิ่มขึ้นของขบวนการวัฒนธรรมต่อต้าน",
+          "vi": "Thập niên 1960 chứng kiến sự trỗi dậy của các phong trào phản văn hóa."
+        },
+        "explanation": {
+          "ar": "يصف هذا المصطلح طريقة حياة ومجموعة من الأفكار التي تختلف اختلافًا كبيرًا عن المعتقدات المعتادة أو المقبولة في المجتمع.",
+          "en": "This describes a way of life and set of ideas that are very different from the usual or accepted beliefs of society.",
+          "id": "Ini menggambarkan cara hidup dan seperangkat ide yang sangat berbeda dari kepercayaan masyarakat yang biasa atau diterima.",
+          "ja": "社会の通常の、あるいは受け入れられている信念とは大きく異なる生き方や思想の集合体を指します。",
+          "th": "คำนี้อธิบายถึงวิถีชีวิตและชุดความคิดที่แตกต่างอย่างมากจากความเชื่อปกติหรือที่สังคมยอมรับ",
+          "vi": "Điều này mô tả một lối sống và tập hợp các ý tưởng rất khác biệt so với niềm tin thông thường hoặc được chấp nhận của xã hội."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 14,
+        "translation": {
+          "ar": "ثقافة مضادة",
+          "id": "kontra-budaya",
+          "ja": "対抗文化",
+          "th": "วัฒนธรรมต่อต้าน",
+          "vi": "phản văn hóa"
+        },
+        "type": "noun",
+        "wordLength": 14,
+        "wordMask": "______________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e1fa71efcc97eb25900",
+        "data": {
+          "answer": "explain",
+          "collectedAt": "2026-06-25T04:18:49.231Z",
+          "collectedAtServer": "2026-06-25T11:18:49+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "explain"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "هل يمكنك شرح القواعد مرة أخرى؟",
+          "en": "Can you ******* the rules again?",
+          "id": "Bisakah Anda menjelaskan aturannya lagi?",
+          "ja": "もう一度ルールを説明してもらえますか？",
+          "th": "คุณช่วยอธิบายกฎอีกครั้งได้ไหม",
+          "vi": "Bạn có thể giải thích lại các quy tắc không?"
+        },
+        "explanation": {
+          "ar": "جعل شيء ما واضحًا أو سهل الفهم لشخص ما هو القيام بذلك. قد تفعل ذلك لفكرة صعبة.",
+          "en": "To make something clear or easy for someone to understand is to do this. You might do this to a difficult idea.",
+          "id": "Membuat sesuatu menjadi jelas atau mudah dipahami oleh seseorang adalah melakukan ini. Anda mungkin melakukan ini pada ide yang sulit.",
+          "ja": "何かを誰かにとって明確に、または理解しやすくすることです。難しいアイデアについてこれをするかもしれません。",
+          "th": "การทำให้บางสิ่งชัดเจนหรือเข้าใจง่ายสำหรับใครบางคนคือการทำเช่นนี้ คุณอาจทำเช่นนี้กับแนวคิดที่ยาก",
+          "vi": "Để làm cho một điều gì đó rõ ràng hoặc dễ hiểu cho ai đó là làm điều này. Bạn có thể làm điều này với một ý tưởng khó."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 7,
+        "translation": {
+          "ar": "يشرح",
+          "id": "menjelaskan",
+          "ja": "説明する",
+          "th": "อธิบาย",
+          "vi": "giải thích"
+        },
+        "type": "verb",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "691cab8da020a28e61edb644",
+        "data": {
+          "answer": "neutral",
+          "collectedAt": "2026-06-25T04:19:13.577Z",
+          "collectedAtServer": "2026-06-25T11:19:13+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "neutral"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "ظل القاضي محايدًا خلال المناظرة.",
+          "en": "The judge remained ******* during the debate.",
+          "id": "Hakim tetap netral selama debat.",
+          "ja": "裁判官は討論中、中立を保ちました。",
+          "th": "ผู้พิพากษายังคงเป็นกลางตลอดการโต้วาที",
+          "vi": "Vị thẩm phán vẫn giữ thái độ trung lập trong suốt cuộc tranh luận."
+        },
+        "explanation": {
+          "ar": "إذا كنت كذلك، فأنت لا تختار جانبًا في خلاف أو صراع. يمكن أن يصف أيضًا لونًا غير ساطع، مثل الرمادي أو البيج.",
+          "en": "If you are this, you do not choose a side in a disagreement or conflict. It can also describe a color that is not bright, like gray or beige.",
+          "id": "Jika Anda seperti ini, Anda tidak memilih pihak dalam perselisihan atau konflik. Ini juga dapat menggambarkan warna yang tidak cerah, seperti abu-abu atau krem.",
+          "ja": "これである場合、意見の相違や対立においてどちらの側も選びません。また、グレーやベージュのような明るくない色を表すこともできます。",
+          "th": "หากคุณเป็นเช่นนี้ คุณจะไม่เลือกข้างในการไม่เห็นด้วยหรือความขัดแย้ง นอกจากนี้ยังสามารถอธิบายสีที่ไม่สดใส เช่น สีเทาหรือสีเบจ",
+          "vi": "Nếu bạn là người này, bạn không chọn phe nào trong một cuộc tranh cãi hoặc xung đột. Nó cũng có thể mô tả một màu sắc không tươi sáng, như xám hoặc be."
+        },
+        "hasAudio": true,
+        "image_url": "https://assets.parroto.app/decks/691c16efd3a2e879f9c6ea68/images/neutral_1768919535145.webp",
+        "letterCount": 7,
+        "translation": {
+          "ar": "محايد",
+          "id": "netral",
+          "ja": "中立の",
+          "th": "เป็นกลาง",
+          "vi": "trung lập"
+        },
+        "type": "adjective",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c3c809446f571c4fa2a1",
+        "data": {
+          "answer": "witness",
+          "collectedAt": "2026-06-25T04:19:27.340Z",
+          "collectedAtServer": "2026-06-25T11:19:27+07:00",
+          "round": 2,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "witness"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "هل شهدت الحادث بالأمس؟",
+          "en": "Did you ******* the accident yesterday?",
+          "id": "Apakah Anda menyaksikan kecelakaan itu kemarin?",
+          "ja": "昨日、その事故を目撃しましたか？",
+          "th": "คุณเห็นอุบัติเหตุเมื่อวานนี้หรือไม่?",
+          "vi": "Bạn có chứng kiến vụ tai nạn ngày hôm qua không?"
+        },
+        "explanation": {
+          "ar": "رؤية شيء يحدث، مثل حدث أو حادث. تكون حاضراً عندما يقع.",
+          "en": "To see something happen, like an event or an accident. You are present when it takes place.",
+          "id": "Untuk melihat sesuatu terjadi, seperti suatu peristiwa atau kecelakaan. Anda hadir saat itu terjadi.",
+          "ja": "出来事や事故のような何かが起こるのを見ること。それが起こるときにその場にいることです。",
+          "th": "การเห็นบางสิ่งบางอย่างเกิดขึ้น เช่น เหตุการณ์หรืออุบัติเหตุ คุณอยู่ในเหตุการณ์เมื่อมันเกิดขึ้น",
+          "vi": "Chứng kiến một điều gì đó xảy ra, như một sự kiện hoặc một tai nạn. Bạn có mặt khi nó diễn ra."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 7,
+        "translation": {
+          "ar": "يشهد",
+          "id": "menyaksikan",
+          "ja": "目撃する",
+          "th": "เป็นพยาน",
+          "vi": "chứng kiến"
+        },
+        "type": "verb",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c3f809446f571c4fa72e",
+        "data": {
+          "answer": "frog",
+          "collectedAt": "2026-06-25T04:19:33.294Z",
+          "collectedAtServer": "2026-06-25T11:19:33+07:00",
+          "round": 3,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "frog"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "جلس ضفدع أخضر على ورقة زنبق الماء.",
+          "en": "A green **** sat on a lily pad.",
+          "id": "Seekor katak hijau duduk di atas daun teratai.",
+          "ja": "緑色のカエルがスイレンの葉の上に座っていました。",
+          "th": "กบสีเขียวนั่งอยู่บนใบบัว",
+          "vi": "Một con ếch xanh ngồi trên lá súng."
+        },
+        "explanation": {
+          "ar": "هذا حيوان صغير أخضر يعيش في الماء أو بالقرب منه وله أرجل طويلة للقفز. إنه برمائي، مما يعني أنه يمكن أن يعيش على اليابسة وفي الماء.",
+          "en": "This is a small, green animal that lives in or near water and has long legs for jumping. It is an amphibian, meaning it can live both on land and in water.",
+          "id": "Ini adalah hewan kecil berwarna hijau yang hidup di atau dekat air dan memiliki kaki panjang untuk melompat. Ini adalah amfibi, yang berarti dapat hidup baik di darat maupun di air.",
+          "ja": "これは、水の中や水辺に生息し、跳躍するための長い脚を持つ、小さくて緑色の動物です。両生類であり、陸上と水中の両方で生活できます。",
+          "th": "นี่คือสัตว์ตัวเล็กสีเขียวที่อาศัยอยู่ในหรือใกล้น้ำ และมีขายาวสำหรับกระโดด เป็นสัตว์ครึ่งบกครึ่งน้ำ หมายความว่าสามารถอาศัยอยู่ได้ทั้งบนบกและในน้ำ",
+          "vi": "Đây là một loài động vật nhỏ, màu xanh lá cây sống trong hoặc gần nước và có chân dài để nhảy. Nó là một loài lưỡng cư, nghĩa là nó có thể sống cả trên cạn và dưới nước."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 4,
+        "translation": {
+          "ar": "ضفدع",
+          "id": "katak",
+          "ja": "カエル",
+          "th": "กบ",
+          "vi": "con ếch"
+        },
+        "type": "noun",
+        "wordLength": 4,
+        "wordMask": "____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c5ae09446f571c4fc07c",
+        "data": {
+          "answer": "high-flying",
+          "collectedAt": "2026-06-25T04:20:10.504Z",
+          "collectedAtServer": "2026-06-25T11:20:10+07:00",
+          "round": 5,
+          "sourceEvent": "vocab-battle:round-timeout",
+          "totalRounds": 10,
+          "word": "high-flying"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "إنها مديرة تنفيذية ناجحة جداً في شركتها.",
+          "en": "She is a *********** executive in her company.",
+          "id": "Dia adalah seorang eksekutif yang sangat sukses di perusahaannya.",
+          "ja": "彼女は会社で成功を収めている幹部です。",
+          "th": "เธอเป็นผู้บริหารระดับสูงที่ประสบความสำเร็จในบริษัทของเธอ",
+          "vi": "Cô ấy là một giám đốc điều hành thành công trong công ty của mình."
+        },
+        "explanation": {
+          "ar": "يصف شخصاً طموحاً وناجحاً جداً، غالباً في مجال مهني أو تجاري.",
+          "en": "Describes someone who is very ambitious and successful, often in a career or business.",
+          "id": "Menggambarkan seseorang yang sangat ambisius dan sukses, seringkali dalam karier atau bisnis.",
+          "ja": "キャリアやビジネスにおいて、非常に野心的で成功している人を表します。",
+          "th": "อธิบายถึงบุคคลที่มีความทะเยอทะยานและประสบความสำเร็จอย่างมาก มักจะอยู่ในอาชีพการงานหรือธุรกิจ",
+          "vi": "Mô tả một người rất tham vọng và thành công, thường trong sự nghiệp hoặc kinh doanh."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 11,
+        "translation": {
+          "ar": "طَمُوح",
+          "id": "sukses",
+          "ja": "成功した",
+          "th": "รุ่งโรจน์",
+          "vi": "thành công rực rỡ"
+        },
+        "type": "adjective",
+        "wordLength": 11,
+        "wordMask": "___________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e2aa71efcc97eb26229",
+        "data": {
+          "answer": "gauge",
+          "collectedAt": "2026-06-25T04:20:23.617Z",
+          "collectedAtServer": "2026-06-25T11:20:23+07:00",
+          "round": 7,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "gauge"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "من الصعب قياس مشاعره الحقيقية.",
+          "en": "It is hard to ***** his true feelings.",
+          "id": "Sulit untuk mengukur perasaan sejatinya.",
+          "ja": "彼の本当の気持ちを測るのは難しい。",
+          "th": "เป็นเรื่องยากที่จะประเมินความรู้สึกที่แท้จริงของเขา",
+          "vi": "Rất khó để đánh giá cảm xúc thật của anh ấy."
+        },
+        "explanation": {
+          "ar": "أن تفعل هذا يعني قياس أو تقدير شيء ما، مثل حجمه أو كميته أو قوته. قد تفعل ذلك لفهم مشاعر الناس أو مدى التقدم الذي أحرزته.",
+          "en": "To do this means to measure or estimate something, like its size, amount, or strength. You might do this to understand how people feel or how much progress you've made.",
+          "id": "Melakukan ini berarti mengukur atau memperkirakan sesuatu, seperti ukuran, jumlah, atau kekuatannya. Anda mungkin melakukan ini untuk memahami perasaan orang atau seberapa banyak kemajuan yang telah Anda buat.",
+          "ja": "これを行うとは、何かを測定したり推定したりすることです。例えば、その大きさ、量、強さなどです。人々の感情や、どれだけ進歩したかを理解するためにこれを行うかもしれません。",
+          "th": "การทำเช่นนี้หมายถึงการวัดหรือประเมินบางสิ่ง เช่น ขนาด ปริมาณ หรือความแข็งแรงของมัน คุณอาจทำสิ่งนี้เพื่อทำความเข้าใจความรู้สึกของผู้คน หรือความก้าวหน้าที่คุณทำไปแล้ว",
+          "vi": "Để làm điều này có nghĩa là đo lường hoặc ước tính một cái gì đó, như kích thước, số lượng hoặc sức mạnh của nó. Bạn có thể làm điều này để hiểu cảm xúc của mọi người hoặc mức độ tiến bộ mà bạn đã đạt được."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 5,
+        "translation": {
+          "ar": "يقيس",
+          "id": "mengukur",
+          "ja": "測定する",
+          "th": "วัด",
+          "vi": "đo lường"
+        },
+        "type": "verb",
+        "wordLength": 5,
+        "wordMask": "_____"
+      }
+    },
+    {
+      "card": {
+        "cardId": "69b59e24a71efcc97eb25d85",
+        "data": {
+          "answer": "highlight",
+          "collectedAt": "2026-06-25T04:20:30.290Z",
+          "collectedAtServer": "2026-06-25T11:20:30+07:00",
+          "round": 8,
+          "sourceEvent": "vocab-battle:round-result",
+          "totalRounds": 10,
+          "word": "highlight"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "يرجى إبراز المعلومات الرئيسية في التقرير.",
+          "en": "Please ********* the key information in the report.",
+          "id": "Tolong soroti informasi kunci dalam laporan.",
+          "ja": "レポートの主要な情報をハイライトしてください。",
+          "th": "โปรดเน้นข้อมูลสำคัญในรายงาน",
+          "vi": "Vui lòng làm nổi bật thông tin chính trong báo cáo."
+        },
+        "explanation": {
+          "ar": "إبراز شيء ما أو لفت الانتباه إليه لأنه مهم. قد تستخدم قلم تحديد ساطع لجعل الكلمات الرئيسية أكثر وضوحًا.",
+          "en": "To make something stand out or draw attention to it because it is important. You might use a bright marker to make key words more noticeable.",
+          "id": "Membuat sesuatu menonjol atau menarik perhatian padanya karena penting. Anda mungkin menggunakan spidol terang untuk membuat kata kunci lebih mudah terlihat.",
+          "ja": "何かを際立たせたり、重要であるために注意を引いたりすること。明るいマーカーを使ってキーワードをより目立たせることもできる。",
+          "th": "ทำให้บางสิ่งโดดเด่นหรือดึงดูดความสนใจเพราะมีความสำคัญ คุณอาจใช้ปากกาเน้นข้อความสีสดใสเพื่อทำให้คำสำคัญสังเกตเห็นได้ชัดเจนยิ่งขึ้น",
+          "vi": "Làm cho một điều gì đó nổi bật hoặc thu hút sự chú ý đến nó vì nó quan trọng. Bạn có thể dùng bút dạ quang để làm cho các từ khóa dễ nhận thấy hơn."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 9,
+        "translation": {
+          "ar": "يبرز",
+          "id": "menyoroti",
+          "ja": "強調する",
+          "th": "เน้น",
+          "vi": "làm nổi bật"
+        },
+        "type": "verb",
+        "wordLength": 9,
+        "wordMask": "_________"
+      }
+    },
+    {
+      "card": {
+        "cardId": "6a32c3a509446f571c4f9f3d",
+        "data": {
+          "answer": "zestful",
+          "collectedAt": "2026-06-25T04:21:03.313Z",
+          "collectedAtServer": "2026-06-25T11:21:03+07:00",
+          "round": 9,
+          "sourceEvent": "vocab-battle:round-timeout",
+          "totalRounds": 10,
+          "word": "zestful"
+        },
+        "difficulty": "",
+        "exampleMasked": {
+          "ar": "لديه نهج مليء بالحيوية تجاه الحياة والعمل.",
+          "en": "He has a ******* approach to life and work.",
+          "id": "Dia memiliki pendekatan yang penuh semangat terhadap hidup dan pekerjaan.",
+          "ja": "彼は人生と仕事に対して熱意に満ちたアプローチをしている。",
+          "th": "เขามีแนวทางในการใช้ชีวิตและการทำงานที่กระตือรือร้น",
+          "vi": "Anh ấy có một cách tiếp cận cuộc sống và công việc đầy nhiệt huyết."
+        },
+        "explanation": {
+          "ar": "شخص مليء بالطاقة والحماس للحياة. يتعاملون مع الأمور بحماس كبير.",
+          "en": "Someone who is full of energy and excitement for life. They approach things with great enthusiasm.",
+          "id": "Seseorang yang penuh energi dan kegembiraan dalam hidup. Mereka mendekati segala sesuatu dengan antusiasme yang besar.",
+          "ja": "人生に対してエネルギーと興奮に満ちている人。物事に大きな熱意を持って取り組みます。",
+          "th": "คนที่เต็มไปด้วยพลังงานและความตื่นเต้นในชีวิต พวกเขาเข้าหาเรื่องต่างๆ ด้วยความกระตือรือร้นอย่างมาก",
+          "vi": "Người tràn đầy năng lượng và sự hứng khởi trong cuộc sống. Họ tiếp cận mọi việc với sự nhiệt tình lớn."
+        },
+        "hasAudio": true,
+        "image_url": "",
+        "letterCount": 7,
+        "translation": {
+          "ar": "حيوي",
+          "id": "bersemangat",
+          "ja": "活気のある",
+          "th": "กระตือรือร้น",
+          "vi": "nhiệt huyết"
+        },
+        "type": "adjective",
+        "wordLength": 7,
+        "wordMask": "_______"
+      }
     }
   ]
 }

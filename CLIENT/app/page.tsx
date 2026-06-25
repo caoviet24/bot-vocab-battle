@@ -399,6 +399,7 @@ export default function ParotoMonitor() {
     const [autoSend, setAutoSend] = useState(false);
     const [autoGuess, setAutoGuess] = useState(false);
     const [autoJoin, setAutoJoin] = useState(false);
+    const [autoJoinDelaySeconds, setAutoJoinDelaySeconds] = useState('2');
     const [autoSyncAfterBattle, setAutoSyncAfterBattle] = useState(false);
     const [timeLeft, setTimeLeft] = useState(30);
     const [timerMessage, setTimerMessage] = useState('Thời gian round: Chờ trận...');
@@ -414,6 +415,7 @@ export default function ParotoMonitor() {
     const autoAnswerTimeoutRef = useRef<NodeJS.Timeout | null>(null);
     const toastTimeoutRef = useRef<NodeJS.Timeout | null>(null);
     const llmGuessRequestRef = useRef(0);
+    const [isUpdatingProfile, setIsUpdatingProfile] = useState(false);
 
     // FIX CRITICAL: Sử dụng Ref để lưu trữ map từ vựng, cập nhật đồng bộ, tránh React batching delay
     const serverCardMapRef = useRef<Map<string, string>>(new Map());
@@ -421,6 +423,8 @@ export default function ParotoMonitor() {
     const autoSendRef = useRef(false);
     const autoGuessRef = useRef(false);
     const autoJoinRef = useRef(false);
+    const autoJoinDelaySecondsRef = useRef('2');
+    const autoJoinTimeoutRef = useRef<NodeJS.Timeout | null>(null);
     const autoCreateRoomRef = useRef(false);
     const autoRematchRef = useRef(false);
     const autoConnectRef = useRef(false);
@@ -496,9 +500,87 @@ export default function ParotoMonitor() {
         localStorage.setItem('paroto_auto_guess', String(val));
     };
 
+    const getAutoJoinDelaySeconds = () => {
+        const rawValue = autoJoinDelaySecondsRef.current || '2';
+        const parsedValue = Number(rawValue);
+
+        if (!Number.isFinite(parsedValue) || parsedValue < 1) {
+            return 2;
+        }
+
+        return Math.floor(parsedValue);
+    };
+
+    const clearAutoJoinTimeout = () => {
+        if (autoJoinTimeoutRef.current) {
+            clearTimeout(autoJoinTimeoutRef.current);
+            autoJoinTimeoutRef.current = null;
+        }
+    };
+
     const handleSetAutoJoin = (val: boolean) => {
         setAutoJoin(val);
         autoJoinRef.current = val;
+        localStorage.setItem('paroto_auto_join', String(val));
+
+        if (!val) {
+            clearAutoJoinTimeout();
+        }
+
+        pushLog(
+            'auth',
+            val ? '🔄 Auto Find Match ON' : '⚪ Auto Find Match OFF',
+            val ? `Đã bật tự động tìm trận mới sau ${getAutoJoinDelaySeconds()} giây.` : 'Đã tắt tự động tìm trận mới.',
+        );
+    };
+
+    const handleAutoJoinDelayChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const value = e.target.value.replace(/[^\d]/g, '');
+
+        setAutoJoinDelaySeconds(value);
+        autoJoinDelaySecondsRef.current = value;
+        localStorage.setItem('paroto_auto_join_delay_seconds', value);
+    };
+
+    const handleAutoJoinDelayBlur = () => {
+        const value = autoJoinDelaySecondsRef.current.trim();
+
+        if (!value || Number(value) < 1) {
+            setAutoJoinDelaySeconds('2');
+            autoJoinDelaySecondsRef.current = '2';
+            localStorage.setItem('paroto_auto_join_delay_seconds', '2');
+        }
+    };
+
+    const scheduleAutoFindNextBattle = () => {
+        const delaySeconds = getAutoJoinDelaySeconds();
+        const delayMs = delaySeconds * 1000;
+
+        clearAutoJoinTimeout();
+
+        pushLog('auth', '🔄 Auto Find Match', `Hệ thống tự động tìm trận mới sau ${delaySeconds} giây.`);
+        setCanRematch(false);
+
+        autoJoinTimeoutRef.current = setTimeout(() => {
+            autoJoinTimeoutRef.current = null;
+
+            if (!autoJoinRef.current) {
+                pushLog('auth', '⏭️ Bỏ qua Auto Find Match', 'Auto tìm trận mới đã tắt trước khi hết thời gian chờ.');
+                return;
+            }
+
+            if (isInBattleRef.current || isSearchingBattleRef.current) {
+                pushLog('auth', '⏭️ Bỏ qua Auto Find Match', 'Đang trong trận hoặc đang tìm trận, không gọi tìm trận mới.');
+                return;
+            }
+
+            if (socketRef.current?.readyState !== WebSocket.OPEN) {
+                pushLog('error', '🔴 Auto Find Match lỗi', 'Socket chưa kết nối, không thể tự tìm trận mới.');
+                return;
+            }
+
+            emitJoinBattle();
+        }, delayMs);
     };
 
     const handleSetAutoCreateRoom = (val: boolean, createNow = false) => {
@@ -803,6 +885,14 @@ export default function ParotoMonitor() {
         setAutoGuess(cachedAutoGuess);
         autoGuessRef.current = cachedAutoGuess;
 
+        const cachedAutoJoin = localStorage.getItem('paroto_auto_join') === 'true';
+        setAutoJoin(cachedAutoJoin);
+        autoJoinRef.current = cachedAutoJoin;
+
+        const cachedAutoJoinDelaySeconds = localStorage.getItem('paroto_auto_join_delay_seconds') || '2';
+        setAutoJoinDelaySeconds(cachedAutoJoinDelaySeconds);
+        autoJoinDelaySecondsRef.current = cachedAutoJoinDelaySeconds;
+
         const cachedAutoSyncAfterBattle = localStorage.getItem('paroto_auto_sync_after_battle') === 'true';
         setAutoSyncAfterBattle(cachedAutoSyncAfterBattle);
         autoSyncAfterBattleRef.current = cachedAutoSyncAfterBattle;
@@ -896,6 +986,7 @@ export default function ParotoMonitor() {
             if (autoAnswerTimeoutRef.current) clearTimeout(autoAnswerTimeoutRef.current);
             if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
             if (tokenRefreshIntervalRef.current) clearInterval(tokenRefreshIntervalRef.current);
+            if (autoJoinTimeoutRef.current) clearTimeout(autoJoinTimeoutRef.current);
         };
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
@@ -1107,6 +1198,47 @@ export default function ParotoMonitor() {
             return false;
         } finally {
             setIsCheckingIn(false);
+        }
+    };
+
+    const handleUpdateProfile = async () => {
+        const token = firebaseTokenRef.current.trim();
+
+        if (!token) {
+            pushLog('error', '🔴 Update Profile thất bại', 'Thiếu Firebase Token.');
+            showBattleToast('error', 'Thiếu token', 'Hãy nhập Firebase Token trước khi update profile.');
+            return false;
+        }
+
+        setIsUpdatingProfile(true);
+        pushLog('auth', '👤 Update Profile', 'Đang gọi API cập nhật profile...');
+
+        try {
+            const res = await axios.put(
+                `${API_BASE_URL}/info`,
+                {},
+                {
+                    timeout: 20000,
+                    headers: {
+                        Authorization: `Bearer ${token}`,
+                        'X-User-Timezone': 'Asia/Saigon',
+                    },
+                },
+            );
+
+            pushLog('auth', '✅ Update Profile thành công', res.data);
+            showBattleToast('success', 'Update Profile thành công', 'Đã cập nhật displayName, description, isPrivate và avatar.');
+
+            return true;
+        } catch (err: any) {
+            const message = err.response?.data?.message || err.message || 'Lỗi không xác định';
+
+            pushLog('error', '🔴 Update Profile lỗi', message);
+            showBattleToast('error', 'Update Profile thất bại', message);
+
+            return false;
+        } finally {
+            setIsUpdatingProfile(false);
         }
     };
 
@@ -1991,21 +2123,37 @@ export default function ParotoMonitor() {
                     if (shouldAutoRematch) {
                         pushLog('auth', '🔁 Auto Rematch', 'Trận kết thúc -> tự động gửi yêu cầu tái trận sau 1 giây.');
                         setCanRematch(false);
-                        setTimeout(() => emitRematch(), 1000);
+
+                        setTimeout(() => {
+                            if (!autoRematchRef.current) {
+                                pushLog('auth', '⏭️ Bỏ qua Auto Rematch', 'Auto tái đấu đã tắt trước khi gửi yêu cầu.');
+                                return;
+                            }
+
+                            emitRematch();
+                        }, 1000);
+
                         return;
                     }
 
                     if (shouldAutoCreateRoom) {
                         pushLog('auth', '🟣 Auto Create Room', 'Trận kết thúc -> tự động tạo phòng mới bằng cấu hình đã lưu sau 1 giây.');
                         setCanRematch(false);
-                        setTimeout(() => emitCreateBattleRoom('Auto Create Room'), 1000);
+
+                        setTimeout(() => {
+                            if (!autoCreateRoomRef.current) {
+                                pushLog('auth', '⏭️ Bỏ qua Auto Create Room', 'Auto tạo phòng đã tắt trước khi tạo phòng mới.');
+                                return;
+                            }
+
+                            emitCreateBattleRoom('Auto Create Room');
+                        }, 1000);
+
                         return;
                     }
 
                     if (shouldAutoJoinNextBattle) {
-                        pushLog('auth', '🔄 Auto-Join', 'Hệ thống tự động tìm trận mới sau 2 giây...');
-                        setCanRematch(false);
-                        setTimeout(() => emitJoinBattle(), 2000);
+                        scheduleAutoFindNextBattle();
                     }
                 };
 
@@ -2553,15 +2701,33 @@ export default function ParotoMonitor() {
                                         />
                                     </label>
 
-                                    <label className="flex cursor-pointer items-center justify-between rounded-xl border border-violet-100 bg-white p-3">
-                                        <div>
-                                            <div className="text-sm font-bold text-violet-700">Tự tìm trận sau khi kết thúc</div>
-                                            <div className="text-xs text-slate-500">Kết thúc trận sẽ tự tìm trận mới nếu đang bật.</div>
+                                    <label className="flex cursor-pointer items-center justify-between gap-4 rounded-xl border border-violet-100 bg-white p-3">
+                                        <div className="min-w-0 flex-1">
+                                            <div className="text-sm font-bold text-violet-700">Auto tìm trận mới</div>
+                                            <div className="text-xs text-slate-500">Khi trận kết thúc, tự động tìm trận mới sau số giây đã cấu hình.</div>
+
+                                            <div className="mt-3 flex items-center gap-2">
+                                                <span className="text-xs font-semibold text-slate-500">Chờ</span>
+
+                                                <Input
+                                                    type="number"
+                                                    min={1}
+                                                    value={autoJoinDelaySeconds}
+                                                    onChange={handleAutoJoinDelayChange}
+                                                    onBlur={handleAutoJoinDelayBlur}
+                                                    onClick={(e) => e.stopPropagation()}
+                                                    className="h-8 w-24 rounded-lg border-violet-200 text-center text-sm font-semibold text-violet-700"
+                                                    placeholder="2"
+                                                />
+
+                                                <span className="text-xs font-semibold text-slate-500">giây rồi tìm trận</span>
+                                            </div>
                                         </div>
+
                                         <Checkbox
                                             checked={autoJoin}
                                             onCheckedChange={(c) => handleSetAutoJoin(!!c)}
-                                            className="border-violet-300 data-[state=checked]:bg-violet-500 data-[state=checked]:border-violet-500"
+                                            className="border-violet-300 data-[state=checked]:border-violet-500 data-[state=checked]:bg-violet-500"
                                         />
                                     </label>
 
@@ -2900,6 +3066,17 @@ export default function ParotoMonitor() {
                                         <Gem className="mr-1.5 h-4 w-4" />
                                     )}
                                     {isCheckingIn ? 'Đang check-in...' : checkInToday ? 'Đã check-in' : 'Check-in'}
+                                </Button>
+
+                                <Button
+                                    size="sm"
+                                    variant="outline"
+                                    className="border-sky-200 bg-sky-50 font-semibold text-sky-700 hover:bg-sky-100"
+                                    onClick={handleUpdateProfile}
+                                    disabled={isUpdatingProfile || !firebaseToken.trim()}
+                                >
+                                    {isUpdatingProfile ? <Loader2 className="mr-1.5 h-4 w-4 animate-spin" /> : <User className="mr-1.5 h-4 w-4" />}
+                                    {isUpdatingProfile ? 'Đang update...' : 'Update Profile'}
                                 </Button>
 
                                 <Button
